@@ -424,6 +424,13 @@ body.is-preload *:after {
   }
 }
 
+@media screen and (max-width: 425px) {
+ .bm-burger-button{
+  left: 14px;
+  top: 1rem;
+ }  
+}
+
 @media screen and (max-width: 320px) {
   .undefined nav{
     margin-right: -2.25rem;

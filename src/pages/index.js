@@ -12,7 +12,7 @@ import "../../static/assets/css/noscript.css"
 import "../../static/assets/css/fontawesome-all.min.css"
 
 import MyForm from "./kontakt"
-import MyFooter from "./../components/footer"
+import MyFooter from "../components/footer"
  
 
 export default function Home() {

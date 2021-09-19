@@ -50,13 +50,17 @@ const style = {
   fontSize: "0px",
 }
 
+
 const properties1 = {
   duration: 3000,
   slidesToShow: 1,
   slidesToScroll: 1,
   indicators: true,
   autoplay: false,
-  arrows: false,
+  arrows: true,
+  prevArrow: <div style={{width: "30px", marginRight: "-2.05rem", marginTop: "4rem", class:"arrowRechtsKleine"}}><i className="fas fa-chevron-circle-left"></i></div>,
+  nextArrow: <div style={{width: "30px", marginLeft: "-2.6rem", marginTop: "4rem"}}><i className="fas fa-chevron-circle-right"></i></div>
+
 }
 
 const properties2 = {
@@ -65,7 +69,10 @@ const properties2 = {
   slidesToScroll: 1,
   indicators: true,
   autoplay: false,
-  arrows: false,
+  arrows: true,
+  prevArrow: <div style={{width: "30px", marginRight: "-30px", marginTop: "4rem"}}><i className="fas fa-chevron-circle-left"></i></div>,
+  nextArrow: <div style={{width: "30px", marginLeft: "-2.8rem", marginTop: "4rem"}}><i className="fas fa-chevron-circle-right"></i></div>
+
 }
 
 const properties3 = {
@@ -77,6 +84,15 @@ const properties3 = {
   arrows: true,
   prevArrow: <div style={{width: "30px", marginRight: "-30px", marginTop: "4rem"}}><i className="fas fa-chevron-circle-left" id="leftArrowHZ1"></i></div>,
   nextArrow: <div style={{width: "30px", marginLeft: "-2.8rem", marginTop: "4rem"}}><i className="fas fa-chevron-circle-right"></i></div>
+
+  // arrow rechts
+  //    /* margin-right: 0rem; */
+  //margin-left: -26rem;
+  /* margin-bottom: -8rem; */
+  //margin-top: 22.8rem;
+
+  //arrow links
+
 }
 
 const arrowStylesNext = {
