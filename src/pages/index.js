@@ -1,184 +1,256 @@
-import * as React from "react"
+import React from "react"
+import { Helmet } from "react-helmet"
+import { Link } from "gatsby"
 
-// styles
-const pageStyles = {
-  color: "#232129",
-  padding: 96,
-  fontFamily: "-apple-system, Roboto, sans-serif, serif",
-}
-const headingStyles = {
-  marginTop: 0,
-  marginBottom: 64,
-  maxWidth: 320,
-}
-const headingAccentStyles = {
-  color: "#663399",
-}
-const paragraphStyles = {
-  marginBottom: 48,
-}
-const codeStyles = {
-  color: "#8A6534",
-  padding: 4,
-  backgroundColor: "#FFF4DB",
-  fontSize: "1.25rem",
-  borderRadius: 4,
-}
-const listStyles = {
-  marginBottom: 96,
-  paddingLeft: 0,
-}
-const listItemStyles = {
-  fontWeight: 300,
-  fontSize: 24,
-  maxWidth: 560,
-  marginBottom: 30,
-}
+import { slide as Menu } from "react-burger-menu"
+import Media from "react-media"
 
-const linkStyle = {
-  color: "#8954A8",
-  fontWeight: "bold",
-  fontSize: 16,
-  verticalAlign: "5%",
-}
+import "@fontsource/lato/300.css"
 
-const docLinkStyle = {
-  ...linkStyle,
-  listStyleType: "none",
-  marginBottom: 24,
-}
+import "../../static/assets/css/main.css"
+import "../../static/assets/css/noscript.css"
+import "../../static/assets/css/fontawesome-all.min.css"
 
-const descriptionStyle = {
-  color: "#232129",
-  fontSize: 14,
-  marginTop: 10,
-  marginBottom: 0,
-  lineHeight: 1.25,
-}
+import MyForm from "./kontakt"
+import MyFooter from "./../components/footer"
+ 
 
-const docLink = {
-  text: "Documentation",
-  url: "https://www.gatsbyjs.com/docs/",
-  color: "#8954A8",
-}
-
-const badgeStyle = {
-  color: "#fff",
-  backgroundColor: "#088413",
-  border: "1px solid #088413",
-  fontSize: 11,
-  fontWeight: "bold",
-  letterSpacing: 1,
-  borderRadius: 4,
-  padding: "4px 6px",
-  display: "inline-block",
-  position: "relative",
-  top: -2,
-  marginLeft: 10,
-  lineHeight: 1,
-}
-
-// data
-const links = [
-  {
-    text: "Tutorial",
-    url: "https://www.gatsbyjs.com/docs/tutorial/",
-    description:
-      "A great place to get started if you're new to web development. Designed to guide you through setting up your first Gatsby site.",
-    color: "#E95800",
-  },
-  {
-    text: "How to Guides",
-    url: "https://www.gatsbyjs.com/docs/how-to/",
-    description:
-      "Practical step-by-step guides to help you achieve a specific goal. Most useful when you're trying to get something done.",
-    color: "#1099A8",
-  },
-  {
-    text: "Reference Guides",
-    url: "https://www.gatsbyjs.com/docs/reference/",
-    description:
-      "Nitty-gritty technical descriptions of how Gatsby works. Most useful when you need detailed information about Gatsby's APIs.",
-    color: "#BC027F",
-  },
-  {
-    text: "Conceptual Guides",
-    url: "https://www.gatsbyjs.com/docs/conceptual/",
-    description:
-      "Big-picture explanations of higher-level Gatsby concepts. Most useful for building understanding of a particular topic.",
-    color: "#0D96F2",
-  },
-  {
-    text: "Plugin Library",
-    url: "https://www.gatsbyjs.com/plugins",
-    description:
-      "Add functionality and customize your Gatsby site or app with thousands of plugins built by our amazing developer community.",
-    color: "#8EB814",
-  },
-  {
-    text: "Build and Host",
-    url: "https://www.gatsbyjs.com/cloud",
-    badge: true,
-    description:
-      "Now you’re ready to show the world! Give your Gatsby site superpowers: Build and host on Gatsby Cloud. Get started for free!",
-    color: "#663399",
-  },
-]
-
-// markup
-const IndexPage = () => {
+export default function Home() {
   return (
-    <main style={pageStyles}>
-      <title>Home Page</title>
-      <h1 style={headingStyles}>
-        Congratulations
+    <>
+      <Helmet>
+        <title>Lichtbildenthusiastin - Deine Fotografin</title>
+        <link to="/favicon.ico" rel="shortcut icon" type="image/x-icon" />
+      </Helmet>
+      <Menu>
+        <Link to="/" className="menu-item">
+          Startseite
+        </Link>
         <br />
-        <span style={headingAccentStyles}>— you just made a Gatsby site! </span>
-        <span role="img" aria-label="Party popper emojis">
-          🎉🎉🎉
-        </span>
-      </h1>
-      <p style={paragraphStyles}>
-        Edit <code style={codeStyles}>src/pages/index.js</code> to see this page
-        update in real-time.{" "}
-        <span role="img" aria-label="Sunglasses smiley emoji">
-          😎
-        </span>
-      </p>
-      <ul style={listStyles}>
-        <li style={docLinkStyle}>
-          <a
-            style={linkStyle}
-            href={`${docLink.url}?utm_source=starter&utm_medium=start-page&utm_campaign=minimal-starter`}
+        {/* <Link to="/home/" className="menu-item">
+          Terminanfrage
+        </Link> */}
+        <Link to="/ueberMich" className="menu-item">
+          Über Mich
+        </Link>
+        <Link to="/familie" className="menu-item">
+          Familie
+        </Link>
+        <Link to="/hochzeiten" className="menu-item">
+          Hochzeiten
+        </Link>
+        <Link to="/babybauch" className="menu-item">
+          Babybauch
+        </Link>
+        <Link to="/hunde" className="menu-item">
+          Hunde
+        </Link>
+        <br />
+        <Link to="/faq" className="menu-item">
+          FAQ
+        </Link>
+
+        <Link to="https://www.instagram.com/lichtbild_enthusiastin/">
+          <i className="fab fa-instagram" id="insta-logo"></i>
+        </Link>
+        <Link to="https://api.whatsapp.com/send?phone=4903091579337">
+          <i className="fab fa-whatsapp" id="whatsapp-logo"></i>
+        </Link>
+      </Menu>
+      <header>
+        <script
+          src="https://kit.fontawesome.com/d829a07913.js"
+          crossOrigin="anonymous"
+        ></script>
+      </header>
+      <main>
+        <section className="banner onload-image-fade-in onload-content-fade-right - style3 fullscreen orient-right content-align-left image-position-center">
+        <Media
+            query="(max-width: 767px)"
+            render={() => (
+
+                <p id="imgTextMobile" className="imgText_mobile">
+                  <div id="nameBerufMobile">
+                    Claudia Nürnberger - Fotografenmeisterin
+                  </div>
+                  Brandenburg | Berlin | deutschlandweit
+                </p>
+            )}
+            
+          />
+        <div className="image" id="bannerImg">
+                <img src="img/profil/logo.png" />
+
+
+          <Media
+            query="(min-width: 768px)"
+            render={() => (
+              <p id="imgTextDesktop" className="imgText_desktop">
+                <div id="nameBerufDesktop">
+                  Claudia Nürnberger - Fotografenmeisterin
+                </div>
+                Brandenburg | Berlin | deutschlandweit
+              </p>
+            )}
+          />
+                        </div>
+
+
+        </section>
+        <div id="wrapper" className="divided">
+          <section className="banner onload-image-fade-in onload-content-fade-right - style3 fullscreen orient-right content-align-left image-position-center">
+            <div className="content" id="bannerText">
+              <h3>SCHÖN, DASS DU DA BIST!</h3>
+              <p>
+                Nichts verfliegt so schnell wie die Zeit und ich möchte Euch zur
+                Seite stehen um Eure großen und kleinen Momente für immer
+                festzuhalten!
+              </p>
+              <p>
+                Ich strebe danach, Euer: „Ach weißt du noch damals!“ mit Fotos
+                zu ergänzen und Euch Erinnerungen zu schenken an die Ihr noch
+                lange zurückdenkt.
+              </p>
+              <p>
+                In den letzten 10 Jahren durfte ich viele Menschen auf einem
+                Stück Ihres Weges begleiten. Wie am ersten Tag bin ich Feuer und
+                Flamme für meinen Beruf der mir so viel Abwechslung verschafft
+                und Einblicke eröffnet.
+              </p>
+              <p>
+                Ich würde mich freuen auch Euch bald ein Stück begleiten zu
+                dürfen! Lasst uns zusammen Erinnerungen erschaffen!
+              </p>
+              <ul className="actions default" id="buttonsBanner">
+                <li>
+                  <Link
+                    to="#Terminanfrage"
+                    className="button big wide smooth-scroll-middle"
+                  >
+                    Terminanfrage
+                  </Link>
+                </li>
+                <li>
+                  <Link
+                    to="/ueberMich"
+                    className="button big wide smooth-scroll-middle"
+                  >
+                    Über Mich
+                  </Link>
+                </li>
+              </ul>
+            </div>
+            <div className="image rahmen">
+              <img
+                src="img/profil/claudia_nuernberger-berlin-fotografin.jpeg"
+                alt=""
+              />
+            </div>
+          </section>
+
+          <section
+            className="spotlight onscroll-image-fade-in style2 content-align-left image-position-center orient-left"
+            id="first"
           >
-            {docLink.text}
-          </a>
-        </li>
-        {links.map(link => (
-          <li key={link.url} style={{ ...listItemStyles, color: link.color }}>
-            <span>
-              <a
-                style={linkStyle}
-                href={`${link.url}?utm_source=starter&utm_medium=start-page&utm_campaign=minimal-starter`}
-              >
-                {link.text}
-              </a>
-              {link.badge && (
-                <span style={badgeStyle} aria-label="New Badge">
-                  NEW!
-                </span>
-              )}
-              <p style={descriptionStyle}>{link.description}</p>
-            </span>
-          </li>
-        ))}
-      </ul>
-      <img
-        alt="Gatsby G Logo"
-        src="data:image/svg+xml,%3Csvg width='24' height='24' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M12 2a10 10 0 110 20 10 10 0 010-20zm0 2c-3.73 0-6.86 2.55-7.75 6L14 19.75c3.45-.89 6-4.02 6-7.75h-5.25v1.5h3.45a6.37 6.37 0 01-3.89 4.44L6.06 9.69C7 7.31 9.3 5.63 12 5.63c2.13 0 4 1.04 5.18 2.65l1.23-1.06A7.959 7.959 0 0012 4zm-8 8a8 8 0 008 8c.04 0 .09 0-8-8z' fill='%23639'/%3E%3C/svg%3E"
-      />
-    </main>
+            <div className="content">
+              <h2>Familie</h2>
+              <p>
+                Für mich gibt es nichts Schöneres als natürliche Familienfotos.
+                Mit viel Erfahrung und einer großen Prise Humor begleite ich
+                Euch gerne bei Euren großen und kleinen Momenten.
+              </p>
+              <ul className="actions stacked">
+                <li>
+                  <Link to="/familie/" className="button">
+                    Erfahre Mehr
+                  </Link>
+                </li>
+              </ul>
+            </div>
+            <div className="image rahmen">
+              <img
+                src="img/startseite-familie-claudia_nuernberger.jpg"
+                alt=""
+              />
+            </div>
+          </section>
+
+          <section className="spotlight onscroll-image-fade-in style2 content-align-left image-position-center orient-right">
+            <div className="content">
+              <h2>Hochzeiten</h2>
+              <p>
+                Mit dem Gespür für kleine und große Momente und dem Auge für
+                Details begleite ich Euch gerne an Eurem großen Tag!
+              </p>
+              <ul className="actions stacked">
+                <li>
+                  <Link to="/hochzeiten/" className="button">
+                    Erfahre Mehr
+                  </Link>
+                </li>
+              </ul>
+            </div>
+            <div className="image rahmen">
+              <img
+                src="img/startseite-hochzeit-claudia_nuernberger.jpg"
+                alt=""
+              />
+            </div>
+          </section>
+
+          <section className="spotlight onscroll-image-fade-in style2 content-align-left image-position-center orient-left">
+            <div className="content">
+              <h2>Babybauch</h2>
+              <p>
+                Es ist eine Zeit der Vorfreude und der Veränderung. Lasst uns
+                zusammen diese besondere Zeit festhalten.
+              </p>
+              <ul className="actions stacked">
+                <li>
+                  <Link to="/babybauch/" className="button">
+                    Erfahre Mehr
+                  </Link>
+                </li>
+              </ul>
+            </div>
+            <div className="image rahmen">
+              <img
+                src="img/startseite-babybauch-claudia_nuernberger.jpg"
+                alt=""
+              />
+            </div>
+          </section>
+
+          <section className="spotlight onscroll-image-fade-in style2 content-align-left image-position-center orient-right">
+            <div className="content">
+              <h2>Hunde</h2>
+              <p>
+                Ob groß oder klein, ob struppig oder glatt gekämmt, auch der
+                beste Freund des Menschen gehört fest zur Familie.
+              </p>
+              <ul className="actions stacked">
+                <li>
+                  <Link to="/hunde/" className="button">
+                    Erfahre Mehr
+                  </Link>
+                </li>
+              </ul>
+            </div>
+            <div className="image rahmen">
+              <img src="img/spotlightHunde.jpg" alt="" />
+            </div>
+          </section>
+
+          <section className="wrapper style1 align-center kontakt">
+
+            <MyForm />
+          </section>
+
+          <footer className="wrapper style1 align-center">
+            <MyFooter />
+          </footer>
+        </div>
+      </main>
+    </>
   )
 }
-
-export default IndexPage

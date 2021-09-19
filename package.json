@@ -15,8 +15,23 @@
     "clean": "gatsby clean"
   },
   "dependencies": {
-    "gatsby": "^3.13.1",
-    "react": "^17.0.1",
-    "react-dom": "^17.0.1"
+    "@fontsource/lato": "^4.1.0",
+    "gatsby": "^2.32.8",
+    "gatsby-plugin-react-helmet": "^3.8.0",
+    "gatsby-plugin-web-font-loader": "^1.0.4",
+    "lightbox": "^0.5.0",
+    "react": "^16.12.0",
+    "react-accessible-accordion": "^3.3.4",
+    "react-alice-carousel": "^2.4.0",
+    "react-burger-menu": "^3.0.6",
+    "react-dom": "^16.12.0",
+    "react-elastic-carousel": "^0.11.2",
+    "react-helmet": "^6.1.0",
+    "react-media": "^1.10.0",
+    "react-responsive-carousel": "^3.2.18",
+    "react-slick": "^0.28.1",
+    "react-slideshow-image": "^3.5.0",
+    "slick-carousel": "^1.8.1",
+    "styled-components": "^5.2.1"
   }
 }

@@ -1,7 +1,7 @@
 module.exports = {
   siteMetadata: {
-    siteUrl: "https://www.yourdomain.tld",
+    siteUrl: "https://www.lichtbild-enthusiastin.de",
     title: "lichtbild-enthusiastin",
   },
-  plugins: [],
+  plugins: ["gatsby-plugin-react-helmet"],
 };
