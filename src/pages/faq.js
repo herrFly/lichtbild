@@ -57,7 +57,7 @@ const faq = () => (
       <div id="wrapper" className="divided">
         <section className="wrapper style1 content-align-left">
           <div className="inner">
-            <h2>Häufig gestellte Fragen</h2>
+            <h2 className="ueberschriftFAQ">Häufig gestellte Fragen</h2>
 
             <AccordionComponent className="content-align-left" />
           </div>

@@ -78,8 +78,8 @@ export default function Home() {
             )}
             
           />
-        <div className="image" id="bannerImg">
-                <img src="img/profil/logo.png" />
+        <div className="image">
+                <img src="img/profil/logo.png" className="bannerImg" />
 
 
           <Media

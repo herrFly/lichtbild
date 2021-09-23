@@ -430,10 +430,10 @@ const hochzeiten = () => (
               <img src={hz08} />
               <p className="legend">Legend 3</p>
             </div>
-            <div>
+            {/* <div>
               <img src={hz09} />
               <p className="legend">Legend 3</p>
-            </div>
+            </div> */}
             <div>
               <img src={hz21} />
               <p className="legend">Legend 3</p>
