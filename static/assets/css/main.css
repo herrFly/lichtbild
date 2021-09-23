@@ -162,6 +162,15 @@ textarea {
   appearance: none;
 }
 
+.button,
+button,
+a,
+Link{
+  -webkit-tap-highlight-color: transparent;
+}
+
+
+
 /* Basic */
 
 @-ms-viewport {
@@ -207,9 +216,18 @@ body.is-preload *:after {
 }
 
 /* CCCS */
+:focus {
+  outline: none!important;
+}
+
+.bm-burger-button:focus{
+  box-shadow:none!important;
+  outline:none!important;
+}
 
 .rightArrowCarousel{
   margin-left: 16rem;
+  
 }
 
 .leftArrowCarousel{
@@ -281,6 +299,25 @@ body.is-preload *:after {
   height: 30px;
   left: 36px;
   top: 1.2rem;
+
+}
+
+.menu-item:focus{
+  background: white!important;
+  outline: none!important;
+  box-shadow: none!important;
+}
+
+.button:focus{
+  background: white!important;
+  outline: none!important;
+  box-shadow: none!important;
+
+}
+a:focus{
+  background: white!important;
+  outline: none!important;
+  box-shadow: none!important;
 
 }
 
@@ -399,6 +436,56 @@ body.is-preload *:after {
 
 }
 
+@media screen and (max-width: 1024px) {
+  .bm-burger-button{
+    left: 21.5px;
+    top: 1.1rem;
+  }
+  #uebermichPic{
+    padding-top: 4rem;
+  }
+
+}
+/**
+ * Custom cross-browser styles for keyboard :focus overrides defaults.
+ */
+ :focus {
+  outline: 0!important;
+  box-shadow: 0 0 0 .2 rem #fff,
+  0 0 0 .35 rem #069 !important;
+}
+
+/**
+* Remove focus styles for non-keyboard :focus.
+*/
+*:focus:not(.focus-visible) {
+ outline: 0 !important;
+ box-shadow: none !important;
+}
+a:focus{
+  outline: 0 !important;
+  box-shadow: none !important;
+}
+
+
+:focus:not(.focus-visible) {
+  outline: 0 !important;
+  box-shadow: none !important;
+}
+
+
+#react-burger-menu-btn:focus{
+  outline: none;
+  box-shadow: none;
+}
+
+body:not(.user-is-tabbing) button:focus,
+body:not(.user-is-tabbing) input:focus,
+body:not(.user-is-tabbing) select:focus,
+body:not(.user-is-tabbing) textarea:focus {
+  outline: none;
+}
+
 @media screen and (max-width: 980px) {
 
 }
@@ -429,6 +516,22 @@ body.is-preload *:after {
   left: 14px;
   top: 1rem;
  }  
+ .leftArrowCarousel {
+  margin-left: -3.6rem;
+  margin-top: 0.2rem;
+}
+.carousel.carousel-slider {
+  padding-right: 1.3rem;
+  padding-left: 0.7rem;
+  margin-left: 00!important;
+  width: 100%!important;
+  padding-bottom: 1rem;
+}
+.rightArrowCarousel {
+  margin-left: 8rem;
+  margin-bottom: 0rem;
+  margin-top: 2rem;
+}
 }
 
 @media screen and (max-width: 320px) {
@@ -436,6 +539,22 @@ body.is-preload *:after {
     margin-right: -2.25rem;
   }
 }
+
+.btn:focus {
+  outline: none !important;
+  outline-offset: none !important;
+}
+
+.button:focus {
+  box-shadow: none !important;
+}
+
+.bm-burger-button:focus{
+  outline: none !important;
+  outline-offset: none !important;
+}
+button:focus {box-shadow:none !important;}
+button:focus {outline:none;}
 
 
 /* Carousel Settings */
@@ -533,11 +652,12 @@ textarea {
 }
 
 a {
-  -moz-transition: color 0.2s ease-in-out;
-  -webkit-transition: color 0.2s ease-in-out;
-  -ms-transition: color 0.2s ease-in-out;
-  transition: color 0.2s ease-in-out;
+  -moz-transition: 0.2s ease-in-out;
+  -webkit-transition: 0.2s ease-in-out;
+  -ms-transition: 0.2s ease-in-out;
+  transition: 0.2s ease-in-out;
   text-decoration: none;
+  outline: none;
 }
 
 a:hover {
@@ -2504,6 +2624,13 @@ button,
   text-overflow: ellipsis;
   overflow: hidden;
   background-color: white;
+  outline:none !important;
+  
+}
+
+.button:focus{
+  outline:none !important;
+  box-shadow:none !important;
 }
 
 input[type="submit"].icon:before,
@@ -7120,6 +7247,15 @@ body.is-preload .gallery.onload-fade-in article .image img {
   color: #ccbdb4 !important;
 }
 
+.gallery.style2 input[type="submit"]:focus,
+.gallery.style2 input[type="reset"]:focus,
+.gallery.style2 input[type="button"]:focus,
+.gallery.style2 button:focus,
+.gallery.style2 .button:focus {
+  outline:none!important;
+  box-shadow:none !important;
+}
+
 .gallery.style2 input[type="submit"]:active,
 .gallery.style2 input[type="reset"]:active,
 .gallery.style2 input[type="button"]:active,
@@ -7154,6 +7290,8 @@ body.is-preload .gallery.onload-fade-in article .image img {
 .gallery.style2 button.primary:active,
 .gallery.style2 .button.primary:active {
   background-color: #ffffff;
+  border:none !important;
+  outline:none !important;
 }
 
 .gallery.style2 > .forward,
@@ -8707,6 +8845,8 @@ body.is-preload .items.onload-fade-in > * > .inner {
   background-color: white;
   box-shadow: inset 0 0 0 1px #ccbdb4;
   color: #ccbdb4!important;
+  border:none !important;
+  outline:none !important;
 }
 
 #wrapper > .invert input[type="submit"].primary,
@@ -8716,6 +8856,8 @@ body.is-preload .items.onload-fade-in > * > .inner {
 #wrapper > .invert .button.primary {
   background-color: #ffffff;
   box-shadow: none;
+  border:none !important;
+  outline:none !important;
   color: #000000!important;
 }
 
@@ -8733,6 +8875,8 @@ body.is-preload .items.onload-fade-in > * > .inner {
 #wrapper > .invert button.primary:active,
 #wrapper > .invert .button.primary:active {
   background-color: #ccbdb4;
+  border:none !important;
+  outline:none !important;
 }
 
 #wrapper > .invert label {

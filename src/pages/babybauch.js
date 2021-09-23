@@ -103,7 +103,7 @@ const arrowStyles = {
   color: '#ccc',
   position: 'absolute',
   zIndex: 2,
-  top: 'calc(91.55%)',
+  top: 'calc(91%)',
 
 };
 
@@ -281,9 +281,107 @@ const babybauch = () => (
           </div>
 
           <div className="align-center">
-          
           <img className="preislisten" src={babybauchPreisliste}></img>
-          <Carousel
+
+          <Media
+          queries={{
+            small: "(max-width: 599px)",
+            mediumAndOver: "(min-width: 600px)",
+          }}
+        >
+          {matches => (
+            <div>
+              {matches.small && (
+        <Carousel
+        infiniteLoop
+        showThumbs={true}
+        dynamicHeight={false}
+        showStatus={false}
+        showIndicators={false}
+        swipeable={true}
+        width={25 + "%"}
+        className="hochkantCarousel"
+        renderArrowPrev={(onClickHandler, hasPrev) =>
+          hasPrev && (
+                  <i className="fas fa-chevron-circle-left leftArrowCarousel" id="leftArrowC1" onClick={onClickHandler} style={{ ...arrowStyles}}></i>
+
+          )
+      }
+      renderArrowNext={(onClickHandler, hasNext) =>
+          hasNext && (
+                  <i className="fas fa-chevron-circle-right rightArrowCarousel" id="leftArrowC2" onClick={onClickHandler} style={{ ...arrowStylesNext}}></i>
+          )
+      }
+      >
+        <div>
+          <img src={bb08} />
+          <p className="legend">Legend 1</p>
+        </div>
+        <div>
+          <img src={bb09} />
+          <p className="legend">Legend 2</p>
+        </div>
+        <div>
+          <img src={bb10} />
+          <p className="legend">Legend 3</p>
+        </div>
+        <div>
+          <img src={bb11} />
+          <p className="legend">Legend 3</p>
+        </div>
+        <div>
+          <img src={bb12} />
+          <p className="legend">Legend 3</p>
+        </div>
+        <div>
+          <img src={bb13} />
+          <p className="legend">Legend 3</p>
+        </div>
+      </Carousel>
+              )}
+              {matches.mediumAndOver && (
+     <Carousel
+     infiniteLoop
+     showThumbs={true}
+     dynamicHeight={false}
+     showStatus={false}
+     showIndicators={false}
+     swipeable={true}
+     width={25 + "%"}
+     showArrows={false}
+     className="hochkantCarousel"
+   >
+     <div>
+       <img src={bb08} />
+       <p className="legend">Legend 1</p>
+     </div>
+     <div>
+       <img src={bb09} />
+       <p className="legend">Legend 2</p>
+     </div>
+     <div>
+       <img src={bb10} />
+       <p className="legend">Legend 3</p>
+     </div>
+     <div>
+       <img src={bb11} />
+       <p className="legend">Legend 3</p>
+     </div>
+     <div>
+       <img src={bb12} />
+       <p className="legend">Legend 3</p>
+     </div>
+     <div>
+       <img src={bb13} />
+       <p className="legend">Legend 3</p>
+     </div>
+   </Carousel>
+              )}
+            </div>
+          )}
+        </Media>
+          
+          {/* <Carousel
             infiniteLoop
             showThumbs={true}
             dynamicHeight={false}
@@ -328,7 +426,7 @@ const babybauch = () => (
               <img src={bb13} />
               <p className="legend">Legend 3</p>
             </div>
-          </Carousel>
+          </Carousel> */}
         </div>
         </section>
 

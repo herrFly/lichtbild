@@ -101,7 +101,7 @@ const arrowStyles = {
   color: '#ccc',
   position: 'absolute',
   zIndex: 2,
-  top: 'calc(91.55%)',
+  top: 'calc(91%)',
 
 };
 
@@ -278,60 +278,124 @@ const familie = () => (
           
           <img className="preislisten" src={familiePreisliste}></img>
 
-          <Carousel
-            infiniteLoop
-            showThumbs={true}
-            dynamicHeight={false}
-            showStatus={false}
-            showIndicators={false}
-            swipeable={true}
-            width={25 + "%"}
-            className="hochkantCarousel"
-            renderArrowPrev={(onClickHandler, hasPrev) =>
-              hasPrev && (
-                      <i className="fas fa-chevron-circle-left leftArrowCarousel" id="leftArrowC1" onClick={onClickHandler} style={{ ...arrowStyles}}></i>
+          <Media
+          queries={{
+            small: "(max-width: 599px)",
+            mediumAndOver: "(min-width: 600px)"
+          }}
+        >
+          {matches => (
+            <div>
+              {matches.small && (
+ <Carousel
+ infiniteLoop
+ showThumbs={true}
+ dynamicHeight={false}
+ showStatus={false}
+ showIndicators={false}
+ swipeable={true}
+ width={25 + "%"}
+ className="hochkantCarousel"
+ renderArrowPrev={(onClickHandler, hasPrev) =>
+   hasPrev && (
+           <i className="fas fa-chevron-circle-left leftArrowCarousel" id="leftArrowC1" onClick={onClickHandler} style={{ ...arrowStyles}}></i>
 
-              )
-          }
-          renderArrowNext={(onClickHandler, hasNext) =>
-              hasNext && (
-                      <i className="fas fa-chevron-circle-right rightArrowCarousel" id="leftArrowC2" onClick={onClickHandler} style={{ ...arrowStylesNext}}></i>
-              )
-          }
-          >
-            <div>
-              <img src={f09} />
-              <p className="legend">Legend 1</p>
+   )
+}
+renderArrowNext={(onClickHandler, hasNext) =>
+   hasNext && (
+           <i className="fas fa-chevron-circle-right rightArrowCarousel" id="leftArrowC2" onClick={onClickHandler} style={{ ...arrowStylesNext}}></i>
+   )
+}
+>
+ <div>
+   <img src={f09} />
+   <p className="legend">Legend 1</p>
+ </div>
+ <div>
+   <img src={f10} />
+   <p className="legend">Legend 2</p>
+ </div>
+ <div>
+   <img src={f11} />
+   <p className="legend">Legend 3</p>
+ </div>
+ <div>
+   <img src={f12} />
+   <p className="legend">Legend 3</p>
+ </div>
+ <div>
+   <img src={f13} />
+   <p className="legend">Legend 3</p>
+ </div>
+ <div>
+   <img src={f14} />
+   <p className="legend">Legend 3</p>
+ </div>
+ <div>
+   <img src={f15} />
+   <p className="legend">Legend 3</p>
+ </div>
+ <div>
+   <img src={f16} />
+   <p className="legend">Legend 3</p>
+ </div>
+</Carousel>
+
+              )}
+              {matches.mediumAndOver && (
+ <Carousel
+ infiniteLoop
+ showThumbs={true}
+ dynamicHeight={false}
+ showStatus={false}
+ showIndicators={false}
+ swipeable={true}
+ width={25 + "%"}
+ className="hochkantCarousel"
+showArrows={false}
+>
+ <div>
+   <img src={f09} />
+   <p className="legend">Legend 1</p>
+ </div>
+ <div>
+   <img src={f10} />
+   <p className="legend">Legend 2</p>
+ </div>
+ <div>
+   <img src={f11} />
+   <p className="legend">Legend 3</p>
+ </div>
+ <div>
+   <img src={f12} />
+   <p className="legend">Legend 3</p>
+ </div>
+ <div>
+   <img src={f13} />
+   <p className="legend">Legend 3</p>
+ </div>
+ <div>
+   <img src={f14} />
+   <p className="legend">Legend 3</p>
+ </div>
+ <div>
+   <img src={f15} />
+   <p className="legend">Legend 3</p>
+ </div>
+ <div>
+   <img src={f16} />
+   <p className="legend">Legend 3</p>
+ </div>
+  </Carousel>
+
+              )}
+             
             </div>
-            <div>
-              <img src={f10} />
-              <p className="legend">Legend 2</p>
-            </div>
-            <div>
-              <img src={f11} />
-              <p className="legend">Legend 3</p>
-            </div>
-            <div>
-              <img src={f12} />
-              <p className="legend">Legend 3</p>
-            </div>
-            <div>
-              <img src={f13} />
-              <p className="legend">Legend 3</p>
-            </div>
-            <div>
-              <img src={f14} />
-              <p className="legend">Legend 3</p>
-            </div>
-            <div>
-              <img src={f15} />
-              <p className="legend">Legend 3</p>
-            </div>
-            <div>
-              <img src={f16} />
-              <p className="legend">Legend 3</p>
-            </div>
-          </Carousel>
+          )}
+        </Media>
+
+      
       
         </div>
         </section>

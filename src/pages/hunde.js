@@ -101,7 +101,7 @@ const arrowStyles = {
   color: '#ccc',
   position: 'absolute',
   zIndex: 2,
-  top: 'calc(91.55%)',
+  top: 'calc(91%)',
 
 };
 
@@ -278,7 +278,17 @@ const hunde = () => (
         <div className="align-center">
 
         <img className="preislisten" src={hundePreislsite}></img>
-    
+
+           <Media
+          queries={{
+            small: "(max-width: 599px)",
+            mediumAndOver: "(min-width: 600px)"
+          }}
+        >
+          {matches => (
+            <div>
+              {matches.small && (
+                  
         <Carousel
             infiniteLoop
             showThumbs={true}
@@ -327,7 +337,54 @@ const hunde = () => (
             </div>
 
           </Carousel>
-          </div>
+              )}
+              {matches.mediumAndOver && (
+                  
+        <Carousel
+            infiniteLoop
+            showThumbs={true}
+            dynamicHeight={false}
+            showStatus={false}
+            showIndicators={false}
+            swipeable={true}
+            width={25 + "%"}
+            className="hochkantCarousel"
+            showArrows={false}
+          >
+            <div>
+              <img src={hund8} />
+              <p className="legend">Legend 1</p>
+            </div>
+            <div>
+              <img src={hund9} />
+              <p className="legend">Legend 2</p>
+            </div>
+            <div>
+              <img src={hund10} />
+              <p className="legend">Legend 3</p>
+            </div>
+            <div>
+              <img src={hund11} />
+              <p className="legend">Legend 3</p>
+            </div>
+            <div>
+              <img src={hund12} />
+              <p className="legend">Legend 3</p>
+            </div>
+
+            <div>
+              <img src={hund14} />
+              <p className="legend">Legend 3</p>
+            </div>
+
+          </Carousel>
+              )}
+            </div>
+          )}
+        </Media>
+    
+       
+         </div>
 
         </section>
 

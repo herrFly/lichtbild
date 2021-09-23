@@ -150,13 +150,14 @@ const properties3 = {
 
 const arrowStylesNext = {
     color: '#ccc',
+
 }
 
 const arrowStyles = {
   color: '#ccc',
   position: 'absolute',
   zIndex: 2,
-  top: 'calc(91.55%)',
+  top: 'calc(91%)',
 
 };
 
@@ -367,7 +368,16 @@ const hochzeiten = () => (
         <div className="align-center">
           <img className="preislisten" src={hochzeit_preisliste}></img>
 
-          <Carousel
+                  <Media
+          queries={{
+            small: "(max-width: 599px)",
+            mediumAndOver: "(min-width: 600px)"
+          }}
+        >
+          {matches => (
+            <div>
+              {matches.small && (
+                       <Carousel
             infiniteLoop
             showThumbs={true}
             dynamicHeight={false}
@@ -429,6 +439,66 @@ const hochzeiten = () => (
               <p className="legend">Legend 3</p>
             </div>
           </Carousel>
+              )}
+              {matches.mediumAndOver && (
+        <Carousel
+            infiniteLoop
+            showThumbs={true}
+            dynamicHeight={false}
+            showStatus={false}
+            showIndicators={false}
+            swipeable={true}
+            width={25 + "%"}
+            className="hochkantCarousel"
+            showArrows={false}
+          >
+            <div>
+              <img src={hz01} />
+              <p className="legend">Legend 1</p>
+            </div>
+            <div>
+              <img src={hz02} />
+              <p className="legend">Legend 2</p>
+            </div>
+            <div>
+              <img src={hz03} />
+              <p className="legend">Legend 3</p>
+            </div>
+            <div>
+              <img src={hz04} />
+              <p className="legend">Legend 3</p>
+            </div>
+            <div>
+              <img src={hz05} />
+              <p className="legend">Legend 3</p>
+            </div>
+            <div>
+              <img src={hz06} />
+              <p className="legend">Legend 3</p>
+            </div>
+            <div>
+              <img src={hz07} />
+              <p className="legend">Legend 3</p>
+            </div>
+            <div>
+              <img src={hz08} />
+              <p className="legend">Legend 3</p>
+            </div>
+            <div>
+              <img src={hz09} />
+              <p className="legend">Legend 3</p>
+            </div>
+            <div>
+              <img src={hz21} />
+              <p className="legend">Legend 3</p>
+            </div>
+          </Carousel>
+              )}
+            </div>
+          )}
+        </Media>
+
+  
         </div>
         </section>        
         <section className="wrapper style1 align-center">

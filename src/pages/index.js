@@ -22,7 +22,7 @@ export default function Home() {
         <title>Lichtbildenthusiastin - Deine Fotografin</title>
         <link to="/favicon.ico" rel="shortcut icon" type="image/x-icon" />
       </Helmet>
-      <Menu>
+      <Menu disableAutoFocus>
         <Link to="/" className="menu-item">
           Startseite
         </Link>
