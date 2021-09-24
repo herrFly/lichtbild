@@ -78,7 +78,7 @@ export default function Home() {
             )}
             
           />
-        <div className="image">
+    
                 <img src="img/profil/logo.png" className="bannerImg" />
 
 
@@ -93,7 +93,7 @@ export default function Home() {
               </p>
             )}
           />
-                        </div>
+                    
 
 
         </section>

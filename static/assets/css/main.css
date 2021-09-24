@@ -438,30 +438,30 @@ a:focus{
   .carousel.carousel-slider{
     margin-left: 28.8rem!important;
   }
-  .bannerImg{
+  /* .bannerImg{
     width: 25%!important;
     margin-left: 34.9rem;
-  }
+  } */
 }
 
 @media screen and (max-width: 1920px) {
-  .bannerImg{
+  /* .bannerImg{
     width: 32%!important;
     margin-left: 22.6rem;
-    }
+    } */
   
 }
 
 @media screen and (max-width: 1440px) {
-.bannerImg{
+/* .bannerImg{
     width: 33%!important;
-}
+} */
 }
 
 @media screen and (max-width: 1024px) {
-  .bannerImg {
+  /* .bannerImg {
     width: 40%!important;
-  }
+  } */
   .bm-burger-button{
     left: 21.5px;
     top: 1.1rem;
@@ -473,16 +473,16 @@ a:focus{
 
 
 @media screen and (max-width: 768px ) {
-  .bannerImg {
+  /* .bannerImg {
     width: 60%!important;
-  }
+  } */
 }
 
 @media screen and (max-width: 320px) {
-  .bannerImg {
+  /* .bannerImg {
     width: 100%!important;
     
-  }
+  } */
 }
 
 
