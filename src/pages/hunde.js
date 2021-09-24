@@ -29,7 +29,7 @@ import hund1 from "../../static/img/HUNDE/hund-japan_spitz-berlin-brandenburg-hu
 import hund2 from "../../static/img/HUNDE/hund-border_collie-australian_shepherd-berlin-brandenburg-hundefotograf.jpg"
 import hund3 from "../../static/img/HUNDE/hund-frenchie_pei-chinese_shar_pei-french_bulldog-berlin-brandenburg-hundefotograf.jpg"
 import hund4 from "../../static/img/HUNDE/hund-shiba_inu-berlin-brandenburg-hundefotografin-claudia_nuernberger.jpg"
-import hund5 from "../../static/img/HUNDE/hund-deutscher_schäferhund-schutzhundausbildung-berlin-brandenburg-hundefotograf.jpg"
+import hund5 from "../../static/img/HUNDE/hund-deutscher_schaeferhund-schutzhundausbildung-berlin-brandenburg-hundefotograf.jpg"
 import hund6 from "../../static/img/HUNDE/hund-chihuahua-berlin-brandenburg-hundefotograf.jpg"
 import hund7 from "../../static/img/HUNDE/hund-labrador-berlin-brandenburg-hundefotograf.jpg"
 
