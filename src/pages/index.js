@@ -13,6 +13,14 @@ import "../../static/assets/css/fontawesome-all.min.css"
 
 import MyForm from "./kontakt"
 import MyFooter from "../components/footer"
+
+import index01 from "../../static/img/INDEX/logo.webp"
+import index02 from "../../static/img/INDEX/claudia_nuernberger-berlin-fotografin.webp"
+import index03 from "../../static/img/INDEX/startseite-familie-claudia_nuernberger.webp"
+import index04 from "../../static/img/INDEX/startseite-hochzeit-claudia_nuernberger.webp"
+import index05 from "../../static/img/INDEX/startseite-babybauch-claudia_nuernberger.webp"
+import index06 from "../../static/img/INDEX/spotlightHunde.webp"
+
  
 
 export default function Home() {
@@ -78,8 +86,8 @@ export default function Home() {
             )}
             
           />
-    
-                <img src="img/profil/logo.png" className="bannerImg" />
+       <div className="image">
+                <img src={index01} className="bannerImg" />
 
 
           <Media
@@ -93,7 +101,7 @@ export default function Home() {
               </p>
             )}
           />
-                    
+                        </div>
 
 
         </section>
@@ -142,7 +150,7 @@ export default function Home() {
             </div>
             <div className="image rahmen">
               <img
-                src="img/profil/claudia_nuernberger-berlin-fotografin.jpeg"
+                src={index02}
                 alt=""
               />
             </div>
@@ -169,7 +177,7 @@ export default function Home() {
             </div>
             <div className="image rahmen">
               <img
-                src="img/startseite-familie-claudia_nuernberger.jpg"
+                src={index03}
                 alt=""
               />
             </div>
@@ -192,7 +200,7 @@ export default function Home() {
             </div>
             <div className="image rahmen">
               <img
-                src="img/startseite-hochzeit-claudia_nuernberger.jpg"
+                src={index04}
                 alt=""
               />
             </div>
@@ -215,7 +223,7 @@ export default function Home() {
             </div>
             <div className="image rahmen">
               <img
-                src="img/startseite-babybauch-claudia_nuernberger.jpg"
+                src={index05}
                 alt=""
               />
             </div>
@@ -237,7 +245,9 @@ export default function Home() {
               </ul>
             </div>
             <div className="image rahmen">
-              <img src="img/spotlightHunde.jpg" alt="" />
+              <img src={
+                index06
+              } alt="" />
             </div>
           </section>
 
