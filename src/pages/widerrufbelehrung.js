@@ -43,12 +43,13 @@ const widerrufbelehrung = () => (
           FAQ
         </Link>
 
-        <Link to="https://www.instagram.com/lichtbild_enthusiastin/">
+        <a href="https://www.instagram.com/lichtbild_enthusiastin/" target="_blank" rel="noopener noreferrer">
           <i className="fab fa-instagram" id="insta-logo"></i>
-        </Link>
-        <Link to="https://api.whatsapp.com/send?phone=4903091579337">
+        </a>
+        <a to="https://api.whatsapp.com/send?phone=4903091579337" target="_blank" rel="noopener noreferrer">
           <i className="fab fa-whatsapp" id="whatsapp-logo"></i>
-        </Link>
+        </a>
+        
     </Menu>
     <header></header>
     <main>
