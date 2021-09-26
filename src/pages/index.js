@@ -1,6 +1,8 @@
 import React from "react"
 import { Helmet } from "react-helmet"
 import { Link } from "gatsby"
+import { graphql,useStaticQuery } from "gatsby"
+import { GatsbyImage, StaticImage, getImage } from "gatsby-plugin-image"
 
 import { slide as Menu } from "react-burger-menu"
 import Media from "react-media"
@@ -14,16 +16,65 @@ import "../../static/assets/css/fontawesome-all.min.css"
 import MyForm from "./kontakt"
 import MyFooter from "../components/footer"
 
-import index01 from "../../static/img/INDEX/logo.webp"
-import index02 from "../../static/img/INDEX/claudia_nuernberger-berlin-fotografin.webp"
-import index03 from "../../static/img/INDEX/startseite-familie-claudia_nuernberger.webp"
-import index04 from "../../static/img/INDEX/startseite-hochzeit-claudia_nuernberger.webp"
-import index05 from "../../static/img/INDEX/startseite-babybauch-claudia_nuernberger.webp"
-import index06 from "../../static/img/INDEX/spotlightHunde.webp"
+// import index01 from "../../static/img/INDEX/logo.webp"
+// import index02 from "../../static/img/INDEX/claudia_nuernberger-berlin-fotografin.webp"
+// import index03 from "../../static/img/INDEX/startseite-familie-claudia_nuernberger.webp"
+// import index04 from "../../static/img/INDEX/startseite-hochzeit-claudia_nuernberger.webp"
+// import index05 from "../../static/img/INDEX/startseite-babybauch-claudia_nuernberger.webp"
+// import index06 from "../../static/img/INDEX/spotlightHunde.webp"
 
- 
+// export const fluidImage = graphql`
+//     fragment fluidImage on File {
+//         childImageSharp {
+//           fluid(maxWidth: 1600) {
+//             ...GatsbyImageSharpFluid
+//           }
+//           original {
+//             width
+//           }
+//         }
+//     }
+// `;
+
+// export const pageQuery = graphql`
+//      query {  
+//        index01: file(
+//          relativePath: { eq: "logo.webp" }
+//        ) {
+//          ...fluidImage
+//        }
+//         index02: file(
+//          relativePath: { eq: "claudia_nuernberger-berlin-fotografin.webp" }
+//        ) {
+//          ...fluidImage
+//        }
+//        index03: file(
+//          relativePath: { eq: "startseite-familie-claudia_nuernberger.webp" }
+//        ) {
+//          ...fluidImage
+//        }
+//        index04: file(
+//          relativePath: { eq: "startseite-hochzeit-claudia_nuernberger.webp" }
+//        ) {
+//          ...fluidImage
+//        }
+//        index05: file(
+//          relativePath: { eq: "startseite-babybauch-claudia_nuernberger.webp" }
+//        ) {
+//          ...fluidImage
+//        }
+//        index06: file(
+//          relativePath: { eq: "spotlightHunde.webp" }
+//        ) {
+//          ...fluidImage
+//        }
+
+//      }
+// `;
+
 
 export default function Home() {
+
   return (
     <>
       <Helmet>
@@ -88,8 +139,30 @@ export default function Home() {
             
           />
        <div className="image">
-                <img src={index01} className="bannerImg" />
 
+        <StaticImage 
+          src="../../static/img/STARTSEITE/logo.webp"
+          alt=""
+          placeholder="blurred"
+          layout="fixed"
+          className="bannerImg"
+        /> 
+
+         {/* <StaticImage      src="./../../static/img/INDEX/logo.webp"
+          alt=""
+          placeholder="blurred"
+          layout="fixed"
+          className="bannerImg"
+          /> */}
+                {/* <img src={index01} className="bannerImg" /> 
+          <Img
+            fluid={this.props.data.index01.childImageSharp.fluid}
+            className="bannerImg"
+            alt="Logo Lichtbild-Enthusiastin"
+          />
+
+          <GatsbyImage image={image01} className="bannerImg"/>
+*/}
 
           <Media
             query="(min-width: 768px)"
@@ -103,8 +176,6 @@ export default function Home() {
             )}
           />
                         </div>
-
-
         </section>
         <div id="wrapper" className="divided">
           <section className="banner onload-image-fade-in onload-content-fade-right - style3 fullscreen orient-right content-align-left image-position-center">
@@ -150,10 +221,14 @@ export default function Home() {
               </ul>
             </div>
             <div className="image rahmen">
-              <img
+              {/* <img
                 src={index02}
                 alt=""
               />
+              <Img
+                fluid={this.props.data.index02.childImageSharp.fluid}
+                alt="Portrait der Fotografin Lichtbild-Enthusiastin"
+              /> */}
             </div>
           </section>
 
@@ -177,10 +252,14 @@ export default function Home() {
               </ul>
             </div>
             <div className="image rahmen">
-              <img
+              {/* <img
                 src={index03}
                 alt=""
-              />
+              /> 
+              <Img
+                fluid={this.props.data.index03.childImageSharp.fluid}
+                alt="Familie sitzt auf einer Wiese"
+              />*/}
             </div>
           </section>
 
@@ -200,10 +279,14 @@ export default function Home() {
               </ul>
             </div>
             <div className="image rahmen">
-              <img
+              {/* <img
                 src={index04}
                 alt=""
-              />
+              /> 
+              <Img
+                fluid={this.props.data.index04.childImageSharp.fluid}
+                alt="ein Hochzeitspaar"
+              />*/}
             </div>
           </section>
 
@@ -223,10 +306,14 @@ export default function Home() {
               </ul>
             </div>
             <div className="image rahmen">
-              <img
+              {/* <img
                 src={index05}
                 alt=""
-              />
+              /> 
+              <Img
+                fluid={this.props.data.index05.childImageSharp.fluid}
+                alt="schwangeres Pärchen"
+              />*/}
             </div>
           </section>
 
@@ -246,9 +333,13 @@ export default function Home() {
               </ul>
             </div>
             <div className="image rahmen">
-              <img src={
+              {/* <img src={
                 index06
-              } alt="" />
+              } alt="" /> 
+              <Img
+                fluid={this.props.data.index06.childImageSharp.fluid}
+                alt="ein Hund"
+              /> */}             
             </div>
           </section>
 
