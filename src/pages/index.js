@@ -72,8 +72,25 @@ import MyFooter from "../components/footer"
 //      }
 // `;
 
+const imageQuery = graphql`
+{
+	userImage: file(relativePath: { eq: "STARTSEITE/logo.webp" }) {
+    childImageSharp {
+      gatsbyImageData(
+        layout: FULL_WIDTH
+        width: 150
+        height: 150
+        placeholder: BLURRED
+        formats: [AUTO, WEBP, AVIF]
+      )
+    }
+  }
+}
+`
 
-export default function Home() {
+
+const Home = () => {
+  const data = useStaticQuery(imageQuery)
 
   return (
     <>
@@ -144,7 +161,7 @@ export default function Home() {
           src="../../static/img/STARTSEITE/logo.webp"
           alt=""
           placeholder="blurred"
-          layout="fixed"
+          layout="fullWidth"
           className="bannerImg"
         /> 
 
@@ -221,7 +238,15 @@ export default function Home() {
               </ul>
             </div>
             <div className="image rahmen">
-              {/* <img
+            <StaticImage 
+              src="../../static/img/STARTSEITE/claudia_nuernberger-berlin-fotografin.webp"
+              alt=""
+              placeholder="blurred"
+              layout="fullWidth"
+              
+            /> 
+             {/*  //<GatsbyImage image={data.childImageSharp.gatsbyImageData}alt="Team Meeting" />
+              <img
                 src={index02}
                 alt=""
               />
@@ -252,6 +277,12 @@ export default function Home() {
               </ul>
             </div>
             <div className="image rahmen">
+            <StaticImage 
+              src="../../static/img/STARTSEITE/claudia_nuernberger-berlin-fotografin.webp"
+              alt=""
+              placeholder="blurred"
+              layout="fullWidth"
+            /> 
               {/* <img
                 src={index03}
                 alt=""
@@ -279,6 +310,12 @@ export default function Home() {
               </ul>
             </div>
             <div className="image rahmen">
+            <StaticImage 
+              src="../../static/img/STARTSEITE/claudia_nuernberger-berlin-fotografin.webp"
+              alt=""
+              placeholder="blurred"
+              layout="fullWidth"
+            />   
               {/* <img
                 src={index04}
                 alt=""
@@ -306,6 +343,12 @@ export default function Home() {
               </ul>
             </div>
             <div className="image rahmen">
+            <StaticImage 
+              src="../../static/img/STARTSEITE/claudia_nuernberger-berlin-fotografin.webp"
+              alt=""
+              placeholder="blurred"
+              layout="fullWidth"
+            /> 
               {/* <img
                 src={index05}
                 alt=""
@@ -333,6 +376,12 @@ export default function Home() {
               </ul>
             </div>
             <div className="image rahmen">
+            <StaticImage 
+              src="../../static/img/STARTSEITE/claudia_nuernberger-berlin-fotografin.webp"
+              alt=""
+              placeholder="blurred"
+              layout="fullWidth"
+            /> 
               {/* <img src={
                 index06
               } alt="" /> 
@@ -356,3 +405,5 @@ export default function Home() {
     </>
   )
 }
+
+export default Home
