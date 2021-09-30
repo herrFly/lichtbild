@@ -16,81 +16,8 @@ import "../../static/assets/css/fontawesome-all.min.css"
 import MyForm from "./kontakt"
 import MyFooter from "../components/footer"
 
-// import index01 from "../../static/img/INDEX/logo.webp"
-// import index02 from "../../static/img/INDEX/claudia_nuernberger-berlin-fotografin.webp"
-// import index03 from "../../static/img/INDEX/startseite-familie-claudia_nuernberger.webp"
-// import index04 from "../../static/img/INDEX/startseite-hochzeit-claudia_nuernberger.webp"
-// import index05 from "../../static/img/INDEX/startseite-babybauch-claudia_nuernberger.webp"
-// import index06 from "../../static/img/INDEX/spotlightHunde.webp"
-
-// export const fluidImage = graphql`
-//     fragment fluidImage on File {
-//         childImageSharp {
-//           fluid(maxWidth: 1600) {
-//             ...GatsbyImageSharpFluid
-//           }
-//           original {
-//             width
-//           }
-//         }
-//     }
-// `;
-
-// export const pageQuery = graphql`
-//      query {  
-//        index01: file(
-//          relativePath: { eq: "logo.webp" }
-//        ) {
-//          ...fluidImage
-//        }
-//         index02: file(
-//          relativePath: { eq: "claudia_nuernberger-berlin-fotografin.webp" }
-//        ) {
-//          ...fluidImage
-//        }
-//        index03: file(
-//          relativePath: { eq: "startseite-familie-claudia_nuernberger.webp" }
-//        ) {
-//          ...fluidImage
-//        }
-//        index04: file(
-//          relativePath: { eq: "startseite-hochzeit-claudia_nuernberger.webp" }
-//        ) {
-//          ...fluidImage
-//        }
-//        index05: file(
-//          relativePath: { eq: "startseite-babybauch-claudia_nuernberger.webp" }
-//        ) {
-//          ...fluidImage
-//        }
-//        index06: file(
-//          relativePath: { eq: "spotlightHunde.webp" }
-//        ) {
-//          ...fluidImage
-//        }
-
-//      }
-// `;
-
-const imageQuery = graphql`
-{
-	userImage: file(relativePath: { eq: "STARTSEITE/logo.webp" }) {
-    childImageSharp {
-      gatsbyImageData(
-        layout: FULL_WIDTH
-        width: 150
-        height: 150
-        placeholder: BLURRED
-        formats: [AUTO, WEBP, AVIF]
-      )
-    }
-  }
-}
-`
-
 
 const Home = () => {
-  const data = useStaticQuery(imageQuery)
 
   return (
     <>
@@ -103,9 +30,6 @@ const Home = () => {
           Startseite
         </Link>
         <br />
-        {/* <Link to="/home/" className="menu-item">
-          Terminanfrage
-        </Link> */}
         <Link to="/ueberMich" className="menu-item">
           Über Mich
         </Link>
@@ -129,7 +53,7 @@ const Home = () => {
         <a href="https://www.instagram.com/lichtbild_enthusiastin/" target="_blank" rel="noopener noreferrer">
           <i className="fab fa-instagram" id="insta-logo"></i>
         </a>
-        <a to="https://api.whatsapp.com/send?phone=4903091579337" target="_blank" rel="noopener noreferrer">
+        <a href="https://api.whatsapp.com/send?phone=4903091579337" target="_blank" rel="noopener noreferrer">
           <i className="fab fa-whatsapp" id="whatsapp-logo"></i>
         </a>
         
@@ -164,22 +88,6 @@ const Home = () => {
           layout="fullWidth"
           className="bannerImg"
         /> 
-
-         {/* <StaticImage      src="./../../static/img/INDEX/logo.webp"
-          alt=""
-          placeholder="blurred"
-          layout="fixed"
-          className="bannerImg"
-          /> */}
-                {/* <img src={index01} className="bannerImg" /> 
-          <Img
-            fluid={this.props.data.index01.childImageSharp.fluid}
-            className="bannerImg"
-            alt="Logo Lichtbild-Enthusiastin"
-          />
-
-          <GatsbyImage image={image01} className="bannerImg"/>
-*/}
 
           <Media
             query="(min-width: 768px)"
@@ -242,8 +150,8 @@ const Home = () => {
               src="../../static/img/STARTSEITE/claudia_nuernberger-berlin-fotografin.webp"
               alt=""
               placeholder="blurred"
-              layout="fullWidth"
-              
+              layout="constrained"
+              quality="100"
             /> 
              {/*  //<GatsbyImage image={data.childImageSharp.gatsbyImageData}alt="Team Meeting" />
               <img

@@ -26,23 +26,23 @@ import MyFooter from "./../components/footer"
 
 import familiePreisliste from "../../static/img/FAMILIE/FamiliePreisliste_Final.webp"
 
-import f01 from "../../static/img/FAMILIE/paarfotos-berlin-brandenburg-bernau-claudia_nuernberger.webp"
-import f02 from "../../static/img/FAMILIE/kinderfotos-berlin-brandenburg-harz-claudia_nuernberger.webp"
-import f03 from "../../static/img/FAMILIE/paarfotos-berlin-brandenburg-harz-claudia_nuernberger.webp"
-import f04 from "../../static/img/FAMILIE/familienfotos-berlin-brandenburg-bernau-claudia_nuernberger.webp"
-import f05 from "../../static/img/FAMILIE/familienfotos-berlin-brandenburg-harz-claudia_nuernberger.webp"
-import f06 from "../../static/img/FAMILIE/paarfotos-berlin-brandenburg-regierungsviertel-claudia_nuernberger.webp"
-import f07 from "../../static/img/FAMILIE/kinderfotos-berlin-brandenburg-oranienburg-claudia_nuernberger.webp"
-import f08 from "../../static/img/FAMILIE/familienfotos-berlin-brandenburg-panketal-claudia_nuernberger.webp"
+import f01 from "../../static/img/FAMILIE/paarfotos-berlin-brandenburg-bernau-claudia_nuernberger.jpg"
+import f02 from "../../static/img/FAMILIE/kinderfotos-berlin-brandenburg-harz-claudia_nuernberger.jpg"
+import f03 from "../../static/img/FAMILIE/paarfotos-berlin-brandenburg-harz-claudia_nuernberger.jpg"
+import f04 from "../../static/img/FAMILIE/familienfotos-berlin-brandenburg-bernau-claudia_nuernberger.jpg"
+import f05 from "../../static/img/FAMILIE/familienfotos-berlin-brandenburg-harz-claudia_nuernberger.jpg"
+import f06 from "../../static/img/FAMILIE/paarfotos-berlin-brandenburg-regierungsviertel-claudia_nuernberger.jpg"
+import f07 from "../../static/img/FAMILIE/kinderfotos-berlin-brandenburg-oranienburg-claudia_nuernberger.jpg"
+import f08 from "../../static/img/FAMILIE/familienfotos-berlin-brandenburg-panketal-claudia_nuernberger.jpg"
 
-import f09 from "../../static/img/FAMILIE/kinderfotos-berlin-brandenburg-panketal-claudia_nuernberger.webp"
-import f10 from "../../static/img/FAMILIE/familienfotos-berlin-brandenburg-harz-hamburger_wappen-claudia_nuernberger.webp"
-import f11 from "../../static/img/FAMILIE/kinderfotos-berlin-brandenburg-bernau-claudia_nuernberger.webp"
-import f12 from "../../static/img/FAMILIE/familienfotos-berlin-brandenburg-blankenburg-harz-claudia_nuernberger.webp"
-import f13 from "../../static/img/FAMILIE/kinderfotos-berlin-brandenburg-barnim-claudia_nuernberger.webp"
-import f14 from "../../static/img/FAMILIE/paarfotos-berlin-brandenburg-museumsinsel-claudia_nuernberger.webp"
-import f15 from "../../static/img/FAMILIE/paarfotos-berlin-brandenburg-claudia_nuernberger.webp"
-import f16 from "../../static/img/FAMILIE/familienfotos-berlin-brandenburg-hennigsdorf-claudia_nuernberger.webp"
+import f09 from "../../static/img/FAMILIE/kinderfotos-berlin-brandenburg-panketal-claudia_nuernberger.jpg"
+import f10 from "../../static/img/FAMILIE/familienfotos-berlin-brandenburg-harz-hamburger_wappen-claudia_nuernberger.jpg"
+import f11 from "../../static/img/FAMILIE/kinderfotos-berlin-brandenburg-bernau-claudia_nuernberger.jpg"
+import f12 from "../../static/img/FAMILIE/familienfotos-berlin-brandenburg-blankenburg-harz-claudia_nuernberger.jpg"
+import f13 from "../../static/img/FAMILIE/kinderfotos-berlin-brandenburg-barnim-claudia_nuernberger.jpg"
+import f14 from "../../static/img/FAMILIE/paarfotos-berlin-brandenburg-museumsinsel-claudia_nuernberger.jpg"
+import f15 from "../../static/img/FAMILIE/paarfotos-berlin-brandenburg-claudia_nuernberger.jpg"
+import f16 from "../../static/img/FAMILIE/familienfotos-berlin-brandenburg-hennigsdorf-claudia_nuernberger.jpg"
 
 const style = {
   textAlign: "center",
@@ -140,7 +140,7 @@ const familie = () => (
         <a href="https://www.instagram.com/lichtbild_enthusiastin/" target="_blank" rel="noopener noreferrer">
           <i className="fab fa-instagram" id="insta-logo"></i>
         </a>
-        <a to="https://api.whatsapp.com/send?phone=4903091579337" target="_blank" rel="noopener noreferrer">
+        <a href="https://api.whatsapp.com/send?phone=4903091579337" target="_blank" rel="noopener noreferrer">
           <i className="fab fa-whatsapp" id="whatsapp-logo"></i>
         </a>
         
@@ -161,7 +161,7 @@ const familie = () => (
                 <Slide {...properties1}>
                   <div style={style}>
                     <StaticImage 
-                      src="../../static/img/FAMILIE/paarfotos-berlin-brandenburg-bernau-claudia_nuernberger.webp"
+                      src="../../static/img/FAMILIE/paarfotos-berlin-brandenburg-bernau-claudia_nuernberger.jpg"
                       alt=""
                       placeholder="blurred"
                       layout="constrained"
@@ -169,7 +169,7 @@ const familie = () => (
                   </div>
                   <div style={style}>
                     <StaticImage 
-                      src="../../static/img/FAMILIE/kinderfotos-berlin-brandenburg-harz-claudia_nuernberger.webp"
+                      src="../../static/img/FAMILIE/kinderfotos-berlin-brandenburg-harz-claudia_nuernberger.jpg"
                       alt=""
                       placeholder="blurred"
                       layout="constrained"
@@ -177,7 +177,7 @@ const familie = () => (
                   </div>
                   <div style={style}>
                     <StaticImage 
-                      src="../../static/img/FAMILIE/paarfotos-berlin-brandenburg-harz-claudia_nuernberger.webp"
+                      src="../../static/img/FAMILIE/paarfotos-berlin-brandenburg-harz-claudia_nuernberger.jpg"
                       alt=""
                       placeholder="blurred"
                       layout="constrained"
@@ -185,7 +185,7 @@ const familie = () => (
                     </div>
                   <div style={style}>
                     <StaticImage 
-                      src="../../static/img/FAMILIE/familienfotos-berlin-brandenburg-bernau-claudia_nuernberger.webp"
+                      src="../../static/img/FAMILIE/familienfotos-berlin-brandenburg-bernau-claudia_nuernberger.jpg"
                       alt=""
                       placeholder="blurred"
                       layout="constrained"
@@ -193,7 +193,7 @@ const familie = () => (
                   </div>
                   <div style={style}>
                     <StaticImage 
-                      src="../../static/img/FAMILIE/familienfotos-berlin-brandenburg-harz-claudia_nuernberger.webp"
+                      src="../../static/img/FAMILIE/familienfotos-berlin-brandenburg-harz-claudia_nuernberger.jpg"
                       alt=""
                       placeholder="blurred"
                       layout="constrained"
@@ -201,7 +201,7 @@ const familie = () => (
                   </div>
                   <div style={style}>
                     <StaticImage 
-                      src="../../static/img/FAMILIE/paarfotos-berlin-brandenburg-regierungsviertel-claudia_nuernberger.webp"
+                      src="../../static/img/FAMILIE/paarfotos-berlin-brandenburg-regierungsviertel-claudia_nuernberger.jpg"
                       alt=""
                       placeholder="blurred"
                       layout="constrained"
@@ -209,7 +209,7 @@ const familie = () => (
                   </div>
                   <div style={style}>
                     <StaticImage 
-                      src="../../static/img/FAMILIE/kinderfotos-berlin-brandenburg-oranienburg-claudia_nuernberger.webp"
+                      src="../../static/img/FAMILIE/kinderfotos-berlin-brandenburg-oranienburg-claudia_nuernberger.jpg"
                       alt=""
                       placeholder="blurred"
                       layout="constrained"
@@ -217,7 +217,7 @@ const familie = () => (
                   </div>
                   <div style={style}>
                     <StaticImage 
-                      src="../../static/img/FAMILIE/familienfotos-berlin-brandenburg-panketal-claudia_nuernberger.webp"
+                      src="../../static/img/FAMILIE/familienfotos-berlin-brandenburg-panketal-claudia_nuernberger.jpg"
                       alt=""
                       placeholder="blurred"
                       layout="constrained"
@@ -229,7 +229,7 @@ const familie = () => (
                 <Slide {...properties2}>
                   <div style={style}>
                     <StaticImage 
-                      src="../../static/img/FAMILIE/paarfotos-berlin-brandenburg-bernau-claudia_nuernberger.webp"
+                      src="../../static/img/FAMILIE/paarfotos-berlin-brandenburg-bernau-claudia_nuernberger.jpg"
                       alt=""
                       placeholder="blurred"
                       layout="constrained"
@@ -237,7 +237,7 @@ const familie = () => (
                   </div>
                   <div style={style}>
                     <StaticImage 
-                      src="../../static/img/FAMILIE/kinderfotos-berlin-brandenburg-harz-claudia_nuernberger.webp"
+                      src="../../static/img/FAMILIE/kinderfotos-berlin-brandenburg-harz-claudia_nuernberger.jpg"
                       alt=""
                       placeholder="blurred"
                       layout="constrained"
@@ -245,7 +245,7 @@ const familie = () => (
                   </div>
                   <div style={style}>
                     <StaticImage 
-                      src="../../static/img/FAMILIE/paarfotos-berlin-brandenburg-harz-claudia_nuernberger.webp"
+                      src="../../static/img/FAMILIE/paarfotos-berlin-brandenburg-harz-claudia_nuernberger.jpg"
                       alt=""
                       placeholder="blurred"
                       layout="constrained"
@@ -253,7 +253,7 @@ const familie = () => (
                     </div>
                   <div style={style}>
                     <StaticImage 
-                      src="../../static/img/FAMILIE/familienfotos-berlin-brandenburg-bernau-claudia_nuernberger.webp"
+                      src="../../static/img/FAMILIE/familienfotos-berlin-brandenburg-bernau-claudia_nuernberger.jpg"
                       alt=""
                       placeholder="blurred"
                       layout="constrained"
@@ -261,7 +261,7 @@ const familie = () => (
                   </div>
                   <div style={style}>
                     <StaticImage 
-                      src="../../static/img/FAMILIE/familienfotos-berlin-brandenburg-harz-claudia_nuernberger.webp"
+                      src="../../static/img/FAMILIE/familienfotos-berlin-brandenburg-harz-claudia_nuernberger.jpg"
                       alt=""
                       placeholder="blurred"
                       layout="constrained"
@@ -269,7 +269,7 @@ const familie = () => (
                   </div>
                   <div style={style}>
                     <StaticImage 
-                      src="../../static/img/FAMILIE/paarfotos-berlin-brandenburg-regierungsviertel-claudia_nuernberger.webp"
+                      src="../../static/img/FAMILIE/paarfotos-berlin-brandenburg-regierungsviertel-claudia_nuernberger.jpg"
                       alt=""
                       placeholder="blurred"
                       layout="constrained"
@@ -277,7 +277,7 @@ const familie = () => (
                   </div>
                   <div style={style}>
                     <StaticImage 
-                      src="../../static/img/FAMILIE/kinderfotos-berlin-brandenburg-oranienburg-claudia_nuernberger.webp"
+                      src="../../static/img/FAMILIE/kinderfotos-berlin-brandenburg-oranienburg-claudia_nuernberger.jpg"
                       alt=""
                       placeholder="blurred"
                       layout="constrained"
@@ -285,7 +285,7 @@ const familie = () => (
                   </div>
                   <div style={style}>
                     <StaticImage 
-                      src="../../static/img/FAMILIE/familienfotos-berlin-brandenburg-panketal-claudia_nuernberger.webp"
+                      src="../../static/img/FAMILIE/familienfotos-berlin-brandenburg-panketal-claudia_nuernberger.jpg"
                       alt=""
                       placeholder="blurred"
                       layout="constrained"
@@ -297,7 +297,7 @@ const familie = () => (
                 <Slide {...properties3}>
                   <div style={style}>
                     <StaticImage 
-                      src="../../static/img/FAMILIE/paarfotos-berlin-brandenburg-bernau-claudia_nuernberger.webp"
+                      src="../../static/img/FAMILIE/paarfotos-berlin-brandenburg-bernau-claudia_nuernberger.jpg"
                       alt=""
                       placeholder="blurred"
                       layout="constrained"
@@ -305,7 +305,7 @@ const familie = () => (
                   </div>
                   <div style={style}>
                     <StaticImage 
-                      src="../../static/img/FAMILIE/kinderfotos-berlin-brandenburg-harz-claudia_nuernberger.webp"
+                      src="../../static/img/FAMILIE/kinderfotos-berlin-brandenburg-harz-claudia_nuernberger.jpg"
                       alt=""
                       placeholder="blurred"
                       layout="constrained"
@@ -313,7 +313,7 @@ const familie = () => (
                   </div>
                   <div style={style}>
                     <StaticImage 
-                      src="../../static/img/FAMILIE/paarfotos-berlin-brandenburg-harz-claudia_nuernberger.webp"
+                      src="../../static/img/FAMILIE/paarfotos-berlin-brandenburg-harz-claudia_nuernberger.jpg"
                       alt=""
                       placeholder="blurred"
                       layout="constrained"
@@ -321,7 +321,7 @@ const familie = () => (
                     </div>
                   <div style={style}>
                     <StaticImage 
-                      src="../../static/img/FAMILIE/familienfotos-berlin-brandenburg-bernau-claudia_nuernberger.webp"
+                      src="../../static/img/FAMILIE/familienfotos-berlin-brandenburg-bernau-claudia_nuernberger.jpg"
                       alt=""
                       placeholder="blurred"
                       layout="constrained"
@@ -329,7 +329,7 @@ const familie = () => (
                   </div>
                   <div style={style}>
                     <StaticImage 
-                      src="../../static/img/FAMILIE/familienfotos-berlin-brandenburg-harz-claudia_nuernberger.webp"
+                      src="../../static/img/FAMILIE/familienfotos-berlin-brandenburg-harz-claudia_nuernberger.jpg"
                       alt=""
                       placeholder="blurred"
                       layout="constrained"
@@ -337,7 +337,7 @@ const familie = () => (
                   </div>
                   <div style={style}>
                     <StaticImage 
-                      src="../../static/img/FAMILIE/paarfotos-berlin-brandenburg-regierungsviertel-claudia_nuernberger.webp"
+                      src="../../static/img/FAMILIE/paarfotos-berlin-brandenburg-regierungsviertel-claudia_nuernberger.jpg"
                       alt=""
                       placeholder="blurred"
                       layout="constrained"
@@ -345,7 +345,7 @@ const familie = () => (
                   </div>
                   <div style={style}>
                     <StaticImage 
-                      src="../../static/img/FAMILIE/kinderfotos-berlin-brandenburg-oranienburg-claudia_nuernberger.webp"
+                      src="../../static/img/FAMILIE/kinderfotos-berlin-brandenburg-oranienburg-claudia_nuernberger.jpg"
                       alt=""
                       placeholder="blurred"
                       layout="constrained"
@@ -353,7 +353,7 @@ const familie = () => (
                   </div>
                   <div style={style}>
                     <StaticImage 
-                      src="../../static/img/FAMILIE/familienfotos-berlin-brandenburg-panketal-claudia_nuernberger.webp"
+                      src="../../static/img/FAMILIE/familienfotos-berlin-brandenburg-panketal-claudia_nuernberger.jpg"
                       alt=""
                       placeholder="blurred"
                       layout="constrained"
@@ -432,7 +432,7 @@ renderArrowNext={(onClickHandler, hasNext) =>
 >
  <div>
   <StaticImage 
-    src="../../static/img/FAMILIE/kinderfotos-berlin-brandenburg-panketal-claudia_nuernberger.webp"
+    src="../../static/img/FAMILIE/kinderfotos-berlin-brandenburg-panketal-claudia_nuernberger.jpg"
     alt="" 
     placeholder="blurred"
     layout="constrained"
@@ -441,7 +441,7 @@ renderArrowNext={(onClickHandler, hasNext) =>
  </div>
  <div>
   <StaticImage 
-    src="../../static/img/FAMILIE/familienfotos-berlin-brandenburg-harz-hamburger_wappen-claudia_nuernberger.webp"
+    src="../../static/img/FAMILIE/familienfotos-berlin-brandenburg-harz-hamburger_wappen-claudia_nuernberger.jpg"
     alt="" 
     placeholder="blurred"
     layout="constrained"
@@ -450,7 +450,7 @@ renderArrowNext={(onClickHandler, hasNext) =>
  </div>
  <div>
   <StaticImage 
-    src="../../static/img/FAMILIE/kinderfotos-berlin-brandenburg-bernau-claudia_nuernberger.webp"
+    src="../../static/img/FAMILIE/kinderfotos-berlin-brandenburg-bernau-claudia_nuernberger.jpg"
     alt="" 
     placeholder="blurred"
     layout="constrained"
@@ -459,7 +459,7 @@ renderArrowNext={(onClickHandler, hasNext) =>
  </div>
  <div>
   <StaticImage 
-    src="../../static/img/FAMILIE/familienfotos-berlin-brandenburg-blankenburg-harz-claudia_nuernberger.webp"
+    src="../../static/img/FAMILIE/familienfotos-berlin-brandenburg-blankenburg-harz-claudia_nuernberger.jpg"
     alt="" 
     placeholder="blurred"
     layout="constrained"
@@ -468,7 +468,7 @@ renderArrowNext={(onClickHandler, hasNext) =>
  </div>
  <div>
   <StaticImage 
-    src="../../static/img/FAMILIE/kinderfotos-berlin-brandenburg-barnim-claudia_nuernberger.webp"
+    src="../../static/img/FAMILIE/kinderfotos-berlin-brandenburg-barnim-claudia_nuernberger.jpg"
     alt="" 
     placeholder="blurred"
     layout="constrained"
@@ -477,7 +477,7 @@ renderArrowNext={(onClickHandler, hasNext) =>
  </div>
  <div>
   <StaticImage 
-    src="../../static/img/FAMILIE/paarfotos-berlin-brandenburg-museumsinsel-claudia_nuernberger.webp"
+    src="../../static/img/FAMILIE/paarfotos-berlin-brandenburg-museumsinsel-claudia_nuernberger.jpg"
     alt="" 
     placeholder="blurred"
     layout="constrained"
@@ -486,7 +486,7 @@ renderArrowNext={(onClickHandler, hasNext) =>
  </div>
  <div>
   <StaticImage 
-    src="../../static/img/FAMILIE/paarfotos-berlin-brandenburg-claudia_nuernberger.webp"
+    src="../../static/img/FAMILIE/paarfotos-berlin-brandenburg-claudia_nuernberger.jpg"
     alt="" 
     placeholder="blurred"
     layout="constrained"
@@ -495,7 +495,7 @@ renderArrowNext={(onClickHandler, hasNext) =>
  </div>
  <div>
   <StaticImage 
-    src="../../static/img/FAMILIE/familienfotos-berlin-brandenburg-hennigsdorf-claudia_nuernberger.webp"
+    src="../../static/img/FAMILIE/familienfotos-berlin-brandenburg-hennigsdorf-claudia_nuernberger.jpg"
     alt="" 
     placeholder="blurred"
     layout="constrained"

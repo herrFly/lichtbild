@@ -50,7 +50,7 @@ const ueberMich = () => (
         <a href="https://www.instagram.com/lichtbild_enthusiastin/" target="_blank" rel="noopener noreferrer">
           <i className="fab fa-instagram" id="insta-logo"></i>
         </a>
-        <a to="https://api.whatsapp.com/send?phone=4903091579337" target="_blank" rel="noopener noreferrer">
+        <a href="https://api.whatsapp.com/send?phone=4903091579337" target="_blank" rel="noopener noreferrer">
           <i className="fab fa-whatsapp" id="whatsapp-logo"></i>
         </a>
         
