@@ -66,7 +66,7 @@ const Home = () => {
       </header>
       <main>
         <section id="starterSektion" className="banner onload-image-fade-in onload-content-fade-right - style3 fullscreen orient-right content-align-left image-position-center">
-        <Media
+        {/* <Media
             query="(max-width: 767px)"
             render={() => (
 
@@ -78,8 +78,8 @@ const Home = () => {
                 </p>
             )}
             
-          />
-       <div className="image">
+          /> */}
+       <div className="image" id="ersterAbsatz">
 
         <StaticImage 
           src="../../static/img/STARTSEITE/logo.webp"
@@ -89,17 +89,14 @@ const Home = () => {
           className="bannerImg"
         /> 
 
-          <Media
-            query="(min-width: 768px)"
-            render={() => (
+         
               <p id="imgTextDesktop" className="imgText_desktop">
                 <div id="nameBerufDesktop">
                   Claudia Nürnberger - Fotografenmeisterin
                 </div>
                 Brandenburg | Berlin | deutschlandweit
               </p>
-            )}
-          />
+    
         </div>
         </section>
         <div id="wrapper" className="divided">
