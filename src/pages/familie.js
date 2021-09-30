@@ -26,15 +26,6 @@ import MyFooter from "./../components/footer"
 
 import familiePreisliste from "../../static/img/FAMILIE/FamiliePreisliste_Final.webp"
 
-import f01 from "../../static/img/FAMILIE/paarfotos-berlin-brandenburg-bernau-claudia_nuernberger.jpg"
-import f02 from "../../static/img/FAMILIE/kinderfotos-berlin-brandenburg-harz-claudia_nuernberger.jpg"
-import f03 from "../../static/img/FAMILIE/paarfotos-berlin-brandenburg-harz-claudia_nuernberger.jpg"
-import f04 from "../../static/img/FAMILIE/familienfotos-berlin-brandenburg-bernau-claudia_nuernberger.jpg"
-import f05 from "../../static/img/FAMILIE/familienfotos-berlin-brandenburg-harz-claudia_nuernberger.jpg"
-import f06 from "../../static/img/FAMILIE/paarfotos-berlin-brandenburg-regierungsviertel-claudia_nuernberger.jpg"
-import f07 from "../../static/img/FAMILIE/kinderfotos-berlin-brandenburg-oranienburg-claudia_nuernberger.jpg"
-import f08 from "../../static/img/FAMILIE/familienfotos-berlin-brandenburg-panketal-claudia_nuernberger.jpg"
-
 import f09 from "../../static/img/FAMILIE/kinderfotos-berlin-brandenburg-panketal-claudia_nuernberger.jpg"
 import f10 from "../../static/img/FAMILIE/familienfotos-berlin-brandenburg-harz-hamburger_wappen-claudia_nuernberger.jpg"
 import f11 from "../../static/img/FAMILIE/kinderfotos-berlin-brandenburg-bernau-claudia_nuernberger.jpg"
@@ -86,13 +77,6 @@ const properties3 = {
   prevArrow: <div style={{width: "30px", marginRight: "-30px", marginTop: "4rem"}}><i className="fas fa-chevron-circle-left" id="leftArrowHZ1"></i></div>,
   nextArrow: <div style={{width: "30px", marginLeft: "-2.8rem", marginTop: "4rem"}}><i className="fas fa-chevron-circle-right"></i></div>
 
-  // arrow rechts
-  //    /* margin-right: 0rem; */
-  //margin-left: -26rem;
-  /* margin-bottom: -8rem; */
-  //margin-top: 22.8rem;
-
-  //arrow links
 
 }
 const arrowStylesNext = {
@@ -165,6 +149,7 @@ const familie = () => (
                       alt=""
                       placeholder="blurred"
                       layout="constrained"
+
                     /> 
                   </div>
                   <div style={style}>
@@ -411,7 +396,7 @@ const familie = () => (
               {matches.small && (
  <Carousel
  infiniteLoop
- showThumbs={true}
+ showThumbs={false}
  dynamicHeight={false}
  showStatus={false}
  showIndicators={false}
@@ -431,6 +416,7 @@ renderArrowNext={(onClickHandler, hasNext) =>
 }
 >
  <div>
+   
   <StaticImage 
     src="../../static/img/FAMILIE/kinderfotos-berlin-brandenburg-panketal-claudia_nuernberger.jpg"
     alt="" 

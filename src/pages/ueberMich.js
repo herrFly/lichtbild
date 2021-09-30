@@ -2,9 +2,6 @@ import React from "react"
 import { Helmet } from "react-helmet"
 import { Link } from "gatsby"
 
-import { StaticImage } from "gatsby-plugin-image"
-
-
 import "@fontsource/lato/300.css"
 
 import { slide as Menu } from "react-burger-menu"
@@ -16,6 +13,7 @@ import "../../static/assets/css/fontawesome-all.min.css"
 import MyForm from "./kontakt"
 import MyFooter from "../components/footer"
 
+import ubermich from "../../static/img/PROFIL/UeberMich.webp"
 
 const ueberMich = () => (
   <>
@@ -61,16 +59,11 @@ const ueberMich = () => (
     <header></header>
     <main>
       <div id="wrapper" className="divided">
-      <section className="wrapper style1 align-center">
-        <StaticImage 
-          src="../../static/img/PROFIL/UeberMich.webp"
-          alt=""
-          placeholder="blurred"
-          layout="constrained"
-        /> 
+        <section className="wrapper style1 align-center">
+          <img id="uebermichPic" src={ubermich}></img> 
 
-          <MyForm />
-          <MyFooter />
+        <MyForm />
+        <MyFooter />
         </section>
       </div>
     </main>

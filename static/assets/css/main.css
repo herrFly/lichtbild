@@ -410,10 +410,12 @@ a:focus{
   line-height: 1.3;
 }
 
-.bannerImg {
+
+
+/* .bannerImg {
   margin-right: 0rem !important;
   height: 23rem;
-}
+} */
 
 #nameBeruf {
   font-size: 1.15rem;
@@ -479,13 +481,16 @@ a:focus{
   } */
 }
 
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 415px) {
   /* .bannerImg {
     width: 100%!important;
     
-  } */
+  }
+.banner.style3.fullscreen {
+    min-height: 95vh;
 }
-
+ */
+}
 
 /**
 * Remove focus styles for non-keyboard :focus.
@@ -4543,7 +4548,7 @@ border-style: solid;
 }
 
 .banner.style3.fullscreen {
-  min-height: 90vh;
+  min-height: 95vh;
 }
 
 .banner.style3.orient-left {

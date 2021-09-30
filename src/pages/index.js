@@ -1,13 +1,13 @@
 import React from "react"
 import { Helmet } from "react-helmet"
 import { Link } from "gatsby"
-import { graphql,useStaticQuery } from "gatsby"
-import { GatsbyImage, StaticImage, getImage } from "gatsby-plugin-image"
+import { StaticImage } from "gatsby-plugin-image"
 
 import { slide as Menu } from "react-burger-menu"
 import Media from "react-media"
 
 import "@fontsource/lato/300.css"
+
 
 import "../../static/assets/css/main.css"
 import "../../static/assets/css/noscript.css"
@@ -65,7 +65,7 @@ const Home = () => {
         ></script>
       </header>
       <main>
-        <section className="banner onload-image-fade-in onload-content-fade-right - style3 fullscreen orient-right content-align-left image-position-center">
+        <section id="starterSektion" className="banner onload-image-fade-in onload-content-fade-right - style3 fullscreen orient-right content-align-left image-position-center">
         <Media
             query="(max-width: 767px)"
             render={() => (
@@ -100,7 +100,7 @@ const Home = () => {
               </p>
             )}
           />
-                        </div>
+        </div>
         </section>
         <div id="wrapper" className="divided">
           <section className="banner onload-image-fade-in onload-content-fade-right - style3 fullscreen orient-right content-align-left image-position-center">
@@ -152,6 +152,7 @@ const Home = () => {
               placeholder="blurred"
               layout="constrained"
               quality="100"
+              id="portraitStartseite"
             /> 
              {/*  //<GatsbyImage image={data.childImageSharp.gatsbyImageData}alt="Team Meeting" />
               <img
@@ -186,7 +187,7 @@ const Home = () => {
             </div>
             <div className="image rahmen">
             <StaticImage 
-              src="../../static/img/STARTSEITE/claudia_nuernberger-berlin-fotografin.webp"
+              src="../../static/img/STARTSEITE/startseite-familie-claudia_nuernberger.webp"
               alt=""
               placeholder="blurred"
               layout="fullWidth"
@@ -219,7 +220,7 @@ const Home = () => {
             </div>
             <div className="image rahmen">
             <StaticImage 
-              src="../../static/img/STARTSEITE/claudia_nuernberger-berlin-fotografin.webp"
+              src="../../static/img/STARTSEITE/startseite-hochzeit-claudia_nuernberger.webp"
               alt=""
               placeholder="blurred"
               layout="fullWidth"
@@ -252,7 +253,7 @@ const Home = () => {
             </div>
             <div className="image rahmen">
             <StaticImage 
-              src="../../static/img/STARTSEITE/claudia_nuernberger-berlin-fotografin.webp"
+              src="../../static/img/STARTSEITE/startseite-babybauch-claudia_nuernberger.webp"
               alt=""
               placeholder="blurred"
               layout="fullWidth"
@@ -285,7 +286,7 @@ const Home = () => {
             </div>
             <div className="image rahmen">
             <StaticImage 
-              src="../../static/img/STARTSEITE/claudia_nuernberger-berlin-fotografin.webp"
+              src="../../static/img/STARTSEITE/spotlightHunde.webp"
               alt=""
               placeholder="blurred"
               layout="fullWidth"

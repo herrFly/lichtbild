@@ -1,6 +1,7 @@
 import React from "react"
 import { Helmet } from "react-helmet"
 import { Link } from "gatsby"
+import { StaticImage } from "gatsby-plugin-image"
 
 import Media from "react-media"
 
@@ -24,17 +25,6 @@ import MyFooter from "./../components/footer"
 
 import hochzeit_preisliste from "./../../static/img/HZ/Preisliste Hochzeit_Final.webp"
 
-import hz11 from "../../static/img/HZ/hochzeitsfotos-berlin-brandenburg-bernau-claudia_nuernberger-01.webp"
-import hz12 from "../../static/img/HZ/hochzeitsfotos-berlin-brandenburg-standesamt_reinickendorf-claudia_nuernberger-02.webp"
-import hz13 from "../../static/img/HZ/hochzeitsfotos-berlin-brandenburg-luxemburg-claudia_nuernberger-01.webp"
-import hz14 from "../../static/img/HZ/hochzeitsfotos-berlin-brandenburg-harz-claudia_nuernberger.webp"
-import hz15 from "../../static/img/HZ/hochzeitsfotos-berlin-brandenburg-bernau-claudia_nuernberger-02.webp"
-import hz16 from "../../static/img/HZ/hochzeitsfotos-berlin-brandenburg-usbekistan_taschkent-claudia_nuernberger-04.webp"
-import hz17 from "../../static/img/HZ/hochzeitsfotos-berlin-brandenburg-usbekistan_taschkent-claudia_nuernberger-03.webp"
-import hz18 from "../../static/img/HZ/hochzeitsfotos-berlin-brandenburg-standesamt_reinickendorf-claudia_nuernberger-01.webp"
-import hz19 from "../../static/img/HZ/hochzeitsfotos-berlin-brandenburg-potsdam-claudia_nuernberger-01.webp"
-import hz20 from "../../static/img/HZ/hochzeitsfotos-berlin-brandenburg-usbekistan_taschkent-claudia_nuernberger-02.webp"
-
 import hz01 from "../../static/img/HZ/hochzeitsfotos-berlin-brandenburg-bernau-claudia_nuernberger-03.webp"
 import hz02 from "../../static/img/HZ/hochzeitsfotos-berlin-brandenburg-panketal-claudia_nuernberger.webp"
 import hz03 from "../../static/img/HZ/hochzeitsfotos-berlin-brandenburg-luxemburg-claudia_nuernberger-02.webp"
@@ -44,18 +34,8 @@ import hz06 from "../../static/img/HZ/hochzeitsfotos-berlin-brandenburg-hochzeit
 import hz07 from "../../static/img/HZ/hochzeitsfotos-berlin-brandenburg-potsdam-claudia_nuernberger-03.webp"
 import hz08 from "../../static/img/HZ/hochzeitsfotos-berlin-brandenburg-usbekistan_taschkent-claudia_nuernberger-01.webp"
 import hz09 from "../../static/img/HZ/hochzeitsfotos-berlin-brandenburg-potsdam-claudia_nuernberger-02.webp"
-import hz10 from "../../static/img/HZ/hochzeitsfotos-berlin-brandenburg-usbekistan_taschkent-claudia_nuernberger-05.webp"
 import hz21 from "../../static/img/HZ/hochzeitsfotos-berlin-brandenburg-claudia_nuernberger10.webp"
 
-// const slideRef = useRef()
-
-// const back = () => {
-//   slideRef.current.goBack()
-// }
-
-// const next = () => {
-//   slideRef.current.goNext()
-// }
 
 const style = {
   textAlign: "center",
@@ -63,46 +43,6 @@ const style = {
   padding: "4rem 0px 0px 0px",
   fontSize: "0px",
 }
-
-// var intFrameHeight = window.innerHeight;
-// let intViewportWidth = window.innerWidth;
-
-// function ermittleAnzahl(bildschirmbreite){
-//   let ergebnis;
-//   if (bildschirmbreite < 767){
-//     ergebnis = 1;
-//   } else if (bildschirmbreite > 767 && bildschirmbreite < 1079){
-//     ergebnis = 2;
-//   } else if (bildschirmbreite > 1079 && bildschirmbreite < 1679 ){
-//     ergebnis = 3;
-//   } else if (bildschirmbreite > 1679 ){
-//     ergebnis = 4;
-//   }
-//   console.log(" ergebnis: " + ergebnis)
-//   return ergebnis
-// }
-
-// function ermittleAutoplay(bildschirmbreite){
-//   let ergebnis;
-//   if (bildschirmbreite < 1079){
-//     ergebnis = false;
-//   } else if (bildschirmbreite > 1079){
-//     ergebnis = true;
-//   }
-//   console.log(" ergebnis: " + ergebnis)
-//   return ergebnis
-// }
-
-// console.log(intViewportWidth + " width ")
-// console.log(intFrameHeight + " height ")
-
-// const properties = {
-//   duration: 3000,
-//   slidesToShow: ermittleAnzahl(intViewportWidth),
-//   slidesToScroll: 1,
-//   autoplay: ermittleAutoplay(intViewportWidth),
-//   indicators: true,
-// };
 
 const properties1 = {
   duration: 3000,
@@ -137,14 +77,6 @@ const properties3 = {
   arrows: true,
   prevArrow: <div style={{width: "30px", marginRight: "-30px", marginTop: "4rem"}}><i className="fas fa-chevron-circle-left" id="leftArrowHZ1"></i></div>,
   nextArrow: <div style={{width: "30px", marginLeft: "-2.8rem", marginTop: "4rem"}}><i className="fas fa-chevron-circle-right"></i></div>
-
-  // arrow rechts
-  //    /* margin-right: 0rem; */
-  //margin-left: -26rem;
-  /* margin-bottom: -8rem; */
-  //margin-top: 22.8rem;
-
-  //arrow links
 
 }
 
@@ -214,102 +146,252 @@ const hochzeiten = () => (
               {matches.small && (
                 <Slide {...properties1}>
                   <div style={style}>
-                    <img src={hz11} />
+                    <StaticImage 
+                      src="../../static/img/HZ/hochzeitsfotos-berlin-brandenburg-bernau-claudia_nuernberger-01.webp"
+                      alt=""
+                      placeholder="blurred"
+                      layout="constrained"
+                    /> 
                   </div>
                   <div style={style}>
-                    <img src={hz12} />
+                    <StaticImage 
+                      src="../../static/img/HZ/hochzeitsfotos-berlin-brandenburg-standesamt_reinickendorf-claudia_nuernberger-02.webp"
+                      alt=""
+                      placeholder="blurred"
+                      layout="constrained"
+                    /> 
                   </div>
                   <div style={style}>
-                    <img src={hz13} />
+                    <StaticImage 
+                      src="../../static/img/HZ/hochzeitsfotos-berlin-brandenburg-luxemburg-claudia_nuernberger-01.webp"
+                      alt=""
+                      placeholder="blurred"
+                      layout="constrained"
+                    /> 
                   </div>
                   <div style={style}>
-                    <img src={hz14} />
+                    <StaticImage 
+                      src="../../static/img/HZ/hochzeitsfotos-berlin-brandenburg-harz-claudia_nuernberger.webp"
+                      alt=""
+                      placeholder="blurred"
+                      layout="constrained"
+                    /> 
                   </div>
                   <div style={style}>
-                    <img src={hz15} />
+                    <StaticImage 
+                      src="../../static/img/HZ/hochzeitsfotos-berlin-brandenburg-bernau-claudia_nuernberger-02.webp"
+                      alt=""
+                      placeholder="blurred"
+                      layout="constrained"
+                    /> 
                   </div>
                   <div style={style}>
-                    <img src={hz16} />
+                    <StaticImage 
+                      src="../../static/img/HZ/hochzeitsfotos-berlin-brandenburg-usbekistan_taschkent-claudia_nuernberger-04.webp"
+                      alt=""
+                      placeholder="blurred"
+                      layout="constrained"
+                    /> 
                   </div>
                   <div style={style}>
-                    <img src={hz17} />
+                    <StaticImage 
+                      src="../../static/img/HZ/hochzeitsfotos-berlin-brandenburg-usbekistan_taschkent-claudia_nuernberger-03.webp"
+                      alt=""
+                      placeholder="blurred"
+                      layout="constrained"
+                    /> 
                   </div>
                   <div style={style}>
-                    <img src={hz18} />
+                    <StaticImage 
+                      src="../../static/img/HZ/hochzeitsfotos-berlin-brandenburg-standesamt_reinickendorf-claudia_nuernberger-01.webp"
+                      alt=""
+                      placeholder="blurred"
+                      layout="constrained"
+                    /> 
                   </div>
                   <div style={style}>
-                    <img src={hz19} />
+                    <StaticImage 
+                      src="../../static/img/HZ/hochzeitsfotos-berlin-brandenburg-potsdam-claudia_nuernberger-01.webp"
+                      alt=""
+                      placeholder="blurred"
+                      layout="constrained"
+                    /> 
                   </div>
                   <div style={style}>
-                    <img src={hz20} />
+                    <StaticImage 
+                      src="../../static/img/HZ/hochzeitsfotos-berlin-brandenburg-usbekistan_taschkent-claudia_nuernberger-02.webp"
+                      alt=""
+                      placeholder="blurred"
+                      layout="constrained"
+                    /> 
                   </div>
                 </Slide>
               )}
               {matches.medium && (
                 <Slide {...properties2}>
                   <div style={style}>
-                    <img src={hz11} />
+                    <StaticImage 
+                      src="../../static/img/HZ/hochzeitsfotos-berlin-brandenburg-bernau-claudia_nuernberger-01.webp"
+                      alt=""
+                      placeholder="blurred"
+                      layout="constrained"
+                    /> 
                   </div>
                   <div style={style}>
-                    <img src={hz12} />
+                    <StaticImage 
+                      src="../../static/img/HZ/hochzeitsfotos-berlin-brandenburg-standesamt_reinickendorf-claudia_nuernberger-02.webp"
+                      alt=""
+                      placeholder="blurred"
+                      layout="constrained"
+                    /> 
                   </div>
                   <div style={style}>
-                    <img src={hz13} />
+                    <StaticImage 
+                      src="../../static/img/HZ/hochzeitsfotos-berlin-brandenburg-luxemburg-claudia_nuernberger-01.webp"
+                      alt=""
+                      placeholder="blurred"
+                      layout="constrained"
+                    /> 
                   </div>
                   <div style={style}>
-                    <img src={hz14} />
+                    <StaticImage 
+                      src="../../static/img/HZ/hochzeitsfotos-berlin-brandenburg-harz-claudia_nuernberger.webp"
+                      alt=""
+                      placeholder="blurred"
+                      layout="constrained"
+                    /> 
                   </div>
                   <div style={style}>
-                    <img src={hz15} />
+                    <StaticImage 
+                      src="../../static/img/HZ/hochzeitsfotos-berlin-brandenburg-bernau-claudia_nuernberger-02.webp"
+                      alt=""
+                      placeholder="blurred"
+                      layout="constrained"
+                    /> 
                   </div>
                   <div style={style}>
-                    <img src={hz16} />
+                    <StaticImage 
+                      src="../../static/img/HZ/hochzeitsfotos-berlin-brandenburg-usbekistan_taschkent-claudia_nuernberger-04.webp"
+                      alt=""
+                      placeholder="blurred"
+                      layout="constrained"
+                    /> 
                   </div>
                   <div style={style}>
-                    <img src={hz17} />
+                    <StaticImage 
+                      src="../../static/img/HZ/hochzeitsfotos-berlin-brandenburg-usbekistan_taschkent-claudia_nuernberger-03.webp"
+                      alt=""
+                      placeholder="blurred"
+                      layout="constrained"
+                    /> 
                   </div>
                   <div style={style}>
-                    <img src={hz18} />
+                    <StaticImage 
+                      src="../../static/img/HZ/hochzeitsfotos-berlin-brandenburg-standesamt_reinickendorf-claudia_nuernberger-01.webp"
+                      alt=""
+                      placeholder="blurred"
+                      layout="constrained"
+                    /> 
                   </div>
                   <div style={style}>
-                    <img src={hz19} />
+                    <StaticImage 
+                      src="../../static/img/HZ/hochzeitsfotos-berlin-brandenburg-potsdam-claudia_nuernberger-01.webp"
+                      alt=""
+                      placeholder="blurred"
+                      layout="constrained"
+                    /> 
                   </div>
                   <div style={style}>
-                    <img src={hz20} />
+                    <StaticImage 
+                      src="../../static/img/HZ/hochzeitsfotos-berlin-brandenburg-usbekistan_taschkent-claudia_nuernberger-02.webp"
+                      alt=""
+                      placeholder="blurred"
+                      layout="constrained"
+                    /> 
                   </div>
                 </Slide>
               )}
               {matches.large && (
                 <Slide {...properties3}>
                   <div style={style}>
-                    <img src={hz11} />
+                    <StaticImage 
+                      src="../../static/img/HZ/hochzeitsfotos-berlin-brandenburg-bernau-claudia_nuernberger-01.webp"
+                      alt=""
+                      placeholder="blurred"
+                      layout="constrained"
+                    /> 
                   </div>
                   <div style={style}>
-                    <img src={hz12} />
+                    <StaticImage 
+                      src="../../static/img/HZ/hochzeitsfotos-berlin-brandenburg-standesamt_reinickendorf-claudia_nuernberger-02.webp"
+                      alt=""
+                      placeholder="blurred"
+                      layout="constrained"
+                    /> 
                   </div>
                   <div style={style}>
-                    <img src={hz13} />
+                    <StaticImage 
+                      src="../../static/img/HZ/hochzeitsfotos-berlin-brandenburg-luxemburg-claudia_nuernberger-01.webp"
+                      alt=""
+                      placeholder="blurred"
+                      layout="constrained"
+                    /> 
                   </div>
                   <div style={style}>
-                    <img src={hz14} />
+                    <StaticImage 
+                      src="../../static/img/HZ/hochzeitsfotos-berlin-brandenburg-harz-claudia_nuernberger.webp"
+                      alt=""
+                      placeholder="blurred"
+                      layout="constrained"
+                    /> 
                   </div>
                   <div style={style}>
-                    <img src={hz15} />
+                    <StaticImage 
+                      src="../../static/img/HZ/hochzeitsfotos-berlin-brandenburg-bernau-claudia_nuernberger-02.webp"
+                      alt=""
+                      placeholder="blurred"
+                      layout="constrained"
+                    /> 
                   </div>
                   <div style={style}>
-                    <img src={hz16} />
+                    <StaticImage 
+                      src="../../static/img/HZ/hochzeitsfotos-berlin-brandenburg-usbekistan_taschkent-claudia_nuernberger-04.webp"
+                      alt=""
+                      placeholder="blurred"
+                      layout="constrained"
+                    /> 
                   </div>
                   <div style={style}>
-                    <img src={hz17} />
+                    <StaticImage 
+                      src="../../static/img/HZ/hochzeitsfotos-berlin-brandenburg-usbekistan_taschkent-claudia_nuernberger-03.webp"
+                      alt=""
+                      placeholder="blurred"
+                      layout="constrained"
+                    /> 
                   </div>
                   <div style={style}>
-                    <img src={hz18} />
+                    <StaticImage 
+                      src="../../static/img/HZ/hochzeitsfotos-berlin-brandenburg-standesamt_reinickendorf-claudia_nuernberger-01.webp"
+                      alt=""
+                      placeholder="blurred"
+                      layout="constrained"
+                    /> 
                   </div>
                   <div style={style}>
-                    <img src={hz19} />
+                    <StaticImage 
+                      src="../../static/img/HZ/hochzeitsfotos-berlin-brandenburg-potsdam-claudia_nuernberger-01.webp"
+                      alt=""
+                      placeholder="blurred"
+                      layout="constrained"
+                    /> 
                   </div>
                   <div style={style}>
-                    <img src={hz20} />
+                    <StaticImage 
+                      src="../../static/img/HZ/hochzeitsfotos-berlin-brandenburg-usbekistan_taschkent-claudia_nuernberger-02.webp"
+                      alt=""
+                      placeholder="blurred"
+                      layout="constrained"
+                    /> 
                   </div>
                 </Slide>
               )}
@@ -380,7 +462,7 @@ const hochzeiten = () => (
               {matches.small && (
                        <Carousel
             infiniteLoop
-            showThumbs={true}
+            showThumbs={false}
             dynamicHeight={false}
             showStatus={false}
             showIndicators={false}
@@ -431,10 +513,6 @@ const hochzeiten = () => (
               <img src={hz08} />
               <p className="legend">Legend 3</p>
             </div>
-            {/* <div>
-              <img src={hz09} />
-              <p className="legend">Legend 3</p>
-            </div> */}
             <div>
               <img src={hz21} />
               <p className="legend">Legend 3</p>

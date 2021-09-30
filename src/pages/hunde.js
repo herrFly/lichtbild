@@ -1,6 +1,7 @@
 import React from "react"
 import { Helmet } from "react-helmet"
 import { Link } from "gatsby"
+import { StaticImage } from "gatsby-plugin-image"
 
 import Media from "react-media"
 
@@ -23,15 +24,6 @@ import MyForm from "./../pages/kontakt"
 import MyFooter from "./../components/footer"
 
 import hundePreislsite from "./../../static/img/HUNDE/Hunde Preisliste_Final.webp"
-
-// bilder import
-import hund1 from "../../static/img/HUNDE/hund-japan_spitz-berlin-brandenburg-hundefotograf.webp"
-import hund2 from "../../static/img/HUNDE/hund-border_collie-australian_shepherd-berlin-brandenburg-hundefotograf.webp"
-import hund3 from "../../static/img/HUNDE/hund-frenchie_pei-chinese_shar_pei-french_bulldog-berlin-brandenburg-hundefotograf.webp"
-import hund4 from "../../static/img/HUNDE/hund-shiba_inu-berlin-brandenburg-hundefotografin-claudia_nuernberger.webp"
-import hund5 from "../../static/img/HUNDE/hund-deutscher_schaeferhund-schutzhundausbildung-berlin-brandenburg-hundefotograf.webp"
-import hund6 from "../../static/img/HUNDE/hund-chihuahua-berlin-brandenburg-hundefotograf.webp"
-import hund7 from "../../static/img/HUNDE/hund-labrador-berlin-brandenburg-hundefotograf.webp"
 
 import hund8 from "../../static/img/HUNDE/hund-chihuahua-berlin-brandenburg-hundefotografin.webp"
 import hund9 from "../../static/img/HUNDE/hund-harzer_fuchs-berlin-brandenburg-hundefotograf.webp"
@@ -160,75 +152,180 @@ const hunde = () => (
               {matches.small && (
                 <Slide {...properties1}>
                   <div style={style}>
-                    <img src={hund1} />
+                    <StaticImage 
+                      src="../../static/img/HUNDE/hund-japan_spitz-berlin-brandenburg-hundefotograf.webp"
+                      alt=""
+                      placeholder="blurred"
+                      layout="constrained"
+                    /> 
                   </div>
                   <div style={style}>
-                    <img src={hund2} />
+                    <StaticImage 
+                      src="../../static/img/HUNDE/hund-border_collie-australian_shepherd-berlin-brandenburg-hundefotograf.webp"
+                      alt=""
+                      placeholder="blurred"
+                      layout="constrained"
+                    /> 
                   </div>
                   <div style={style}>
-                    <img src={hund3} />
+                    <StaticImage 
+                      src="../../static/img/HUNDE/hund-frenchie_pei-chinese_shar_pei-french_bulldog-berlin-brandenburg-hundefotograf.webp"
+                      alt=""
+                      placeholder="blurred"
+                      layout="constrained"
+                    /> 
                   </div>
                   <div style={style}>
-                    <img src={hund4} />
+                    <StaticImage 
+                      src="../../static/img/HUNDE/hund-shiba_inu-berlin-brandenburg-hundefotografin-claudia_nuernberger.webp"
+                      alt=""
+                      placeholder="blurred"
+                      layout="constrained"
+                    /> 
                   </div>
                   <div style={style}>
-                    <img src={hund5} />
+                    <StaticImage 
+                      src="../../static/img/HUNDE/hund-deutscher_schaeferhund-schutzhundausbildung-berlin-brandenburg-hundefotograf.webp"
+                      alt=""
+                      placeholder="blurred"
+                      layout="constrained"
+                    /> 
                   </div>
                   <div style={style}>
-                    <img src={hund6} />
+                    <StaticImage 
+                      src="../../static/img/HUNDE/hund-chihuahua-berlin-brandenburg-hundefotograf.webp"
+                      alt=""
+                      placeholder="blurred"
+                      layout="constrained"
+                    /> 
                   </div>
                   <div style={style}>
-                    <img src={hund7} />
+                    <StaticImage 
+                      src="../../static/img/HUNDE/hund-labrador-berlin-brandenburg-hundefotograf.webp"
+                      alt=""
+                      placeholder="blurred"
+                      layout="constrained"
+                    /> 
                   </div>
                 </Slide>
               )}
               {matches.medium && (
                 <Slide {...properties2}>
-                   <div style={style}>
-                    <img src={hund1} />
+                  <div style={style}>
+                    <StaticImage 
+                      src="../../static/img/HUNDE/hund-japan_spitz-berlin-brandenburg-hundefotograf.webp"
+                      alt=""
+                      placeholder="blurred"
+                      layout="constrained"
+                    /> 
                   </div>
                   <div style={style}>
-                    <img src={hund2} />
+                    <StaticImage 
+                      src="../../static/img/HUNDE/hund-border_collie-australian_shepherd-berlin-brandenburg-hundefotograf.webp"
+                      alt=""
+                      placeholder="blurred"
+                      layout="constrained"
+                    /> 
                   </div>
                   <div style={style}>
-                    <img src={hund3} />
+                    <StaticImage 
+                      src="../../static/img/HUNDE/hund-frenchie_pei-chinese_shar_pei-french_bulldog-berlin-brandenburg-hundefotograf.webp"
+                      alt=""
+                      placeholder="blurred"
+                      layout="constrained"
+                    /> 
                   </div>
                   <div style={style}>
-                    <img src={hund4} />
+                    <StaticImage 
+                      src="../../static/img/HUNDE/hund-shiba_inu-berlin-brandenburg-hundefotografin-claudia_nuernberger.webp"
+                      alt=""
+                      placeholder="blurred"
+                      layout="constrained"
+                    /> 
                   </div>
                   <div style={style}>
-                    <img src={hund5} />
+                    <StaticImage 
+                      src="../../static/img/HUNDE/hund-deutscher_schaeferhund-schutzhundausbildung-berlin-brandenburg-hundefotograf.webp"
+                      alt=""
+                      placeholder="blurred"
+                      layout="constrained"
+                    /> 
                   </div>
                   <div style={style}>
-                    <img src={hund6} />
+                    <StaticImage 
+                      src="../../static/img/HUNDE/hund-chihuahua-berlin-brandenburg-hundefotograf.webp"
+                      alt=""
+                      placeholder="blurred"
+                      layout="constrained"
+                    /> 
                   </div>
                   <div style={style}>
-                    <img src={hund7} />
+                    <StaticImage 
+                      src="../../static/img/HUNDE/hund-labrador-berlin-brandenburg-hundefotograf.webp"
+                      alt=""
+                      placeholder="blurred"
+                      layout="constrained"
+                    /> 
                   </div>
                 </Slide>
               )}
               {matches.large && (
                 <Slide {...properties3}>
-                   <div style={style}>
-                    <img src={hund1} />
+                  <div style={style}>
+                    <StaticImage 
+                      src="../../static/img/HUNDE/hund-japan_spitz-berlin-brandenburg-hundefotograf.webp"
+                      alt=""
+                      placeholder="blurred"
+                      layout="constrained"
+                    /> 
                   </div>
                   <div style={style}>
-                    <img src={hund2} />
+                    <StaticImage 
+                      src="../../static/img/HUNDE/hund-border_collie-australian_shepherd-berlin-brandenburg-hundefotograf.webp"
+                      alt=""
+                      placeholder="blurred"
+                      layout="constrained"
+                    /> 
                   </div>
                   <div style={style}>
-                    <img src={hund3} />
+                    <StaticImage 
+                      src="../../static/img/HUNDE/hund-frenchie_pei-chinese_shar_pei-french_bulldog-berlin-brandenburg-hundefotograf.webp"
+                      alt=""
+                      placeholder="blurred"
+                      layout="constrained"
+                    /> 
                   </div>
                   <div style={style}>
-                    <img src={hund4} />
+                    <StaticImage 
+                      src="../../static/img/HUNDE/hund-shiba_inu-berlin-brandenburg-hundefotografin-claudia_nuernberger.webp"
+                      alt=""
+                      placeholder="blurred"
+                      layout="constrained"
+                    /> 
                   </div>
                   <div style={style}>
-                    <img src={hund5} />
+                    <StaticImage 
+                      src="../../static/img/HUNDE/hund-deutscher_schaeferhund-schutzhundausbildung-berlin-brandenburg-hundefotograf.webp"
+                      alt=""
+                      placeholder="blurred"
+                      layout="constrained"
+                    /> 
                   </div>
                   <div style={style}>
-                    <img src={hund6} />
+                    <StaticImage 
+                      src="../../static/img/HUNDE/hund-chihuahua-berlin-brandenburg-hundefotograf.webp"
+                      alt=""
+                      placeholder="blurred"
+                      layout="constrained"
+                    /> 
                   </div>
                   <div style={style}>
-                    <img src={hund7} />
+                    <StaticImage 
+                      src="../../static/img/HUNDE/hund-labrador-berlin-brandenburg-hundefotograf.webp"
+                      alt=""
+                      placeholder="blurred"
+                      layout="constrained"
+                    /> 
                   </div>
                 </Slide>
               )}
