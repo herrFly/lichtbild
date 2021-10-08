@@ -1,6 +1,5 @@
 @import url(fontawesome-all.min.css);
 
-
 /*
 @import url("https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,300i,400,400i");
 
@@ -165,11 +164,9 @@ textarea {
 .button,
 button,
 a,
-Link{
+Link {
   -webkit-tap-highlight-color: transparent;
 }
-
-
 
 /* Basic */
 
@@ -217,20 +214,19 @@ body.is-preload *:after {
 
 /* CCCS */
 :focus {
-  outline: none!important;
+  outline: none !important;
 }
 
-.bm-burger-button:focus{
-  box-shadow:none!important;
-  outline:none!important;
+.bm-burger-button:focus {
+  box-shadow: none !important;
+  outline: none !important;
 }
 
-.rightArrowCarousel{
+.rightArrowCarousel {
   margin-left: 16rem;
-  
 }
 
-.leftArrowCarousel{
+.leftArrowCarousel {
   margin-left: -8.6rem;
 }
 
@@ -239,7 +235,7 @@ body.is-preload *:after {
   color: white;
 }
 
-#leftArrowHZ1{
+#leftArrowHZ1 {
   margin-left: 0.4rem;
 }
 
@@ -251,17 +247,16 @@ body.is-preload *:after {
   box-shadow: none !important;
 }
 
-#insta-logo{
-	font-size: 1.5rem;
+#insta-logo {
+  font-size: 1.5rem;
 }
 
-#whatsapp-logo{
-	font-size: 1.5rem;
+#whatsapp-logo {
+  font-size: 1.5rem;
 }
 
-.preislisten{
-  width: 100%;/*für mobile formate perfekte größe*/
-
+.preislisten {
+  width: 100%; /*für mobile formate perfekte größe*/
 }
 
 .hochkantCarousel {
@@ -272,22 +267,19 @@ body.is-preload *:after {
   margin-left: 28.8rem!important;
 } */
 
-#uebermichPic{
-  width: 100%;/*für mobile formate perfekte größe*/
-
+#uebermichPic {
+  width: 100%; /*für mobile formate perfekte größe*/
 }
 
-.slider img{
-  
+.slider img {
   width: 100%;
 }
 
 @media screen and (min-width: 1440px) {
-
-  .preislisten{
+  .preislisten {
     width: 50%;
-  }  
-  #uebermichPic{
+  }
+  #uebermichPic {
     width: 50%;
   }
 }
@@ -299,29 +291,26 @@ body.is-preload *:after {
   height: 30px;
   left: 36px;
   top: 1.2rem;
-
 }
 
-.menu-item:focus{
-  background: white!important;
-  outline: none!important;
-  box-shadow: none!important;
+.menu-item:focus {
+  background: white !important;
+  outline: none !important;
+  box-shadow: none !important;
 }
 
-.button:focus{
-  background: white!important;
-  outline: none!important;
-  box-shadow: none!important;
-
+.button:focus {
+  background: white !important;
+  outline: none !important;
+  box-shadow: none !important;
 }
-a:focus{
-  background: white!important;
-  outline: none!important;
-  box-shadow: none!important;
-
+a:focus {
+  background: white !important;
+  outline: none !important;
+  box-shadow: none !important;
 }
 
-.ueberschriftFAQ{
+.ueberschriftFAQ {
   padding-top: 5rem;
 }
 
@@ -382,8 +371,8 @@ a:focus{
   display: inline-block;
 }
 
-.bm-item:active{
-  color: #ccbdb4!important;
+.bm-item:active {
+  color: #ccbdb4 !important;
 }
 
 /* Styling of overlay */
@@ -398,10 +387,8 @@ a:focus{
   font-size: 0.9rem;
 }
 
-
 .imgText_mobile p {
-     text-align: center;
-   
+  text-align: center;
 }
 
 #buttonsBanner {
@@ -411,8 +398,6 @@ a:focus{
 #bannerText {
   line-height: 1.3;
 }
-
-
 
 /* .bannerImg {
   margin-right: 0rem !important;
@@ -435,13 +420,13 @@ a:focus{
   margin-top: 2rem;
 }
 
-.slide.selected{
+.slide.selected {
   padding-left: 0;
 }
 
-@media screen and (max-width: 2560px){
-  .carousel.carousel-slider{
-    margin-left: 28.8rem!important;
+@media screen and (max-width: 2560px) {
+  .carousel.carousel-slider {
+    margin-left: 28.8rem !important;
   }
   /* .bannerImg{
     width: 25%!important;
@@ -454,11 +439,10 @@ a:focus{
     width: 32%!important;
     margin-left: 22.6rem;
     } */
-  
 }
 
 @media screen and (max-width: 1440px) {
-/* .bannerImg{
+  /* .bannerImg{
     width: 33%!important;
 } */
 }
@@ -467,17 +451,23 @@ a:focus{
   /* .bannerImg {
     width: 40%!important;
   } */
-  .bm-burger-button{
+  .bm-burger-button {
     left: 21.5px;
     top: 1.1rem;
   }
-  #uebermichPic{
+  #uebermichPic {
     padding-top: 4rem;
   }
 }
 
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+  #uebermichPic {
+    width: 50%;
+    padding-top: 0rem;
+  }
+}
 
-@media screen and (max-width: 768px ) {
+@media screen and (max-width: 768px) {
   /* .bannerImg {
     width: 60%!important;
   } */
@@ -492,33 +482,29 @@ a:focus{
     min-height: 95vh;
 }
  */
- .banner.style3 .image {
+  .banner.style3 .image {
     width: 18.05rem;
- }
- 
-
+  }
 }
 
 /**
 * Remove focus styles for non-keyboard :focus.
 */
 *:focus:not(.focus-visible) {
- outline: 0 !important;
- box-shadow: none !important;
-}
-a:focus{
   outline: 0 !important;
   box-shadow: none !important;
 }
-
+a:focus {
+  outline: 0 !important;
+  box-shadow: none !important;
+}
 
 :focus:not(.focus-visible) {
   outline: 0 !important;
   box-shadow: none !important;
 }
 
-
-#react-burger-menu-btn:focus{
+#react-burger-menu-btn:focus {
   outline: none;
   box-shadow: none;
 }
@@ -531,68 +517,66 @@ body:not(.user-is-tabbing) textarea:focus {
 }
 
 @media screen and (max-width: 980px) {
-
 }
 
 @media screen and (max-width: 736px) {
-  .hochkantCarousel{
-
+  .hochkantCarousel {
   }
-  .carousel.carousel-slider{
+  .carousel.carousel-slider {
     padding-right: 1.3rem;
     padding-left: 0.7rem;
-    margin-left: 00!important;
-    width: 100%!important;
+    margin-left: 00 !important;
+    width: 100% !important;
   }
-  .control-arrow.control-next{
-    display: none!important;
+  .control-arrow.control-next {
+    display: none !important;
   }
-  .carousel.control-prev.control-arrow{
-    display: none!important;
+  .carousel.control-prev.control-arrow {
+    display: none !important;
   }
   .carousel .control-arrow {
-    display: none!important;
+    display: none !important;
   }
 }
 
 @media screen and (max-width: 425px) {
- .bm-burger-button{
-  left: 14px;
-  top: 1rem;
- }  
- .leftArrowCarousel {
-  margin-left: -3.6rem;
-  margin-top: 0.38rem;
-}
-.carousel.carousel-slider {
-  padding-right: 0.7rem;
-  padding-left: 0.7rem;
-  margin-left: 00!important;
-  width: 100%!important;
-  padding-bottom: 1rem;
-}
-.rightArrowCarousel {
-  margin-left: 8rem;
-  margin-bottom: 0rem;
-  margin-top: 2rem;
-}
+  .bm-burger-button {
+    left: 14px;
+    top: 1rem;
+  }
+  .leftArrowCarousel {
+    margin-left: -3.6rem;
+    margin-top: 0.38rem;
+  }
+  .carousel.carousel-slider {
+    padding-right: 0.7rem;
+    padding-left: 0.7rem;
+    margin-left: 00 !important;
+    width: 100% !important;
+    padding-bottom: 1rem;
+  }
+  .rightArrowCarousel {
+    margin-left: 8rem;
+    margin-bottom: 0rem;
+    margin-top: 2rem;
+  }
 }
 
 @media screen and (max-width: 375px) {
   .leftArrowCarousel {
-  margin-left: -3.6rem;
-  margin-top:  0rem;
-}
+    margin-left: -3.6rem;
+    margin-top: 0rem;
+  }
 }
 
 @media screen and (max-width: 320px) {
-  .undefined nav{
+  .undefined nav {
     margin-right: -2.25rem;
   }
   .leftArrowCarousel {
-  margin-left: -3.6rem;
-  margin-top: -0.2rem;
-}
+    margin-left: -3.6rem;
+    margin-top: -0.2rem;
+  }
 }
 
 .btn:focus {
@@ -604,13 +588,16 @@ body:not(.user-is-tabbing) textarea:focus {
   box-shadow: none !important;
 }
 
-.bm-burger-button:focus{
+.bm-burger-button:focus {
   outline: none !important;
   outline-offset: none !important;
 }
-button:focus {box-shadow:none !important;}
-button:focus {outline:none;}
-
+button:focus {
+  box-shadow: none !important;
+}
+button:focus {
+  outline: none;
+}
 
 /* Carousel Settings */
 
@@ -664,10 +651,7 @@ html {
   font-size: 18pt;
 }
 
-
 @media screen and (max-width: 1680px) {
-
-
   html {
     font-size: 14pt;
   }
@@ -719,9 +703,9 @@ a:hover {
   text-decoration: none;
 }
 
-a:active{
+a:active {
   text-decoration: none;
-  color:white;
+  color: white;
   background-color: white;
 }
 
@@ -2679,13 +2663,12 @@ button,
   text-overflow: ellipsis;
   overflow: hidden;
   background-color: white;
-  outline:none !important;
-  
+  outline: none !important;
 }
 
-.button:focus{
-  outline:none !important;
-  box-shadow:none !important;
+.button:focus {
+  outline: none !important;
+  box-shadow: none !important;
 }
 
 input[type="submit"].icon:before,
@@ -2776,7 +2759,7 @@ button:active,
 .button:active {
   background-color: white;
   box-shadow: inset 0 0 0 1px #ccbdb4;
-  color: #ccbdb4!important;
+  color: #ccbdb4 !important;
 }
 
 input[type="submit"].primary,
@@ -4486,10 +4469,10 @@ body.is-preload .banner.onload-image-fade-in .image img {
   height: 100%;
   border-radius: 100%;
 }
-.rahmen{
-border-color: #ccbdb4;
-border-width: 1px;
-border-style: solid;
+.rahmen {
+  border-color: #ccbdb4;
+  border-width: 1px;
+  border-style: solid;
 }
 
 @media screen and (max-width: 1680px) {
@@ -4608,7 +4591,6 @@ border-style: solid;
   -webkit-object-position: right;
   -ms-object-position: right;
   object-position: right;
-
 }
 
 /* Banner (style4) */
@@ -7307,8 +7289,8 @@ body.is-preload .gallery.onload-fade-in article .image img {
 .gallery.style2 input[type="button"]:focus,
 .gallery.style2 button:focus,
 .gallery.style2 .button:focus {
-  outline:none!important;
-  box-shadow:none !important;
+  outline: none !important;
+  box-shadow: none !important;
 }
 
 .gallery.style2 input[type="submit"]:active,
@@ -7345,8 +7327,8 @@ body.is-preload .gallery.onload-fade-in article .image img {
 .gallery.style2 button.primary:active,
 .gallery.style2 .button.primary:active {
   background-color: #ffffff;
-  border:none !important;
-  outline:none !important;
+  border: none !important;
+  outline: none !important;
 }
 
 .gallery.style2 > .forward,
@@ -7793,8 +7775,6 @@ body.is-preload .gallery.onload-fade-in article .image img {
   width: 32rem;
 }
 @media screen and (max-width: 2560px) {
-
-
   .wrapper.style1 > .inner {
     padding: 0rem 12.8rem 3rem 12.6rem;
   }
@@ -7804,10 +7784,7 @@ body.is-preload .gallery.onload-fade-in article .image img {
   }
 }
 
-
 @media screen and (max-width: 1680px) {
-
-
   .wrapper.style1 > .inner {
     padding: 0rem 12.8rem 3rem 12.6rem;
   }
@@ -8880,7 +8857,7 @@ body.is-preload .items.onload-fade-in > * > .inner {
 #wrapper > .invert .button {
   background-color: transparent;
   box-shadow: inset 0 0 0 1px white;
-  color: #ffffff!important;
+  color: #ffffff !important;
 }
 
 #wrapper > .invert input[type="submit"]:hover,
@@ -8889,7 +8866,7 @@ body.is-preload .items.onload-fade-in > * > .inner {
 #wrapper > .invert button:hover,
 #wrapper > .invert .button:hover {
   box-shadow: inset 0 0 0 1px #ccbdb4;
-  color: #ccbdb4!important;
+  color: #ccbdb4 !important;
 }
 
 #wrapper > .invert input[type="submit"]:active,
@@ -8899,9 +8876,9 @@ body.is-preload .items.onload-fade-in > * > .inner {
 #wrapper > .invert .button:active {
   background-color: white;
   box-shadow: inset 0 0 0 1px #ccbdb4;
-  color: #ccbdb4!important;
-  border:none !important;
-  outline:none !important;
+  color: #ccbdb4 !important;
+  border: none !important;
+  outline: none !important;
 }
 
 #wrapper > .invert input[type="submit"].primary,
@@ -8911,9 +8888,9 @@ body.is-preload .items.onload-fade-in > * > .inner {
 #wrapper > .invert .button.primary {
   background-color: #ffffff;
   box-shadow: none;
-  border:none !important;
-  outline:none !important;
-  color: #000000!important;
+  border: none !important;
+  outline: none !important;
+  color: #000000 !important;
 }
 
 #wrapper > .invert input[type="submit"].primary:hover,
@@ -8930,8 +8907,8 @@ body.is-preload .items.onload-fade-in > * > .inner {
 #wrapper > .invert button.primary:active,
 #wrapper > .invert .button.primary:active {
   background-color: #ccbdb4;
-  border:none !important;
-  outline:none !important;
+  border: none !important;
+  outline: none !important;
 }
 
 #wrapper > .invert label {
