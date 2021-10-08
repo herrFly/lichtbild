@@ -4508,9 +4508,12 @@ body.is-preload .banner.onload-image-fade-in .image img {
   }
 
   .banner.style3 .image {
-    width: 17.375rem;
+    width: 15.75rem;
     height: 15.75rem;
     margin: 0 2rem 14rem 0;
+  }
+  #ersterAbsatz {
+    width: 17.375rem;
   }
 }
 
