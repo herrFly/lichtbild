@@ -69,10 +69,9 @@ const ueberMich = () => (
         <section className="wrapper style1 align-center">
           <img id="uebermichPic" src={ubermich}></img>
         </section>
-        <section className="wrapper style1 align-center">
-          <MyForm />
+        <footer className="wrapper style1 align-center">
           <MyFooter />
-        </section>
+        </footer>
       </div>
     </main>
   </>

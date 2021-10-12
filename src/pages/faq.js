@@ -1,19 +1,19 @@
-import React from "react"
-import { Helmet } from "react-helmet"
-import { Link } from "gatsby"
+import React from "react";
+import { Helmet } from "react-helmet";
+import { Link } from "gatsby";
 
-import "@fontsource/lato/300.css"
+import "@fontsource/lato/300.css";
 
-import { slide as Menu } from "react-burger-menu"
+import { slide as Menu } from "react-burger-menu";
 
-import "../../static/assets/css/main.css"
-import "../../static/assets/css/noscript.css"
-import "../../static/assets/css/fontawesome-all.min.css"
+import "../../static/assets/css/main.css";
+import "../../static/assets/css/noscript.css";
+import "../../static/assets/css/fontawesome-all.min.css";
 
-import MyForm from "./../pages/kontakt"
-import MyFooter from "./../components/footer"
+import MyForm from "./../pages/kontakt";
+import MyFooter from "./../components/footer";
 
-import AccordionComponent from "./../components/accordion"
+import AccordionComponent from "./../components/accordion";
 
 const faq = () => (
   <>
@@ -21,37 +21,44 @@ const faq = () => (
       <title>Lichtbildenthusiastin - Deine Fotografin</title>
     </Helmet>
     <Menu>
-    <Link to="/" className="menu-item">
-          Startseite
-        </Link>
-        <br />
-        <Link to="/ueberMich" className="menu-item">
-          Über Mich
-        </Link>
-        <Link to="/familie" className="menu-item">
-          Familie
-        </Link>
-        <Link to="/hochzeiten" className="menu-item">
-          Hochzeiten
-        </Link>
-        <Link to="/babybauch" className="menu-item">
-          Babybauch
-        </Link>
-        <Link to="/hunde" className="menu-item">
-          Hunde
-        </Link>
-        <br />
-        <Link to="/faq" className="menu-item">
-          FAQ
-        </Link>
+      <Link to="/" className="menu-item">
+        Startseite
+      </Link>
+      <br />
+      <Link to="/ueberMich" className="menu-item">
+        Über Mich
+      </Link>
+      <Link to="/familie" className="menu-item">
+        Familie
+      </Link>
+      <Link to="/hochzeiten" className="menu-item">
+        Hochzeiten
+      </Link>
+      <Link to="/babybauch" className="menu-item">
+        Babybauch
+      </Link>
+      <Link to="/hunde" className="menu-item">
+        Hunde
+      </Link>
+      <br />
+      <Link to="/faq" className="menu-item">
+        FAQ
+      </Link>
 
-        <a href="https://www.instagram.com/lichtbild_enthusiastin/" target="_blank" rel="noopener noreferrer">
-          <i className="fab fa-instagram" id="insta-logo"></i>
-        </a>
-        <a href="https://api.whatsapp.com/send?phone=4903091579337" target="_blank" rel="noopener noreferrer">
-          <i className="fab fa-whatsapp" id="whatsapp-logo"></i>
-        </a>
-        
+      <a
+        href="https://www.instagram.com/lichtbild_enthusiastin/"
+        target="_blank"
+        rel="noopener noreferrer"
+      >
+        <i className="fab fa-instagram" id="insta-logo"></i>
+      </a>
+      <a
+        href="https://api.whatsapp.com/send?phone=4903091579337"
+        target="_blank"
+        rel="noopener noreferrer"
+      >
+        <i className="fab fa-whatsapp" id="whatsapp-logo"></i>
+      </a>
     </Menu>
     <header></header>
     <main>
@@ -64,12 +71,11 @@ const faq = () => (
           </div>
         </section>
 
-        <section className="style1 align-center">
-          <MyForm />
+        <footer className="wrapper style1 align-center">
           <MyFooter />
-        </section>
+        </footer>
       </div>
     </main>
   </>
-)
-export default faq
+);
+export default faq;

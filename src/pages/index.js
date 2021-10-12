@@ -1,24 +1,21 @@
-import React from "react"
-import { Helmet } from "react-helmet"
-import { Link } from "gatsby"
-import { StaticImage } from "gatsby-plugin-image"
+import React from "react";
+import { Helmet } from "react-helmet";
+import { Link } from "gatsby";
+import { StaticImage } from "gatsby-plugin-image";
 
-import { slide as Menu } from "react-burger-menu"
-import Media from "react-media"
+import { slide as Menu } from "react-burger-menu";
+import Media from "react-media";
 
-import "@fontsource/lato/300.css"
+import "@fontsource/lato/300.css";
 
+import "../../static/assets/css/main.css";
+import "../../static/assets/css/noscript.css";
+import "../../static/assets/css/fontawesome-all.min.css";
 
-import "../../static/assets/css/main.css"
-import "../../static/assets/css/noscript.css"
-import "../../static/assets/css/fontawesome-all.min.css"
-
-import MyForm from "./kontakt"
-import MyFooter from "../components/footer"
-
+import MyForm from "./kontakt";
+import MyFooter from "../components/footer";
 
 const Home = () => {
-
   return (
     <>
       <Helmet>
@@ -50,13 +47,20 @@ const Home = () => {
           FAQ
         </Link>
 
-        <a href="https://www.instagram.com/lichtbild_enthusiastin/" target="_blank" rel="noopener noreferrer">
+        <a
+          href="https://www.instagram.com/lichtbild_enthusiastin/"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
           <i className="fab fa-instagram" id="insta-logo"></i>
         </a>
-        <a href="https://api.whatsapp.com/send?phone=4903091579337" target="_blank" rel="noopener noreferrer">
+        <a
+          href="https://api.whatsapp.com/send?phone=4903091579337"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
           <i className="fab fa-whatsapp" id="whatsapp-logo"></i>
         </a>
-        
       </Menu>
       <header>
         <script
@@ -65,8 +69,11 @@ const Home = () => {
         ></script>
       </header>
       <main>
-        <section id="starterSektion" className="banner onload-image-fade-in onload-content-fade-right - style3 fullscreen orient-right content-align-left image-position-center">
-        {/* <Media
+        <section
+          id="starterSektion"
+          className="banner onload-image-fade-in onload-content-fade-right - style3 fullscreen orient-right content-align-left image-position-center"
+        >
+          {/* <Media
             query="(max-width: 767px)"
             render={() => (
 
@@ -79,25 +86,22 @@ const Home = () => {
             )}
             
           /> */}
-       <div className="image" id="ersterAbsatz">
+          <div className="image" id="ersterAbsatz">
+            <StaticImage
+              src="../../static/img/STARTSEITE/logo.webp"
+              alt=""
+              placeholder="blurred"
+              layout="fullWidth"
+              className="bannerImg"
+            />
 
-        <StaticImage 
-          src="../../static/img/STARTSEITE/logo.webp"
-          alt=""
-          placeholder="blurred"
-          layout="fullWidth"
-          className="bannerImg"
-        /> 
-
-         
-              <p id="imgTextDesktop" className="imgText_desktop">
-                <div id="nameBerufDesktop">
-                  Claudia Nürnberger - Fotografenmeisterin
-                </div>
-                Brandenburg | Berlin | deutschlandweit
-              </p>
-    
-        </div>
+            <p id="imgTextDesktop" className="imgText_desktop">
+              <div id="nameBerufDesktop">
+                Claudia Nürnberger - Fotografenmeisterin
+              </div>
+              Brandenburg | Berlin | deutschlandweit
+            </p>
+          </div>
         </section>
         <div id="wrapper" className="divided">
           <section className="banner onload-image-fade-in onload-content-fade-right - style3 fullscreen orient-right content-align-left image-position-center">
@@ -109,14 +113,14 @@ const Home = () => {
                 festzuhalten!
               </p>
               <p>
-                Ich strebe danach, Euer: „Ach weißt du noch damals!“ mit Fotos
-                zu ergänzen und Euch Erinnerungen zu schenken an die Ihr noch
+                Ich strebe danach, Euer: „Ach weißt Du noch damals!“, mit Fotos
+                zu ergänzen und Euch Erinnerungen zu schenken, an die Ihr noch
                 lange zurückdenkt.
               </p>
               <p>
                 In den letzten 10 Jahren durfte ich viele Menschen auf einem
                 Stück Ihres Weges begleiten. Wie am ersten Tag bin ich Feuer und
-                Flamme für meinen Beruf der mir so viel Abwechslung verschafft
+                Flamme für meinen Beruf, der mir so viel Abwechslung verschafft
                 und Einblicke eröffnet.
               </p>
               <p>
@@ -143,15 +147,15 @@ const Home = () => {
               </ul>
             </div>
             <div className="image rahmen">
-            <StaticImage 
-              src="../../static/img/STARTSEITE/claudia_nuernberger-berlin-fotografin.webp"
-              alt=""
-              placeholder="blurred"
-              layout="constrained"
-              quality="100"
-              id="portraitStartseite"
-            /> 
-             {/*  //<GatsbyImage image={data.childImageSharp.gatsbyImageData}alt="Team Meeting" />
+              <StaticImage
+                src="../../static/img/STARTSEITE/claudia_nuernberger-berlin-fotografin.webp"
+                alt=""
+                placeholder="blurred"
+                layout="constrained"
+                quality="100"
+                id="portraitStartseite"
+              />
+              {/*  //<GatsbyImage image={data.childImageSharp.gatsbyImageData}alt="Team Meeting" />
               <img
                 src={index02}
                 alt=""
@@ -171,8 +175,8 @@ const Home = () => {
               <h2>Familie</h2>
               <p>
                 Für mich gibt es nichts Schöneres als natürliche Familienfotos.
-                Mit viel Erfahrung und einer großen Prise Humor begleite ich
-                Euch gerne bei Euren großen und kleinen Momenten.
+                Mit viel Erfahrung und einer ordentlichen Prise Humor begleite
+                ich Euch gerne.
               </p>
               <ul className="actions stacked">
                 <li>
@@ -183,12 +187,12 @@ const Home = () => {
               </ul>
             </div>
             <div className="image rahmen">
-            <StaticImage 
-              src="../../static/img/STARTSEITE/startseite-familie-claudia_nuernberger.webp"
-              alt=""
-              placeholder="blurred"
-              layout="fullWidth"
-            /> 
+              <StaticImage
+                src="../../static/img/STARTSEITE/startseite-familie-claudia_nuernberger.webp"
+                alt=""
+                placeholder="blurred"
+                layout="fullWidth"
+              />
               {/* <img
                 src={index03}
                 alt=""
@@ -216,12 +220,12 @@ const Home = () => {
               </ul>
             </div>
             <div className="image rahmen">
-            <StaticImage 
-              src="../../static/img/STARTSEITE/startseite-hochzeit-claudia_nuernberger.webp"
-              alt=""
-              placeholder="blurred"
-              layout="fullWidth"
-            />   
+              <StaticImage
+                src="../../static/img/STARTSEITE/startseite-hochzeit-claudia_nuernberger.webp"
+                alt=""
+                placeholder="blurred"
+                layout="fullWidth"
+              />
               {/* <img
                 src={index04}
                 alt=""
@@ -249,12 +253,12 @@ const Home = () => {
               </ul>
             </div>
             <div className="image rahmen">
-            <StaticImage 
-              src="../../static/img/STARTSEITE/startseite-babybauch-claudia_nuernberger.webp"
-              alt=""
-              placeholder="blurred"
-              layout="fullWidth"
-            /> 
+              <StaticImage
+                src="../../static/img/STARTSEITE/startseite-babybauch-claudia_nuernberger.webp"
+                alt=""
+                placeholder="blurred"
+                layout="fullWidth"
+              />
               {/* <img
                 src={index05}
                 alt=""
@@ -282,24 +286,23 @@ const Home = () => {
               </ul>
             </div>
             <div className="image rahmen">
-            <StaticImage 
-              src="../../static/img/STARTSEITE/spotlightHunde.webp"
-              alt=""
-              placeholder="blurred"
-              layout="fullWidth"
-            /> 
+              <StaticImage
+                src="../../static/img/STARTSEITE/spotlightHunde.webp"
+                alt=""
+                placeholder="blurred"
+                layout="fullWidth"
+              />
               {/* <img src={
                 index06
               } alt="" /> 
               <Img
                 fluid={this.props.data.index06.childImageSharp.fluid}
                 alt="ein Hund"
-              /> */}             
+              /> */}
             </div>
           </section>
 
           <section className="wrapper style1 align-center kontakt">
-
             <MyForm />
           </section>
 
@@ -309,7 +312,7 @@ const Home = () => {
         </div>
       </main>
     </>
-  )
-}
+  );
+};
 
-export default Home
+export default Home;

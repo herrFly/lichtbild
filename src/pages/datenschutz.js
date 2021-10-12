@@ -1202,9 +1202,9 @@ const datenschutz = () => (
           </div>
         </section>
 
-        <section className="wrapper style1 align-center">
+        <footer className="wrapper style1 align-center">
           <MyFooter />
-        </section>
+        </footer>
       </div>
     </main>
   </>
