@@ -26,6 +26,11 @@ const MyFooter = () => (
         </Link>
       </li>
       <li>
+        <Link to="/impressum/">
+          <span className="label">Impressum</span>
+        </Link>
+      </li>
+      <li>
         <Link to="/datenschutz/">
           <span className="label">Datenschutz</span>
         </Link>
