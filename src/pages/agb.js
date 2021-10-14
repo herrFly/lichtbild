@@ -62,7 +62,7 @@ const agb = () => (
       <div id="wrapper" className="divided">
         <section className="wrapper style1 content-align-left">
           <div className="inner">
-            <h2>Allgemeine Geschäftsbedingungen</h2>
+            <h2 className="ueberschriftFAQ">Allgemeine Geschäftsbedingungen</h2>
             <p>
               1. Geltung <br />
               <br />

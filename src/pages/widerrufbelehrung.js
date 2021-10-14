@@ -62,7 +62,7 @@ const widerrufbelehrung = () => (
       <div id="wrapper" className="divided">
         <section className="wrapper style1 content-align-left">
           <div className="inner">
-            <h2>Widerrufsbelehrung</h2>
+            <h2 className="ueberschriftFAQ">Widerrufsbelehrung</h2>
             <p>
               (1) Widerrufsrecht <br />
               <br />

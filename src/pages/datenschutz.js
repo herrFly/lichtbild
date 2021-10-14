@@ -62,7 +62,7 @@ const datenschutz = () => (
       <div id="wrapper" className="divided">
         <section className="wrapper style1 content-align-left">
           <div className="inner">
-            <h2>Datenschutzerklärung</h2>
+            <h2 className="ueberschriftFAQ">Datenschutzerklärung</h2>
 
             <p>
               Wir freuen uns sehr über Ihr Interesse an meiner Person.
