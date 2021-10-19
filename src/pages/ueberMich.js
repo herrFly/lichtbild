@@ -61,7 +61,7 @@ const ueberMich = () => (
       </a>
     </Menu>
     <Helmet>
-      <title>Lichtbildenthusiastin - Deine Fotografin</title>
+      <title>Lichtbild-Enthusiastin - Claudia Nürnberger</title>
     </Helmet>
     <header></header>
     <main>

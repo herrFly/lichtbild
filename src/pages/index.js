@@ -19,7 +19,7 @@ const Home = () => {
   return (
     <>
       <Helmet>
-        <title>Lichtbildenthusiastin - Deine Fotografin</title>
+        <title>Lichtbild-Enthusiastin - Claudia Nürnberger</title>
         <link to="/favicon.ico" rel="shortcut icon" type="image/x-icon" />
       </Helmet>
       <Menu disableAutoFocus>

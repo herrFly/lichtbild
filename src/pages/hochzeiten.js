@@ -121,7 +121,7 @@ const arrowStyles = {
 const hochzeiten = () => (
   <>
     <Helmet>
-      <title>Lichtbildenthusiastin - Deine Fotografin</title>
+      <title>Lichtbild-Enthusiastin - Claudia Nürnberger</title>
     </Helmet>
     <Menu>
       <Link to="/" className="menu-item">
@@ -487,12 +487,13 @@ const hochzeiten = () => (
                   {matches.small && (
                     <Carousel
                       infiniteLoop
-                      showThumbs={false}
+                      showThumbs={true}
                       dynamicHeight={false}
                       showStatus={false}
                       showIndicators={false}
                       swipeable={true}
                       width={25 + "%"}
+                      showArrows={false}
                       className="hochkantCarousel"
                       renderArrowPrev={(onClickHandler, hasPrev) =>
                         hasPrev && (
@@ -547,10 +548,10 @@ const hochzeiten = () => (
                         <img src={hz08} />
                         <p className="legend">Legend 3</p>
                       </div>
-                      <div>
+                      {/* <div>
                         <img src={hz21} />
                         <p className="legend">Legend 3</p>
-                      </div>
+                      </div> */}
                     </Carousel>
                   )}
                   {matches.mediumAndOver && (

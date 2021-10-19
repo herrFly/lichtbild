@@ -15,7 +15,7 @@ import MyFooter from "./../components/footer";
 const datenschutz = () => (
   <>
     <Helmet>
-      <title>Lichtbildenthusiastin - Deine Fotografin</title>
+      <title>Lichtbild-Enthusiastin - Claudia Nürnberger</title>
     </Helmet>
     <Menu>
       <Link to="/" className="menu-item">

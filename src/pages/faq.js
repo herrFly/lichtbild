@@ -18,7 +18,7 @@ import AccordionComponent from "./../components/accordion";
 const faq = () => (
   <>
     <Helmet>
-      <title>Lichtbildenthusiastin - Deine Fotografin</title>
+      <title>Lichtbild-Enthusiastin - Claudia Nürnberger</title>
     </Helmet>
     <Menu>
       <Link to="/" className="menu-item">

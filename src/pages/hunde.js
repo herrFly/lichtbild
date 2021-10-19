@@ -126,7 +126,7 @@ const arrowStyles = {
 const hunde = () => (
   <>
     <Helmet>
-      <title>Lichtbildenthusiastin - Deine Fotografin</title>
+      <title>Lichtbild-Enthusiastin - Claudia Nürnberger</title>
     </Helmet>
     <Menu>
       <Link to="/" className="menu-item">
@@ -422,6 +422,7 @@ const hunde = () => (
                       showIndicators={false}
                       swipeable={true}
                       width={25 + "%"}
+                      showArrows={false}
                       className="hochkantCarousel"
                       renderArrowPrev={(onClickHandler, hasPrev) =>
                         hasPrev && (

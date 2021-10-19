@@ -119,7 +119,7 @@ const arrowStyles = {
 const familie = () => (
   <>
     <Helmet>
-      <title>Lichtbildenthusiastin - Deine Fotografin</title>
+      <title>Lichtbild-Enthusiastin - Claudia Nürnberger</title>
     </Helmet>
     <Menu>
       <Link to="/" className="menu-item">
@@ -432,12 +432,13 @@ const familie = () => (
                   {matches.small && (
                     <Carousel
                       infiniteLoop
-                      showThumbs={false}
+                      showThumbs={true}
                       dynamicHeight={false}
                       showStatus={false}
                       showIndicators={false}
                       swipeable={true}
                       width={25 + "%"}
+                      showArrows={false}
                       className="hochkantCarousel"
                       renderArrowPrev={(onClickHandler, hasPrev) =>
                         hasPrev && (
@@ -461,75 +462,35 @@ const familie = () => (
                       }
                     >
                       <div>
-                        <StaticImage
-                          src="../../static/img/FAMILIE/kinderfotos-berlin-brandenburg-panketal-claudia_nuernberger.jpg"
-                          alt=""
-                          placeholder="blurred"
-                          layout="constrained"
-                        />
+                        <img src={f09} />
                         <p className="legend">Legend 1</p>
                       </div>
                       <div>
-                        <StaticImage
-                          src="../../static/img/FAMILIE/familienfotos-berlin-brandenburg-harz-hamburger_wappen-claudia_nuernberger.jpg"
-                          alt=""
-                          placeholder="blurred"
-                          layout="constrained"
-                        />
+                        <img src={f10} />
                         <p className="legend">Legend 2</p>
                       </div>
                       <div>
-                        <StaticImage
-                          src="../../static/img/FAMILIE/kinderfotos-berlin-brandenburg-bernau-claudia_nuernberger.jpg"
-                          alt=""
-                          placeholder="blurred"
-                          layout="constrained"
-                        />
+                        <img src={f11} />
                         <p className="legend">Legend 3</p>
                       </div>
                       <div>
-                        <StaticImage
-                          src="../../static/img/FAMILIE/familienfotos-berlin-brandenburg-blankenburg-harz-claudia_nuernberger.jpg"
-                          alt=""
-                          placeholder="blurred"
-                          layout="constrained"
-                        />
+                        <img src={f12} />
                         <p className="legend">Legend 3</p>
                       </div>
                       <div>
-                        <StaticImage
-                          src="../../static/img/FAMILIE/kinderfotos-berlin-brandenburg-barnim-claudia_nuernberger.jpg"
-                          alt=""
-                          placeholder="blurred"
-                          layout="constrained"
-                        />
+                        <img src={f13} />
                         <p className="legend">Legend 3</p>
                       </div>
                       <div>
-                        <StaticImage
-                          src="../../static/img/FAMILIE/paarfotos-berlin-brandenburg-museumsinsel-claudia_nuernberger.jpg"
-                          alt=""
-                          placeholder="blurred"
-                          layout="constrained"
-                        />
+                        <img src={f14} />
                         <p className="legend">Legend 3</p>
                       </div>
                       <div>
-                        <StaticImage
-                          src="../../static/img/FAMILIE/paarfotos-berlin-brandenburg-claudia_nuernberger.jpg"
-                          alt=""
-                          placeholder="blurred"
-                          layout="constrained"
-                        />
+                        <img src={f15} />
                         <p className="legend">Legend 3</p>
                       </div>
                       <div>
-                        <StaticImage
-                          src="../../static/img/FAMILIE/familienfotos-berlin-brandenburg-hennigsdorf-claudia_nuernberger.jpg"
-                          alt=""
-                          placeholder="blurred"
-                          layout="constrained"
-                        />
+                        <img src={f16} />
                         <p className="legend">Legend 3</p>
                       </div>
                     </Carousel>
