@@ -33,7 +33,7 @@ import bb08 from "./../../static/img/BABYBAUCH/babybauch-berlin-brandenburg-pank
 import bb09 from "./../../static/img/BABYBAUCH/babybauch-berlin-brandenburg-barnim-portraitfoto-claudia_nuernberger.webp";
 import bb10 from "./../../static/img/BABYBAUCH/babybauch-berlin-brandenburg-harz-paarfotos-claudia_nuernberger.webp";
 import bb11 from "./../../static/img/BABYBAUCH/babybauch-berlin-brandenburg-reinickendorf-paarfotos-claudia_nuernberger.webp";
-import bb12 from "./../../static/img/BABYBAUCH/babybauch-berlin-brandenburg-reinickendorf-portraitfoto-claudia_nuernberger.webp";
+import bb12 from "./../../static/img/BABYBAUCH/babybauch-berlin-brandenburg-reinickendorf-portraitfoto-claudia_nuernberger.jpeg";
 import bb13 from "./../../static/img/BABYBAUCH/babybauch-berlin-brandenburg-homeshooting-portraitfoto-claudia_nuernberger.webp";
 
 const style = {
