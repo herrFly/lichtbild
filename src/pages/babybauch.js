@@ -367,7 +367,7 @@ const babybauch = () => (
           )}
         </Media>
       </div>
-      <div id="wrapper" className="divided">
+      <div className="divided">
         <section className="wrapper style1 content-align-left">
           <div className="inner">
             <h2 className="align-center">Babybauch</h2>
@@ -573,7 +573,7 @@ const babybauch = () => (
 
         <MyForm />
 
-        <footer className="wrapper style1 align-center">
+        <footer className="wrapper style1 align-center randDesktop">
           <MyFooter />
         </footer>
       </div>

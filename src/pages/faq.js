@@ -62,7 +62,7 @@ const faq = () => (
     </Menu>
     <header></header>
     <main>
-      <div id="wrapper" className="divided">
+      <div className="divided">
         <section className="wrapper style1 content-align-left">
           <div className="inner">
             <h2 className="ueberschriftFAQ">Häufig gestellte Fragen</h2>
@@ -71,7 +71,7 @@ const faq = () => (
           </div>
         </section>
 
-        <footer className="wrapper style1 align-center">
+        <footer className="wrapper style1 align-center randDesktop">
           <MyFooter />
         </footer>
       </div>

@@ -59,7 +59,7 @@ const agb = () => (
     </Menu>
     <header></header>
     <main>
-      <div id="wrapper" className="divided">
+      <div className="divided">
         <section className="wrapper style1 content-align-left">
           <div className="inner">
             <h2 className="ueberschriftFAQ">Allgemeine Geschäftsbedingungen</h2>
@@ -236,7 +236,7 @@ const agb = () => (
           </div>
         </section>
 
-        <footer className="wrapper style1 align-center">
+        <footer className="wrapper style1 align-center randDesktop">
           <MyFooter />
         </footer>
       </div>

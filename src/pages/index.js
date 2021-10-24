@@ -241,8 +241,8 @@ const Home = () => {
             <div className="content">
               <h2>Babybauch</h2>
               <p>
-                Es ist eine Zeit der Vorfreude und der Veränderung. Lasst uns
-                zusammen diese besondere Zeit festhalten.
+                Es ist eine Zeit der Vorfreude und der Veränderung.
+                <br /> Lasst uns zusammen diese besondere Zeit festhalten.
               </p>
               <ul className="actions stacked">
                 <li>
@@ -306,7 +306,7 @@ const Home = () => {
             <MyForm />
           </section>
 
-          <footer className="wrapper style1 align-center">
+          <footer className="wrapper style1 align-center randDesktop">
             <MyFooter />
           </footer>
         </div>

@@ -460,6 +460,10 @@ a:focus {
   }
 }
 
+#uebermichPic {
+  padding-top: 4rem;
+}
+
 @media screen and (min-width: 768px) and (max-width: 1024px) {
   #uebermichPic {
     width: 50%;
@@ -467,10 +471,22 @@ a:focus {
   }
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (min-width: 768px) {
   /* .bannerImg {
     width: 60%!important;
   } */
+  .slider {
+    padding-bottom: 1rem;
+  }
+  .randDesktop {
+    padding-top: 1rem;
+  }
+  #wrapper {
+    padding-top: 5rem;
+  }
+}
+
+.startDesktop {
 }
 
 @media screen and (max-width: 415px) {
@@ -484,6 +500,9 @@ a:focus {
  */
   .banner.style3 .image {
     width: 18.05rem;
+  }
+  #wrapper {
+    padding-top: 18rem;
   }
 }
 
@@ -4514,7 +4533,7 @@ body.is-preload .banner.onload-image-fade-in .image img {
   .banner.style3 .image {
     width: 15.75rem;
     height: 15.75rem;
-    margin: 0 2rem 14rem 0;
+    margin: 0 2rem 2rem 0;
   }
   #ersterAbsatz {
     width: 17.375rem;
@@ -4545,7 +4564,7 @@ body.is-preload .banner.onload-image-fade-in .image img {
 }
 
 .banner.style3.fullscreen {
-  min-height: 95vh;
+  min-height: 60vh;
 }
 
 .banner.style3.orient-left {
@@ -7766,6 +7785,20 @@ body.is-preload .gallery.onload-fade-in article .image img {
 }
 
 /* Wrapper (style1) */
+
+.react-slideshow-container + ul.indicators {
+  margin-top: 0px !important;
+}
+
+ul {
+  list-style: disc;
+  margin: 0 0 0 0;
+  padding-left: 1rem;
+}
+
+.wrapper.style1:not(:first-child) {
+  box-shadow: inset 0 1px 0 0 rgb(0 0 0 / 8%);
+}
 
 .wrapper.style1 > .inner {
   padding: 1rem 3.5rem 5rem 3.5rem;

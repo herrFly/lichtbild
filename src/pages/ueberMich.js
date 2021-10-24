@@ -13,7 +13,7 @@ import "../../static/assets/css/fontawesome-all.min.css";
 import MyForm from "./kontakt";
 import MyFooter from "../components/footer";
 
-import ubermich from "../../static/img/PROFIL/UeberMich.webp";
+import ubermich from "../../static/img/PROFIL/ÜberMich.jpeg";
 
 const ueberMich = () => (
   <>
@@ -65,11 +65,12 @@ const ueberMich = () => (
     </Helmet>
     <header></header>
     <main>
-      <div id="wrapper" className="divided">
+      <div className="divided">
         <section className="wrapper style1 align-center">
           <img id="uebermichPic" src={ubermich}></img>
         </section>
-        <footer className="wrapper style1 align-center">
+        <section />
+        <footer className="wrapper style1 align-center randDesktop">
           <MyFooter />
         </footer>
       </div>

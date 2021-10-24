@@ -432,7 +432,7 @@ const hochzeiten = () => (
         </Media>
       </div>
 
-      <div id="wrapper" className="divided">
+      <div className="divided">
         <section className="wrapper style1 content-align-left">
           <div className="inner">
             <h2 className="align-center">Hochzeiten</h2>
@@ -616,7 +616,7 @@ const hochzeiten = () => (
         <section className="wrapper style1 align-center">
           <MyForm />
         </section>
-        <footer className="wrapper style1 align-center">
+        <footer className="wrapper style1 align-center randDesktop">
           <MyFooter />
         </footer>
       </div>

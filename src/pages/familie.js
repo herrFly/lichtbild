@@ -382,8 +382,8 @@ const familie = () => (
         </Media>
       </div>
 
-      <div id="wrapper" className="divided">
-        <section className="wrapper style1 content-align-left">
+      <div className="divided">
+        <section className="wrapper style1 content-align-left startDesktop">
           <div className="inner">
             <h2 className="align-center">Familie</h2>
 
@@ -547,7 +547,7 @@ const familie = () => (
           </div>
         </section>
         <MyForm />
-        <footer className="wrapper style1 align-center">
+        <footer className="wrapper style1 align-center randDesktop">
           <MyFooter />
         </footer>
       </div>
