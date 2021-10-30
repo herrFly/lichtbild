@@ -15,6 +15,8 @@ import "../../static/assets/css/fontawesome-all.min.css";
 import MyForm from "./kontakt";
 import MyFooter from "../components/footer";
 
+import CookieConsent from "react-cookie-consent";
+
 const Home = () => {
   return (
     <>
@@ -69,6 +71,14 @@ const Home = () => {
         ></script>
       </header>
       <main>
+        {/* <CookieConsent
+          location="bottom"
+          buttonText="Accept"
+          declineButtonText="Decline"
+          cookieName="gatsby-gdpr-google-analytics"
+        >
+          This site uses cookies ...
+        </CookieConsent> */}
         <section
           id="starterSektion"
           className="banner onload-image-fade-in onload-content-fade-right - style3 fullscreen orient-right content-align-left image-position-center"

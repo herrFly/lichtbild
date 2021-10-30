@@ -24,7 +24,7 @@ import "../../static/assets/css/fontawesome-all.min.css";
 import MyForm from "./../pages/kontakt";
 import MyFooter from "./../components/footer";
 
-import familiePreisliste from "../../static/img/FAMILIE/Familie Preisliste_Final.jpg";
+import familiePreisliste from "../../static/img/FAMILIE/Familie Preisliste_Test.png";
 
 import f09 from "../../static/img/FAMILIE/kinderfotos-berlin-brandenburg-panketal-claudia_nuernberger.jpg";
 import f10 from "../../static/img/FAMILIE/familienfotos-berlin-brandenburg-harz-hamburger_wappen-claudia_nuernberger.jpg";
