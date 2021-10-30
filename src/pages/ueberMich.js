@@ -13,7 +13,7 @@ import "../../static/assets/css/fontawesome-all.min.css";
 import MyForm from "./kontakt";
 import MyFooter from "../components/footer";
 
-import ubermich from "../../static/img/PROFIL/UeberMich.jpeg";
+import ubermich from "../../static/img/PROFIL/UeberMich.png";
 
 const ueberMich = () => (
   <>
