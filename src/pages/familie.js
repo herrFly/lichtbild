@@ -442,9 +442,8 @@ const familie = () => (
             </p>
             <p>
               Es bereitet mir enorme Freude, Kinder so zu fotografieren, wie sie
-              sind!
+              sind! Mal laut, mal leise, mal wild oder auch zurückhaltend.
             </p>
-            <p>Mal laut, mal leise, mal wild oder auch zurückhaltend.</p>
             <p>
               Für ein schönes Foto hocke ich gerne im Sandkasten, hangle mich
               vom Klettergerüst zur Rutsche, renne den kleinen Wirbelwinden
