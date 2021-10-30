@@ -23,18 +23,18 @@ import "../../static/assets/css/fontawesome-all.min.css";
 import MyForm from "./../pages/kontakt";
 import MyFooter from "./../components/footer";
 
-import hochzeit_preisliste from "./../../static/img/HZ/Hochzeit Preisliste_Final.jpg";
+import hochzeit_preisliste from "./../../static/img/HZ/Hochzeit Preisliste_Final.png";
 
-import hz01 from "../../static/img/HZ/hochzeitsfotos-berlin-brandenburg-bernau-claudia_nuernberger-03.webp";
-import hz02 from "../../static/img/HZ/hochzeitsfotos-berlin-brandenburg-panketal-claudia_nuernberger.webp";
-import hz03 from "../../static/img/HZ/hochzeitsfotos-berlin-brandenburg-luxemburg-claudia_nuernberger-02.webp";
-import hz04 from "../../static/img/HZ/hochzeitsfotos-berlin-brandenburg-standesamt_reinickendorf-claudia_nuernberger-03.webp";
-import hz05 from "../../static/img/HZ/hochzeitsfotos-berlin-brandenburg-potsdam-claudia_nuernberger-04.webp";
-import hz06 from "../../static/img/HZ/hochzeitsfotos-berlin-brandenburg-hochzeitsvilla_zehlendorf-claudia_nuernberger.webp";
-import hz07 from "../../static/img/HZ/hochzeitsfotos-berlin-brandenburg-potsdam-claudia_nuernberger-03.webp";
-import hz08 from "../../static/img/HZ/hochzeitsfotos-berlin-brandenburg-usbekistan_taschkent-claudia_nuernberger-01.webp";
-import hz09 from "../../static/img/HZ/hochzeitsfotos-berlin-brandenburg-potsdam-claudia_nuernberger-02.webp";
-import hz21 from "../../static/img/HZ/hochzeitsfotos-berlin-brandenburg-claudia_nuernberger10.webp";
+import hz01 from "../../static/img/HZ/hochzeitsfotografin-berlin-brandenburg-bernau-claudia_nuernberger.jpg";
+import hz02 from "../../static/img/HZ/hochzeitsfotos-berlin-brandenburg-panketal-claudia_nuernberger.jpg";
+import hz03 from "../../static/img/HZ/hochzeitsfotos-berlin-brandenburg-luxemburg-claudia_nuernberger.jpg";
+import hz04 from "../../static/img/HZ/hochzeitsfotograf-berlin-brandenburg-standesamt_reinickendorf-claudia_nuernberger.jpg";
+import hz05 from "../../static/img/HZ/hochzeitsfotos-berlin-brandenburg-potsdam-claudia_nuernberger-02.jpg";
+import hz06 from "../../static/img/HZ/hochzeitsfotos-berlin-brandenburg-hochzeitsvilla_zehlendorf-claudia_nuernberger.jpg";
+import hz07 from "../../static/img/HZ/hochzeitsfotograf-berlin-brandenburg-potsdam-claudia_nuernberger.jpg";
+import hz08 from "../../static/img/HZ/hochzeitsfotograf-berlin-brandenburg-usbekistan_taschkent-claudia_nuernberger.jpg";
+import hz09 from "../../static/img/HZ/hochzeitsfotos-berlin-brandenburg-potsdam-claudia_nuernberger.jpg";
+import hz10 from "../../static/img/HZ/hochzeitsfotos-berlin-brandenburg-usbekistan_taschkent-claudia_nuernberger-03.jpg";
 
 const style = {
   textAlign: "center",
@@ -179,7 +179,7 @@ const hochzeiten = () => (
                 <Slide {...properties1}>
                   <div style={style}>
                     <StaticImage
-                      src="../../static/img/HZ/hochzeitsfotos-berlin-brandenburg-bernau-claudia_nuernberger-01.webp"
+                      src="../../static/img/HZ/hochzeitsfotos-berlin-brandenburg-bernau-claudia_nuernberger.jpg"
                       alt=""
                       placeholder="blurred"
                       layout="constrained"
@@ -187,7 +187,7 @@ const hochzeiten = () => (
                   </div>
                   <div style={style}>
                     <StaticImage
-                      src="../../static/img/HZ/hochzeitsfotos-berlin-brandenburg-standesamt_reinickendorf-claudia_nuernberger-02.webp"
+                      src="../../static/img/HZ/hochzeitsfotos-berlin-brandenburg-standesamt_reinickendorf-claudia_nuernberger.jpg"
                       alt=""
                       placeholder="blurred"
                       layout="constrained"
@@ -195,7 +195,7 @@ const hochzeiten = () => (
                   </div>
                   <div style={style}>
                     <StaticImage
-                      src="../../static/img/HZ/hochzeitsfotos-berlin-brandenburg-luxemburg-claudia_nuernberger-01.webp"
+                      src="../../static/img/HZ/hochzeitsfotografin-berlin-brandenburg-luxemburg-claudia_nuernberger.jpg"
                       alt=""
                       placeholder="blurred"
                       layout="constrained"
@@ -203,7 +203,7 @@ const hochzeiten = () => (
                   </div>
                   <div style={style}>
                     <StaticImage
-                      src="../../static/img/HZ/hochzeitsfotos-berlin-brandenburg-harz-claudia_nuernberger.webp"
+                      src="../../static/img/HZ/hochzeitsfotos-berlin-brandenburg-harz-claudia_nuernberger.jpg"
                       alt=""
                       placeholder="blurred"
                       layout="constrained"
@@ -211,7 +211,7 @@ const hochzeiten = () => (
                   </div>
                   <div style={style}>
                     <StaticImage
-                      src="../../static/img/HZ/hochzeitsfotos-berlin-brandenburg-bernau-claudia_nuernberger-02.webp"
+                      src="../../static/img/HZ/hochzeitsfotograf-berlin-brandenburg-bernau-claudia_nuernberger.jpg"
                       alt=""
                       placeholder="blurred"
                       layout="constrained"
@@ -219,7 +219,7 @@ const hochzeiten = () => (
                   </div>
                   <div style={style}>
                     <StaticImage
-                      src="../../static/img/HZ/hochzeitsfotos-berlin-brandenburg-usbekistan_taschkent-claudia_nuernberger-04.webp"
+                      src="../../static/img/HZ/hochzeitsfotos-berlin-brandenburg-usbekistan_taschkent-claudia_nuernberger-02.jpg"
                       alt=""
                       placeholder="blurred"
                       layout="constrained"
@@ -227,7 +227,7 @@ const hochzeiten = () => (
                   </div>
                   <div style={style}>
                     <StaticImage
-                      src="../../static/img/HZ/hochzeitsfotos-berlin-brandenburg-usbekistan_taschkent-claudia_nuernberger-03.webp"
+                      src="../../static/img/HZ/hochzeitsfotografin-berlin-brandenburg-usbekistan_taschkent-claudia_nuernberger.jpg"
                       alt=""
                       placeholder="blurred"
                       layout="constrained"
@@ -235,7 +235,7 @@ const hochzeiten = () => (
                   </div>
                   <div style={style}>
                     <StaticImage
-                      src="../../static/img/HZ/hochzeitsfotos-berlin-brandenburg-standesamt_reinickendorf-claudia_nuernberger-01.webp"
+                      src="../../static/img/HZ/hochzeitsfotografin-berlin-brandenburg-standesamt_reinickendorf-claudia_nuernberger.jpg"
                       alt=""
                       placeholder="blurred"
                       layout="constrained"
@@ -243,7 +243,7 @@ const hochzeiten = () => (
                   </div>
                   <div style={style}>
                     <StaticImage
-                      src="../../static/img/HZ/hochzeitsfotos-berlin-brandenburg-potsdam-claudia_nuernberger-01.webp"
+                      src="../../static/img/HZ/hochzeitsfotografin-berlin-brandenburg-potsdam-claudia_nuernberger.jpg"
                       alt=""
                       placeholder="blurred"
                       layout="constrained"
@@ -251,7 +251,7 @@ const hochzeiten = () => (
                   </div>
                   <div style={style}>
                     <StaticImage
-                      src="../../static/img/HZ/hochzeitsfotos-berlin-brandenburg-usbekistan_taschkent-claudia_nuernberger-02.webp"
+                      src="../../static/img/HZ/hochzeitsfotos-berlin-brandenburg-usbekistan_taschkent-claudia_nuernberger.jpg"
                       alt=""
                       placeholder="blurred"
                       layout="constrained"
@@ -263,7 +263,7 @@ const hochzeiten = () => (
                 <Slide {...properties2}>
                   <div style={style}>
                     <StaticImage
-                      src="../../static/img/HZ/hochzeitsfotos-berlin-brandenburg-bernau-claudia_nuernberger-01.webp"
+                      src="../../static/img/HZ/hochzeitsfotos-berlin-brandenburg-bernau-claudia_nuernberger.jpg"
                       alt=""
                       placeholder="blurred"
                       layout="constrained"
@@ -271,7 +271,7 @@ const hochzeiten = () => (
                   </div>
                   <div style={style}>
                     <StaticImage
-                      src="../../static/img/HZ/hochzeitsfotos-berlin-brandenburg-standesamt_reinickendorf-claudia_nuernberger-02.webp"
+                      src="../../static/img/HZ/hochzeitsfotos-berlin-brandenburg-standesamt_reinickendorf-claudia_nuernberger.jpg"
                       alt=""
                       placeholder="blurred"
                       layout="constrained"
@@ -279,7 +279,7 @@ const hochzeiten = () => (
                   </div>
                   <div style={style}>
                     <StaticImage
-                      src="../../static/img/HZ/hochzeitsfotos-berlin-brandenburg-luxemburg-claudia_nuernberger-01.webp"
+                      src="../../static/img/HZ/hochzeitsfotografin-berlin-brandenburg-luxemburg-claudia_nuernberger.jpg"
                       alt=""
                       placeholder="blurred"
                       layout="constrained"
@@ -287,7 +287,7 @@ const hochzeiten = () => (
                   </div>
                   <div style={style}>
                     <StaticImage
-                      src="../../static/img/HZ/hochzeitsfotos-berlin-brandenburg-harz-claudia_nuernberger.webp"
+                      src="../../static/img/HZ/hochzeitsfotos-berlin-brandenburg-harz-claudia_nuernberger.jpg"
                       alt=""
                       placeholder="blurred"
                       layout="constrained"
@@ -295,7 +295,7 @@ const hochzeiten = () => (
                   </div>
                   <div style={style}>
                     <StaticImage
-                      src="../../static/img/HZ/hochzeitsfotos-berlin-brandenburg-bernau-claudia_nuernberger-02.webp"
+                      src="../../static/img/HZ/hochzeitsfotograf-berlin-brandenburg-bernau-claudia_nuernberger.jpg"
                       alt=""
                       placeholder="blurred"
                       layout="constrained"
@@ -303,7 +303,7 @@ const hochzeiten = () => (
                   </div>
                   <div style={style}>
                     <StaticImage
-                      src="../../static/img/HZ/hochzeitsfotos-berlin-brandenburg-usbekistan_taschkent-claudia_nuernberger-04.webp"
+                      src="../../static/img/HZ/hochzeitsfotos-berlin-brandenburg-usbekistan_taschkent-claudia_nuernberger-02.jpg"
                       alt=""
                       placeholder="blurred"
                       layout="constrained"
@@ -311,7 +311,7 @@ const hochzeiten = () => (
                   </div>
                   <div style={style}>
                     <StaticImage
-                      src="../../static/img/HZ/hochzeitsfotos-berlin-brandenburg-usbekistan_taschkent-claudia_nuernberger-03.webp"
+                      src="../../static/img/HZ/hochzeitsfotografin-berlin-brandenburg-usbekistan_taschkent-claudia_nuernberger.jpg"
                       alt=""
                       placeholder="blurred"
                       layout="constrained"
@@ -319,7 +319,7 @@ const hochzeiten = () => (
                   </div>
                   <div style={style}>
                     <StaticImage
-                      src="../../static/img/HZ/hochzeitsfotos-berlin-brandenburg-standesamt_reinickendorf-claudia_nuernberger-01.webp"
+                      src="../../static/img/HZ/hochzeitsfotografin-berlin-brandenburg-standesamt_reinickendorf-claudia_nuernberger.jpg"
                       alt=""
                       placeholder="blurred"
                       layout="constrained"
@@ -327,7 +327,7 @@ const hochzeiten = () => (
                   </div>
                   <div style={style}>
                     <StaticImage
-                      src="../../static/img/HZ/hochzeitsfotos-berlin-brandenburg-potsdam-claudia_nuernberger-01.webp"
+                      src="../../static/img/HZ/hochzeitsfotografin-berlin-brandenburg-potsdam-claudia_nuernberger.jpg"
                       alt=""
                       placeholder="blurred"
                       layout="constrained"
@@ -335,7 +335,7 @@ const hochzeiten = () => (
                   </div>
                   <div style={style}>
                     <StaticImage
-                      src="../../static/img/HZ/hochzeitsfotos-berlin-brandenburg-usbekistan_taschkent-claudia_nuernberger-02.webp"
+                      src="../../static/img/HZ/hochzeitsfotos-berlin-brandenburg-usbekistan_taschkent-claudia_nuernberger.jpg"
                       alt=""
                       placeholder="blurred"
                       layout="constrained"
@@ -347,7 +347,7 @@ const hochzeiten = () => (
                 <Slide {...properties3}>
                   <div style={style}>
                     <StaticImage
-                      src="../../static/img/HZ/hochzeitsfotos-berlin-brandenburg-bernau-claudia_nuernberger-01.webp"
+                      src="../../static/img/HZ/hochzeitsfotos-berlin-brandenburg-bernau-claudia_nuernberger.jpg"
                       alt=""
                       placeholder="blurred"
                       layout="constrained"
@@ -355,7 +355,7 @@ const hochzeiten = () => (
                   </div>
                   <div style={style}>
                     <StaticImage
-                      src="../../static/img/HZ/hochzeitsfotos-berlin-brandenburg-standesamt_reinickendorf-claudia_nuernberger-02.webp"
+                      src="../../static/img/HZ/hochzeitsfotos-berlin-brandenburg-standesamt_reinickendorf-claudia_nuernberger.jpg"
                       alt=""
                       placeholder="blurred"
                       layout="constrained"
@@ -363,7 +363,7 @@ const hochzeiten = () => (
                   </div>
                   <div style={style}>
                     <StaticImage
-                      src="../../static/img/HZ/hochzeitsfotos-berlin-brandenburg-luxemburg-claudia_nuernberger-01.webp"
+                      src="../../static/img/HZ/hochzeitsfotografin-berlin-brandenburg-luxemburg-claudia_nuernberger.jpg"
                       alt=""
                       placeholder="blurred"
                       layout="constrained"
@@ -371,7 +371,7 @@ const hochzeiten = () => (
                   </div>
                   <div style={style}>
                     <StaticImage
-                      src="../../static/img/HZ/hochzeitsfotos-berlin-brandenburg-harz-claudia_nuernberger.webp"
+                      src="../../static/img/HZ/hochzeitsfotos-berlin-brandenburg-harz-claudia_nuernberger.jpg"
                       alt=""
                       placeholder="blurred"
                       layout="constrained"
@@ -379,7 +379,7 @@ const hochzeiten = () => (
                   </div>
                   <div style={style}>
                     <StaticImage
-                      src="../../static/img/HZ/hochzeitsfotos-berlin-brandenburg-bernau-claudia_nuernberger-02.webp"
+                      src="../../static/img/HZ/hochzeitsfotograf-berlin-brandenburg-bernau-claudia_nuernberger.jpg"
                       alt=""
                       placeholder="blurred"
                       layout="constrained"
@@ -387,7 +387,7 @@ const hochzeiten = () => (
                   </div>
                   <div style={style}>
                     <StaticImage
-                      src="../../static/img/HZ/hochzeitsfotos-berlin-brandenburg-usbekistan_taschkent-claudia_nuernberger-04.webp"
+                      src="../../static/img/HZ/hochzeitsfotos-berlin-brandenburg-usbekistan_taschkent-claudia_nuernberger-02.jpg"
                       alt=""
                       placeholder="blurred"
                       layout="constrained"
@@ -395,7 +395,7 @@ const hochzeiten = () => (
                   </div>
                   <div style={style}>
                     <StaticImage
-                      src="../../static/img/HZ/hochzeitsfotos-berlin-brandenburg-usbekistan_taschkent-claudia_nuernberger-03.webp"
+                      src="../../static/img/HZ/hochzeitsfotografin-berlin-brandenburg-usbekistan_taschkent-claudia_nuernberger.jpg"
                       alt=""
                       placeholder="blurred"
                       layout="constrained"
@@ -403,7 +403,7 @@ const hochzeiten = () => (
                   </div>
                   <div style={style}>
                     <StaticImage
-                      src="../../static/img/HZ/hochzeitsfotos-berlin-brandenburg-standesamt_reinickendorf-claudia_nuernberger-01.webp"
+                      src="../../static/img/HZ/hochzeitsfotografin-berlin-brandenburg-standesamt_reinickendorf-claudia_nuernberger.jpg"
                       alt=""
                       placeholder="blurred"
                       layout="constrained"
@@ -411,7 +411,7 @@ const hochzeiten = () => (
                   </div>
                   <div style={style}>
                     <StaticImage
-                      src="../../static/img/HZ/hochzeitsfotos-berlin-brandenburg-potsdam-claudia_nuernberger-01.webp"
+                      src="../../static/img/HZ/hochzeitsfotografin-berlin-brandenburg-potsdam-claudia_nuernberger.jpg"
                       alt=""
                       placeholder="blurred"
                       layout="constrained"
@@ -419,7 +419,7 @@ const hochzeiten = () => (
                   </div>
                   <div style={style}>
                     <StaticImage
-                      src="../../static/img/HZ/hochzeitsfotos-berlin-brandenburg-usbekistan_taschkent-claudia_nuernberger-02.webp"
+                      src="../../static/img/HZ/hochzeitsfotos-berlin-brandenburg-usbekistan_taschkent-claudia_nuernberger.jpg"
                       alt=""
                       placeholder="blurred"
                       layout="constrained"
@@ -549,7 +549,7 @@ const hochzeiten = () => (
                         <p className="legend">Legend 3</p>
                       </div>
                       {/* <div>
-                        <img src={hz21} />
+                        <img src={hz} />
                         <p className="legend">Legend 3</p>
                       </div> */}
                     </Carousel>
@@ -603,7 +603,7 @@ const hochzeiten = () => (
                         <p className="legend">Legend 3</p>
                       </div>
                       <div>
-                        <img src={hz21} />
+                        <img src={hz10} />
                         <p className="legend">Legend 3</p>
                       </div>
                     </Carousel>

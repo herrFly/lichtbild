@@ -27,17 +27,14 @@ import "../../static/assets/css/fontawesome-all.min.css";
 import MyForm from "./../pages/kontakt";
 import MyFooter from "./../components/footer";
 
-import babybauchPreisliste from "./../../static/img/BABYBAUCH/Baybauch Preisliste_Final.jpg";
+import babybauchPreisliste from "./../../static/img/BABYBAUCH/Baybauch Preisliste_Final.png";
 
-import bb08 from "./../../static/img/BABYBAUCH/babybauch-berlin-brandenburg-panketal-portraitfoto-claudia_nuernberger.webp";
-import bb09 from "./../../static/img/BABYBAUCH/babybauch-berlin-brandenburg-barnim-portraitfoto-claudia_nuernberger.webp";
-import bb10 from "./../../static/img/BABYBAUCH/babybauch-berlin-brandenburg-harz-paarfotos-claudia_nuernberger.webp";
-import bb11 from "./../../static/img/BABYBAUCH/babybauch-berlin-brandenburg-reinickendorf-paarfotos-claudia_nuernberger.webp";
-import bb12 from "./../../static/img/BABYBAUCH/babybauch-berlin-brandenburg-reinickendorf-portraitfoto-claudia_nuernberger.jpeg";
-import bb13 from "./../../static/img/BABYBAUCH/babybauch-berlin-brandenburg-homeshooting-portraitfoto-claudia_nuernberger.webp";
-
-import bbtest01 from "./../../static/img/BABYBAUCH/1200px.jpg";
-import bbtest02 from "./../../static/img/BABYBAUCH/700px.jpg";
+import bb08 from "./../../static/img/BABYBAUCH/babybauch-berlin-brandenburg-panketal-portraitfoto-claudia_nuernberger.jpg";
+import bb09 from "./../../static/img/BABYBAUCH/babybauch-berlin-brandenburg-barnim-portraitfoto-claudia_nuernberger.jpg";
+import bb10 from "./../../static/img/BABYBAUCH/babybauch-berlin-brandenburg-harz-paarfotos-claudia_nuernberger.jpg";
+import bb11 from "./../../static/img/BABYBAUCH/babybauch-berlin-brandenburg-reinickendorf-paarfotos-claudia_nuernberger.jpg";
+import bb12 from "./../../static/img/BABYBAUCH/babybauch-berlin-brandenburg-reinickendorf-portraitfoto-claudia_nuernberger.jpg";
+import bb13 from "./../../static/img/BABYBAUCH/babybauch-berlin-brandenburg-homeshooting-portraitfoto-claudia_nuernberger.jpg";
 
 const style = {
   textAlign: "center",
@@ -190,7 +187,7 @@ const babybauch = () => (
                 <Slide {...properties1}>
                   <div style={style}>
                     <StaticImage
-                      src="../../static/img/BABYBAUCH/babybauch-berlin-brandenburg-schoenower_heide-portraitfoto-claudia_nuernberger.webp"
+                      src="../../static/img/BABYBAUCH/babybauch-berlin-brandenburg-schoenower_heide-portraitfoto-claudia_nuernberger.jpg"
                       alt=""
                       placeholder="blurred"
                       layout="constrained"
@@ -198,7 +195,7 @@ const babybauch = () => (
                   </div>
                   <div style={style}>
                     <StaticImage
-                      src="../../static/img/BABYBAUCH/babybauch-berlin-brandenburg-bernau-paarfotos-claudia_nuernberger.webp"
+                      src="../../static/img/BABYBAUCH/babybauch-berlin-brandenburg-bernau-paarfotos-claudia_nuernberger.jpg"
                       alt=""
                       placeholder="blurred"
                       layout="constrained"
@@ -206,7 +203,7 @@ const babybauch = () => (
                   </div>
                   <div style={style}>
                     <StaticImage
-                      src="../../static/img/BABYBAUCH/babybauch-berlin-brandenburg-bernau-portraitfoto-claudia_nuernberger.webp"
+                      src="../../static/img/BABYBAUCH/babybauch-berlin-brandenburg-bernau-portraitfoto-claudia_nuernberger.jpg"
                       alt=""
                       placeholder="blurred"
                       layout="constrained"
@@ -214,7 +211,7 @@ const babybauch = () => (
                   </div>
                   <div style={style}>
                     <StaticImage
-                      src="../../static/img/BABYBAUCH/babybauch-berlin-brandenburg-panketal-paarfotos-claudia_nuernberger.webp"
+                      src="../../static/img/BABYBAUCH/babybauch-berlin-brandenburg-panketal-paarfotos-claudia_nuernberger.jpg"
                       alt=""
                       placeholder="blurred"
                       layout="constrained"
@@ -222,7 +219,7 @@ const babybauch = () => (
                   </div>
                   <div style={style}>
                     <StaticImage
-                      src="../../static/img/BABYBAUCH/babybauch-berlin-brandenburg-schoenower_heide-paarfotos-claudia_nuernberger.webp"
+                      src="../../static/img/BABYBAUCH/babybauch-berlin-brandenburg-schoenower_heide-paarfotos-claudia_nuernberger.jpg"
                       alt=""
                       placeholder="blurred"
                       layout="constrained"
@@ -230,7 +227,7 @@ const babybauch = () => (
                   </div>
                   <div style={style}>
                     <StaticImage
-                      src="../../static/img/BABYBAUCH/babybauch-berlin-brandenburg-homeshooting-paarfotos-claudia_nuernberger.webp"
+                      src="../../static/img/BABYBAUCH/babybauch-berlin-brandenburg-homeshooting-paarfotos-claudia_nuernberger.jpg"
                       alt=""
                       placeholder="blurred"
                       layout="constrained"
@@ -238,7 +235,7 @@ const babybauch = () => (
                   </div>
                   <div style={style}>
                     <StaticImage
-                      src="../../static/img/BABYBAUCH/babybauch-berlin-brandenburg-hennigsdorf-portraitfoto-claudia_nuernberger.webp"
+                      src="../../static/img/BABYBAUCH/babybauch-berlin-brandenburg-hennigsdorf-portraitfoto-claudia_nuernberger.jpg"
                       alt=""
                       placeholder="blurred"
                       layout="constrained"
@@ -250,7 +247,7 @@ const babybauch = () => (
                 <Slide {...properties2}>
                   <div style={style}>
                     <StaticImage
-                      src="../../static/img/BABYBAUCH/babybauch-berlin-brandenburg-schoenower_heide-portraitfoto-claudia_nuernberger.webp"
+                      src="../../static/img/BABYBAUCH/babybauch-berlin-brandenburg-schoenower_heide-portraitfoto-claudia_nuernberger.jpg"
                       alt=""
                       placeholder="blurred"
                       layout="constrained"
@@ -258,7 +255,7 @@ const babybauch = () => (
                   </div>
                   <div style={style}>
                     <StaticImage
-                      src="../../static/img/BABYBAUCH/babybauch-berlin-brandenburg-bernau-paarfotos-claudia_nuernberger.webp"
+                      src="../../static/img/BABYBAUCH/babybauch-berlin-brandenburg-bernau-paarfotos-claudia_nuernberger.jpg"
                       alt=""
                       placeholder="blurred"
                       layout="constrained"
@@ -266,7 +263,7 @@ const babybauch = () => (
                   </div>
                   <div style={style}>
                     <StaticImage
-                      src="../../static/img/BABYBAUCH/babybauch-berlin-brandenburg-bernau-portraitfoto-claudia_nuernberger.webp"
+                      src="../../static/img/BABYBAUCH/babybauch-berlin-brandenburg-bernau-portraitfoto-claudia_nuernberger.jpg"
                       alt=""
                       placeholder="blurred"
                       layout="constrained"
@@ -274,7 +271,7 @@ const babybauch = () => (
                   </div>
                   <div style={style}>
                     <StaticImage
-                      src="../../static/img/BABYBAUCH/babybauch-berlin-brandenburg-panketal-paarfotos-claudia_nuernberger.webp"
+                      src="../../static/img/BABYBAUCH/babybauch-berlin-brandenburg-panketal-paarfotos-claudia_nuernberger.jpg"
                       alt=""
                       placeholder="blurred"
                       layout="constrained"
@@ -282,7 +279,7 @@ const babybauch = () => (
                   </div>
                   <div style={style}>
                     <StaticImage
-                      src="../../static/img/BABYBAUCH/babybauch-berlin-brandenburg-schoenower_heide-paarfotos-claudia_nuernberger.webp"
+                      src="../../static/img/BABYBAUCH/babybauch-berlin-brandenburg-schoenower_heide-paarfotos-claudia_nuernberger.jpg"
                       alt=""
                       placeholder="blurred"
                       layout="constrained"
@@ -290,7 +287,7 @@ const babybauch = () => (
                   </div>
                   <div style={style}>
                     <StaticImage
-                      src="../../static/img/BABYBAUCH/babybauch-berlin-brandenburg-homeshooting-paarfotos-claudia_nuernberger.webp"
+                      src="../../static/img/BABYBAUCH/babybauch-berlin-brandenburg-homeshooting-paarfotos-claudia_nuernberger.jpg"
                       alt=""
                       placeholder="blurred"
                       layout="constrained"
@@ -298,7 +295,7 @@ const babybauch = () => (
                   </div>
                   <div style={style}>
                     <StaticImage
-                      src="../../static/img/BABYBAUCH/babybauch-berlin-brandenburg-hennigsdorf-portraitfoto-claudia_nuernberger.webp"
+                      src="../../static/img/BABYBAUCH/babybauch-berlin-brandenburg-hennigsdorf-portraitfoto-claudia_nuernberger.jpg"
                       alt=""
                       placeholder="blurred"
                       layout="constrained"
@@ -308,9 +305,9 @@ const babybauch = () => (
               )}
               {matches.large && (
                 <Slide {...properties3}>
-                  {/* <div style={style}>
+                  <div style={style}>
                     <StaticImage
-                      src="../../static/img/BABYBAUCH/babybauch-berlin-brandenburg-schoenower_heide-portraitfoto-claudia_nuernberger.webp"
+                      src="../../static/img/BABYBAUCH/babybauch-berlin-brandenburg-schoenower_heide-portraitfoto-claudia_nuernberger.jpg"
                       alt=""
                       placeholder="blurred"
                       layout="constrained"
@@ -318,7 +315,7 @@ const babybauch = () => (
                   </div>
                   <div style={style}>
                     <StaticImage
-                      src="../../static/img/BABYBAUCH/babybauch-berlin-brandenburg-bernau-paarfotos-claudia_nuernberger.webp"
+                      src="../../static/img/BABYBAUCH/babybauch-berlin-brandenburg-bernau-paarfotos-claudia_nuernberger.jpg"
                       alt=""
                       placeholder="blurred"
                       layout="constrained"
@@ -326,7 +323,7 @@ const babybauch = () => (
                   </div>
                   <div style={style}>
                     <StaticImage
-                      src="../../static/img/BABYBAUCH/babybauch-berlin-brandenburg-bernau-portraitfoto-claudia_nuernberger.webp"
+                      src="../../static/img/BABYBAUCH/babybauch-berlin-brandenburg-bernau-portraitfoto-claudia_nuernberger.jpg"
                       alt=""
                       placeholder="blurred"
                       layout="constrained"
@@ -334,7 +331,7 @@ const babybauch = () => (
                   </div>
                   <div style={style}>
                     <StaticImage
-                      src="../../static/img/BABYBAUCH/babybauch-berlin-brandenburg-panketal-paarfotos-claudia_nuernberger.webp"
+                      src="../../static/img/BABYBAUCH/babybauch-berlin-brandenburg-panketal-paarfotos-claudia_nuernberger.jpg"
                       alt=""
                       placeholder="blurred"
                       layout="constrained"
@@ -342,7 +339,7 @@ const babybauch = () => (
                   </div>
                   <div style={style}>
                     <StaticImage
-                      src="../../static/img/BABYBAUCH/babybauch-berlin-brandenburg-schoenower_heide-paarfotos-claudia_nuernberger.webp"
+                      src="../../static/img/BABYBAUCH/babybauch-berlin-brandenburg-schoenower_heide-paarfotos-claudia_nuernberger.jpg"
                       alt=""
                       placeholder="blurred"
                       layout="constrained"
@@ -350,7 +347,7 @@ const babybauch = () => (
                   </div>
                   <div style={style}>
                     <StaticImage
-                      src="../../static/img/BABYBAUCH/babybauch-berlin-brandenburg-homeshooting-paarfotos-claudia_nuernberger.webp"
+                      src="../../static/img/BABYBAUCH/babybauch-berlin-brandenburg-homeshooting-paarfotos-claudia_nuernberger.jpg"
                       alt=""
                       placeholder="blurred"
                       layout="constrained"
@@ -358,31 +355,7 @@ const babybauch = () => (
                   </div>
                   <div style={style}>
                     <StaticImage
-                      src="../../static/img/BABYBAUCH/babybauch-berlin-brandenburg-hennigsdorf-portraitfoto-claudia_nuernberger.webp"
-                      alt=""
-                      placeholder="blurred"
-                      layout="constrained"
-                    />
-                  </div> */}
-                  <div style={style}>
-                    <StaticImage
-                      src="./../../static/img/BABYBAUCH/1200px.jpg"
-                      alt=""
-                      placeholder="blurred"
-                      layout="constrained"
-                    />
-                  </div>
-                  <div style={style}>
-                    <StaticImage
-                      src="./../../static/img/BABYBAUCH/700px.jpg"
-                      alt=""
-                      placeholder="blurred"
-                      layout="constrained"
-                    />
-                  </div>
-                  <div style={style}>
-                    <StaticImage
-                      src="../../static/img/BABYBAUCH/babybauch-berlin-brandenburg-bernau-portraitfoto-claudia_nuernberger.webp"
+                      src="../../static/img/BABYBAUCH/babybauch-berlin-brandenburg-hennigsdorf-portraitfoto-claudia_nuernberger.jpg"
                       alt=""
                       placeholder="blurred"
                       layout="constrained"

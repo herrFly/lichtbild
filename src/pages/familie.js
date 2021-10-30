@@ -24,7 +24,7 @@ import "../../static/assets/css/fontawesome-all.min.css";
 import MyForm from "./../pages/kontakt";
 import MyFooter from "./../components/footer";
 
-import familiePreisliste from "../../static/img/FAMILIE/Familie Preisliste_Test.png";
+import familiePreisliste from "../../static/img/FAMILIE/Familie Preisliste_Final.png";
 
 import f09 from "../../static/img/FAMILIE/kinderfotos-berlin-brandenburg-panketal-claudia_nuernberger.jpg";
 import f10 from "../../static/img/FAMILIE/familienfotos-berlin-brandenburg-harz-hamburger_wappen-claudia_nuernberger.jpg";
@@ -209,7 +209,23 @@ const familie = () => (
                   </div>
                   <div style={style}>
                     <StaticImage
+                      src="../../static/img/FAMILIE/newborn-berlin-brandenburg-claudia_nuernberger.jpg"
+                      alt=""
+                      placeholder="blurred"
+                      layout="constrained"
+                    />
+                  </div>
+                  <div style={style}>
+                    <StaticImage
                       src="../../static/img/FAMILIE/familienfotos-berlin-brandenburg-harz-claudia_nuernberger.jpg"
+                      alt=""
+                      placeholder="blurred"
+                      layout="constrained"
+                    />
+                  </div>
+                  <div style={style}>
+                    <StaticImage
+                      src="../../static/img/FAMILIE/newborn-berlin-brandenburg-bernau-claudia_nuernberger.jpg"
                       alt=""
                       placeholder="blurred"
                       layout="constrained"
@@ -277,7 +293,23 @@ const familie = () => (
                   </div>
                   <div style={style}>
                     <StaticImage
+                      src="../../static/img/FAMILIE/newborn-berlin-brandenburg-claudia_nuernberger.jpg"
+                      alt=""
+                      placeholder="blurred"
+                      layout="constrained"
+                    />
+                  </div>
+                  <div style={style}>
+                    <StaticImage
                       src="../../static/img/FAMILIE/familienfotos-berlin-brandenburg-harz-claudia_nuernberger.jpg"
+                      alt=""
+                      placeholder="blurred"
+                      layout="constrained"
+                    />
+                  </div>
+                  <div style={style}>
+                    <StaticImage
+                      src="../../static/img/FAMILIE/newborn-berlin-brandenburg-bernau-claudia_nuernberger.jpg"
                       alt=""
                       placeholder="blurred"
                       layout="constrained"
@@ -345,7 +377,23 @@ const familie = () => (
                   </div>
                   <div style={style}>
                     <StaticImage
+                      src="../../static/img/FAMILIE/newborn-berlin-brandenburg-claudia_nuernberger.jpg"
+                      alt=""
+                      placeholder="blurred"
+                      layout="constrained"
+                    />
+                  </div>
+                  <div style={style}>
+                    <StaticImage
                       src="../../static/img/FAMILIE/familienfotos-berlin-brandenburg-harz-claudia_nuernberger.jpg"
+                      alt=""
+                      placeholder="blurred"
+                      layout="constrained"
+                    />
+                  </div>
+                  <div style={style}>
+                    <StaticImage
+                      src="../../static/img/FAMILIE/newborn-berlin-brandenburg-bernau-claudia_nuernberger.jpg"
                       alt=""
                       placeholder="blurred"
                       layout="constrained"

@@ -23,15 +23,15 @@ import "../../static/assets/css/fontawesome-all.min.css";
 import MyForm from "./../pages/kontakt";
 import MyFooter from "./../components/footer";
 
-import hundePreislsite from "./../../static/img/HUNDE/Hunde Preisliste_Final.jpg";
+import hundePreislsite from "./../../static/img/HUNDE/Hunde Preisliste_Final.png";
 
-import hund8 from "../../static/img/HUNDE/hund-chihuahua-berlin-brandenburg-hundefotografin.webp";
-import hund9 from "../../static/img/HUNDE/hund-harzer_fuchs-berlin-brandenburg-hundefotograf.webp";
-import hund10 from "../../static/img/HUNDE/hund-dobermann-berlin-brandenburg-hundefotograf.webp";
-import hund11 from "../../static/img/HUNDE/hund-shiba_inu-berlin-brandenburg-hundefotograf.webp";
-import hund12 from "../../static/img/HUNDE/hund-australian_shepherd-bluemerle-berlin-brandenburg-hundefotograf-claudia_nuernberger.webp";
-//import hund13 from "../../static/img/hund-jack_russell_terrier-berlin-brandenburg-hundefotograf.webp"
-import hund14 from "../../static/img/HUNDE/hund-australian_shepherd-berlin-brandenburg-hundefotografin-claudia_nuernberger.webp";
+import hund8 from "../../static/img/HUNDE/hund-chihuahua-berlin-brandenburg-hundefotografin-claudia_nuernberger.jpg";
+import hund9 from "../../static/img/HUNDE/hund-harzer_fuchs-berlin-brandenburg-hundefotograf-claudia_nuernberger.jpg";
+import hund10 from "../../static/img/HUNDE/hund-dobermann-berlin-brandenburg-hundefotograf-claudia_nuernberger.jpg";
+import hund11 from "../../static/img/HUNDE/hund-shiba_inu-berlin-brandenburg-hundefotograf-claudia_nuernberger.jpg";
+import hund12 from "../../static/img/HUNDE/hund-australian_shepherd-bluemerle-berlin-brandenburg-hundefotograf-claudia_nuernberger.jpg";
+import hund13 from "../../static/img/HUNDE/hund-jack_russell_terrier-berlin-brandenburg-hundefotograf-claudia_nuernberger.jpg";
+import hund14 from "../../static/img/HUNDE/hund-australian_shepherd-berlin-brandenburg-hundefotografin-claudia_nuernberger.jpg";
 
 const style = {
   textAlign: "center",
@@ -184,7 +184,7 @@ const hunde = () => (
                 <Slide {...properties1}>
                   <div style={style}>
                     <StaticImage
-                      src="../../static/img/HUNDE/hund-japan_spitz-berlin-brandenburg-hundefotograf.webp"
+                      src="../../static/img/HUNDE/hund-japan_spitz-berlin-brandenburg-hundefotograf-claudia_nuernberger.jpg"
                       alt=""
                       placeholder="blurred"
                       layout="constrained"
@@ -192,7 +192,7 @@ const hunde = () => (
                   </div>
                   <div style={style}>
                     <StaticImage
-                      src="../../static/img/HUNDE/hund-border_collie-australian_shepherd-berlin-brandenburg-hundefotograf.webp"
+                      src="../../static/img/HUNDE/hund-border_collie-australian_shepherd-berlin-brandenburg-hundefotograf-claudia_nuernberger.jpg"
                       alt=""
                       placeholder="blurred"
                       layout="constrained"
@@ -200,7 +200,7 @@ const hunde = () => (
                   </div>
                   <div style={style}>
                     <StaticImage
-                      src="../../static/img/HUNDE/hund-frenchie_pei-chinese_shar_pei-french_bulldog-berlin-brandenburg-hundefotograf.webp"
+                      src="../../static/img/HUNDE/hund-frenchie_pei-chinese_shar_pei-french_bulldog-berlin-brandenburg-hundefotograf-claudia_nuernberger.jpg"
                       alt=""
                       placeholder="blurred"
                       layout="constrained"
@@ -208,7 +208,7 @@ const hunde = () => (
                   </div>
                   <div style={style}>
                     <StaticImage
-                      src="../../static/img/HUNDE/hund-shiba_inu-berlin-brandenburg-hundefotografin-claudia_nuernberger.webp"
+                      src="../../static/img/HUNDE/hund-shiba_inu-berlin-brandenburg-hundefotografin-claudia_nuernberger.jpg"
                       alt=""
                       placeholder="blurred"
                       layout="constrained"
@@ -216,7 +216,7 @@ const hunde = () => (
                   </div>
                   <div style={style}>
                     <StaticImage
-                      src="../../static/img/HUNDE/hund-deutscher_schaeferhund-schutzhundausbildung-berlin-brandenburg-hundefotograf.webp"
+                      src="../../static/img/HUNDE/hund-deutscher_schaeferhund-schutzhundausbildung-berlin-brandenburg-hundefotograf-claudia_nuernberger.jpg"
                       alt=""
                       placeholder="blurred"
                       layout="constrained"
@@ -224,7 +224,7 @@ const hunde = () => (
                   </div>
                   <div style={style}>
                     <StaticImage
-                      src="../../static/img/HUNDE/hund-chihuahua-berlin-brandenburg-hundefotograf.webp"
+                      src="../../static/img/HUNDE/hund-chihuahua-berlin-brandenburg-hundefotograf-claudia_nuernberger.jpg"
                       alt=""
                       placeholder="blurred"
                       layout="constrained"
@@ -232,7 +232,7 @@ const hunde = () => (
                   </div>
                   <div style={style}>
                     <StaticImage
-                      src="../../static/img/HUNDE/hund-labrador-berlin-brandenburg-hundefotograf.webp"
+                      src="../../static/img/HUNDE/hund-labrador-berlin-brandenburg-hundefotograf-claudia_nuernberger.jpg"
                       alt=""
                       placeholder="blurred"
                       layout="constrained"
@@ -244,7 +244,7 @@ const hunde = () => (
                 <Slide {...properties2}>
                   <div style={style}>
                     <StaticImage
-                      src="../../static/img/HUNDE/hund-japan_spitz-berlin-brandenburg-hundefotograf.webp"
+                      src="../../static/img/HUNDE/hund-japan_spitz-berlin-brandenburg-hundefotograf-claudia_nuernberger.jpg"
                       alt=""
                       placeholder="blurred"
                       layout="constrained"
@@ -252,7 +252,7 @@ const hunde = () => (
                   </div>
                   <div style={style}>
                     <StaticImage
-                      src="../../static/img/HUNDE/hund-border_collie-australian_shepherd-berlin-brandenburg-hundefotograf.webp"
+                      src="../../static/img/HUNDE/hund-border_collie-australian_shepherd-berlin-brandenburg-hundefotograf-claudia_nuernberger.jpg"
                       alt=""
                       placeholder="blurred"
                       layout="constrained"
@@ -260,7 +260,7 @@ const hunde = () => (
                   </div>
                   <div style={style}>
                     <StaticImage
-                      src="../../static/img/HUNDE/hund-frenchie_pei-chinese_shar_pei-french_bulldog-berlin-brandenburg-hundefotograf.webp"
+                      src="../../static/img/HUNDE/hund-frenchie_pei-chinese_shar_pei-french_bulldog-berlin-brandenburg-hundefotograf-claudia_nuernberger.jpg"
                       alt=""
                       placeholder="blurred"
                       layout="constrained"
@@ -268,7 +268,7 @@ const hunde = () => (
                   </div>
                   <div style={style}>
                     <StaticImage
-                      src="../../static/img/HUNDE/hund-shiba_inu-berlin-brandenburg-hundefotografin-claudia_nuernberger.webp"
+                      src="../../static/img/HUNDE/hund-shiba_inu-berlin-brandenburg-hundefotografin-claudia_nuernberger.jpg"
                       alt=""
                       placeholder="blurred"
                       layout="constrained"
@@ -276,7 +276,7 @@ const hunde = () => (
                   </div>
                   <div style={style}>
                     <StaticImage
-                      src="../../static/img/HUNDE/hund-deutscher_schaeferhund-schutzhundausbildung-berlin-brandenburg-hundefotograf.webp"
+                      src="../../static/img/HUNDE/hund-deutscher_schaeferhund-schutzhundausbildung-berlin-brandenburg-hundefotograf-claudia_nuernberger.jpg"
                       alt=""
                       placeholder="blurred"
                       layout="constrained"
@@ -284,7 +284,7 @@ const hunde = () => (
                   </div>
                   <div style={style}>
                     <StaticImage
-                      src="../../static/img/HUNDE/hund-chihuahua-berlin-brandenburg-hundefotograf.webp"
+                      src="../../static/img/HUNDE/hund-chihuahua-berlin-brandenburg-hundefotograf-claudia_nuernberger.jpg"
                       alt=""
                       placeholder="blurred"
                       layout="constrained"
@@ -292,7 +292,7 @@ const hunde = () => (
                   </div>
                   <div style={style}>
                     <StaticImage
-                      src="../../static/img/HUNDE/hund-labrador-berlin-brandenburg-hundefotograf.webp"
+                      src="../../static/img/HUNDE/hund-labrador-berlin-brandenburg-hundefotograf-claudia_nuernberger.jpg"
                       alt=""
                       placeholder="blurred"
                       layout="constrained"
@@ -304,7 +304,7 @@ const hunde = () => (
                 <Slide {...properties3}>
                   <div style={style}>
                     <StaticImage
-                      src="../../static/img/HUNDE/hund-japan_spitz-berlin-brandenburg-hundefotograf.webp"
+                      src="../../static/img/HUNDE/hund-japan_spitz-berlin-brandenburg-hundefotograf-claudia_nuernberger.jpg"
                       alt=""
                       placeholder="blurred"
                       layout="constrained"
@@ -312,7 +312,7 @@ const hunde = () => (
                   </div>
                   <div style={style}>
                     <StaticImage
-                      src="../../static/img/HUNDE/hund-border_collie-australian_shepherd-berlin-brandenburg-hundefotograf.webp"
+                      src="../../static/img/HUNDE/hund-border_collie-australian_shepherd-berlin-brandenburg-hundefotograf-claudia_nuernberger.jpg"
                       alt=""
                       placeholder="blurred"
                       layout="constrained"
@@ -320,7 +320,7 @@ const hunde = () => (
                   </div>
                   <div style={style}>
                     <StaticImage
-                      src="../../static/img/HUNDE/hund-frenchie_pei-chinese_shar_pei-french_bulldog-berlin-brandenburg-hundefotograf.webp"
+                      src="../../static/img/HUNDE/hund-frenchie_pei-chinese_shar_pei-french_bulldog-berlin-brandenburg-hundefotograf-claudia_nuernberger.jpg"
                       alt=""
                       placeholder="blurred"
                       layout="constrained"
@@ -328,7 +328,7 @@ const hunde = () => (
                   </div>
                   <div style={style}>
                     <StaticImage
-                      src="../../static/img/HUNDE/hund-shiba_inu-berlin-brandenburg-hundefotografin-claudia_nuernberger.webp"
+                      src="../../static/img/HUNDE/hund-shiba_inu-berlin-brandenburg-hundefotografin-claudia_nuernberger.jpg"
                       alt=""
                       placeholder="blurred"
                       layout="constrained"
@@ -336,7 +336,7 @@ const hunde = () => (
                   </div>
                   <div style={style}>
                     <StaticImage
-                      src="../../static/img/HUNDE/hund-deutscher_schaeferhund-schutzhundausbildung-berlin-brandenburg-hundefotograf.webp"
+                      src="../../static/img/HUNDE/hund-deutscher_schaeferhund-schutzhundausbildung-berlin-brandenburg-hundefotograf-claudia_nuernberger.jpg"
                       alt=""
                       placeholder="blurred"
                       layout="constrained"
@@ -344,7 +344,7 @@ const hunde = () => (
                   </div>
                   <div style={style}>
                     <StaticImage
-                      src="../../static/img/HUNDE/hund-chihuahua-berlin-brandenburg-hundefotograf.webp"
+                      src="../../static/img/HUNDE/hund-chihuahua-berlin-brandenburg-hundefotograf-claudia_nuernberger.jpg"
                       alt=""
                       placeholder="blurred"
                       layout="constrained"
@@ -352,7 +352,7 @@ const hunde = () => (
                   </div>
                   <div style={style}>
                     <StaticImage
-                      src="../../static/img/HUNDE/hund-labrador-berlin-brandenburg-hundefotograf.webp"
+                      src="../../static/img/HUNDE/hund-labrador-berlin-brandenburg-hundefotograf-claudia_nuernberger.jpg"
                       alt=""
                       placeholder="blurred"
                       layout="constrained"
@@ -465,7 +465,10 @@ const hunde = () => (
                         <img src={hund12} />
                         <p className="legend">Legend 3</p>
                       </div>
-
+                      <div>
+                        <img src={hund13} />
+                        <p className="legend">Legend 3</p>
+                      </div>
                       <div>
                         <img src={hund14} />
                         <p className="legend">Legend 3</p>
