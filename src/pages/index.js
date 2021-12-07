@@ -15,7 +15,6 @@ import "../../static/assets/css/fontawesome-all.min.css";
 import MyForm from "./kontakt";
 import MyFooter from "../components/footer";
 
-import CookieConsent from "react-cookie-consent";
 
 const Home = () => {
   return (
@@ -65,22 +64,15 @@ const Home = () => {
         </a>
       </Menu>
       <header>
-      <script id="Cookiebot" src="https://consent.cookiebot.com/uc.js" data-cbid="a908ea04-7fd8-4f63-9f62-8af48669c6c7" type="text/javascript" data-blockingmode="auto"></script>
-        <script
+      <script id="Cookiebot" src="https://consent.cookiebot.com/uc.js" data-cbid="a908ea04-7fd8-4f63-9f62-8af48669c6c7" data-blockingmode="auto" type="text/javascript"></script>        
+      
+      <script
           src="https://kit.fontawesome.com/d829a07913.js"
           crossOrigin="anonymous"
         ></script>
 
       </header>
       <main>
-        {/* <CookieConsent
-          location="bottom"
-          buttonText="Accept"
-          declineButtonText="Decline"
-          cookieName="gatsby-gdpr-google-analytics"
-        >
-          This site uses cookies ...
-        </CookieConsent> */}
         <section
           id="starterSektion"
           className="banner onload-image-fade-in onload-content-fade-right - style3 fullscreen orient-right content-align-left image-position-center"
