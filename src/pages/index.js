@@ -65,10 +65,12 @@ const Home = () => {
         </a>
       </Menu>
       <header>
+      <script id="Cookiebot" src="https://consent.cookiebot.com/uc.js" data-cbid="a908ea04-7fd8-4f63-9f62-8af48669c6c7" type="text/javascript" data-blockingmode="auto"></script>
         <script
           src="https://kit.fontawesome.com/d829a07913.js"
           crossOrigin="anonymous"
         ></script>
+
       </header>
       <main>
         {/* <CookieConsent
