@@ -22,6 +22,7 @@ const Home = () => {
       <Helmet>
         <title>Lichtbild-Enthusiastin - Claudia Nürnberger</title>
         <link to="/favicon.ico" rel="shortcut icon" type="image/x-icon" />
+
       </Helmet>
       <Menu disableAutoFocus>
         <Link to="/" className="menu-item">
@@ -64,15 +65,15 @@ const Home = () => {
         </a>
       </Menu>
       <header>
-      <script id="Cookiebot" src="https://consent.cookiebot.com/uc.js" data-cbid="a908ea04-7fd8-4f63-9f62-8af48669c6c7" data-blockingmode="auto" type="text/javascript"></script>        
-      
       <script
           src="https://kit.fontawesome.com/d829a07913.js"
           crossOrigin="anonymous"
         ></script>
 
       </header>
+  
       <main>
+      <script src="https://consent.cookiefirst.com/banner.js" data-cookiefirst-key="82cc7eed-c6c5-4b68-9ce6-fc3c540dd62b"></script>
         <section
           id="starterSektion"
           className="banner onload-image-fade-in onload-content-fade-right - style3 fullscreen orient-right content-align-left image-position-center"
