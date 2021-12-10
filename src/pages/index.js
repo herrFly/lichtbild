@@ -73,7 +73,6 @@ const Home = () => {
 
       </header>
       <main>
-      <script id="CookieDeclaration" src="https://consent.cookiebot.com/a908ea04-7fd8-4f63-9f62-8af48669c6c7/cd.js" type="text/javascript" async></script>
         <section
           id="starterSektion"
           className="banner onload-image-fade-in onload-content-fade-right - style3 fullscreen orient-right content-align-left image-position-center"
