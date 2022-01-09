@@ -69,15 +69,15 @@ export const Layout = ({ children }) => (
       
     </header>
     <script id="Cookiebot" src="https://consent.cookiebot.com/uc.js" data-cbid="a908ea04-7fd8-4f63-9f62-8af48669c6c7" data-blockingmode="auto" type="text/javascript"></script>
-{/*     
+
     <CookieConsent
           location="bottom"
-          buttonText="Accept"
-          declineButtonText="Decline"
-          cookieName="gatsby-gdpr-google-analytics">
-This site uses cookies ...
+          buttonText="Annehmen"
+          declineButtonText=""
+          cookieName="">
+Diese Webseite benutzt Cookies, um Ihnen die bestmögliche Nutzerfreundlichkeit zu bieten. Wenn Sie diese Webseite weiterhin nutzen, wird von Ihrem Einverständnis ausgegangen.
 </CookieConsent>
- */}
+
 
         {children}
 
