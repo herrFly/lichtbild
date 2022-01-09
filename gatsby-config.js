@@ -11,32 +11,14 @@ module.exports = {
         path: `${__dirname}/static/img/`,
       },
     },
-    {
-      resolve: `gatsby-plugin-google-gtag`,
-      options: {
-        trackingIds: ["G-NNWTHLWFCN"],
-        // This object gets passed directly to the gtag config command
-        // This config will be shared across all trackingIds
-        gtagConfig: {
-          optimize_id: "OPT_CONTAINER_ID",
-          anonymize_ip: true,
-          cookie_expires: 0,
-        },
-        // This object is used for configuration specific to this plugin
-        pluginConfig: {
-          head: true,
-          respectDNT: false,
-          exclude: ["/preview/**", "/do-not-track/me/too/"],
-        },
-      },
-    },
+  
     {
       resolve: "gatsby-plugin-cookiebot",
       options: {
         cookiebotId: "a908ea04-7fd8-4f63-9f62-8af48669c6c7", // Required. Site's Cookiebot ID.
-        manualMode: false, // Optional. Turns on Cookiebot's manual mode. Defaults to false.
+        manualMode: true, // Optional. Turns on Cookiebot's manual mode. Defaults to false.
         blockGtm: true, //  Optional. Skip blocking of GTM. Defaults to true if manualMode is set to true.
-        includeInDevelopment: false, // Optional. Enables plugin in development. Will cause gatsby-plugin-google-tagmanager to thrown an error when pushing to dataLayer. Defaults to false.
+        includeInDevelopment: true, // Optional. Enables plugin in development. Will cause gatsby-plugin-google-tagmanager to thrown an error when pushing to dataLayer. Defaults to false.
         pluginDebug: false, // Optional. Debug mode for plugin development. Defaults to false.
       },
     },

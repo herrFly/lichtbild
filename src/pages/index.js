@@ -1,10 +1,9 @@
 import React from "react";
-import { Helmet } from "react-helmet";
 import { Link } from "gatsby";
 import { StaticImage } from "gatsby-plugin-image";
 
-import { slide as Menu } from "react-burger-menu";
-import Media from "react-media";
+// import Media from "react-media";
+import Layout from "../components/Layout"
 
 import "@fontsource/lato/300.css";
 
@@ -12,14 +11,12 @@ import "../../static/assets/css/main.css";
 import "../../static/assets/css/noscript.css";
 import "../../static/assets/css/fontawesome-all.min.css";
 
-import MyForm from "./kontakt";
-import MyFooter from "../components/footer";
 
 
 const Home = () => {
   return (
     <>
-      <Helmet>
+  {/*     <Helmet>
         <title>Lichtbild-Enthusiastin - Claudia Nürnberger</title>
         <link to="/favicon.ico" rel="shortcut icon" type="image/x-icon" />
 
@@ -69,11 +66,11 @@ const Home = () => {
           src="https://kit.fontawesome.com/d829a07913.js"
           crossOrigin="anonymous"
         ></script>
+      </header> */}
 
-      </header>
+      <Layout>
   
       <main>
-      <script src="https://consent.cookiefirst.com/banner.js" data-cookiefirst-key="82cc7eed-c6c5-4b68-9ce6-fc3c540dd62b"></script>
         <section
           id="starterSektion"
           className="banner onload-image-fade-in onload-content-fade-right - style3 fullscreen orient-right content-align-left image-position-center"
@@ -307,15 +304,16 @@ const Home = () => {
             </div>
           </section>
 
-          <section className="wrapper style1 align-center kontakt">
+          {/* <section className="wrapper style1 align-center kontakt">
             <MyForm />
           </section>
 
           <footer className="wrapper style1 align-center randDesktop">
             <MyFooter />
-          </footer>
+          </footer> */}
         </div>
       </main>
+      </Layout>
     </>
   );
 };
