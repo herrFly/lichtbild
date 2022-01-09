@@ -65,8 +65,10 @@ export const Layout = ({ children }) => (
         src="https://kit.fontawesome.com/d829a07913.js"
         crossOrigin="anonymous"
       ></script>
+
+      
     </header>
-    
+    <script id="Cookiebot" src="https://consent.cookiebot.com/uc.js" data-cbid="a908ea04-7fd8-4f63-9f62-8af48669c6c7" data-blockingmode="auto" type="text/javascript"></script>
 {/*     
     <CookieConsent
           location="bottom"
