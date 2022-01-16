@@ -188,7 +188,8 @@ const babybauch = () => (
                   <div style={style}>
                     <StaticImage
                       src="../../static/img/BABYBAUCH/babybauch-berlin-brandenburg-schoenower_heide-portraitfoto-claudia_nuernberger.jpg"
-                      alt=""
+                      alt="Schwangere Frau, steht in der Natur und schaut glücklich auf ihren Babybauch. Ihr ausladendes mit Rüschen bedecktes Kleid umschließt ihre Schultern und wallt über ihre Seiten bis zum knöchelhohen Gras.
+                      Fotografin: Claudia Nürnberger"
                       placeholder="blurred"
                       layout="constrained"
                     />
@@ -196,7 +197,8 @@ const babybauch = () => (
                   <div style={style}>
                     <StaticImage
                       src="../../static/img/BABYBAUCH/babybauch-berlin-brandenburg-bernau-paarfotos-claudia_nuernberger.jpg"
-                      alt=""
+                      alt="Mann steht hinter seiner schwangeren Frau. Ihre Hände liegen aufeinander auf ihrem Babybauch während sie ihm verliebt ihr Gesicht zuwendet. Beide halten die Augen geschlossen in diesem zärtlichen Moment.
+                      Fotografin: Claudia Nürnberger"
                       placeholder="blurred"
                       layout="constrained"
                     />
@@ -204,7 +206,8 @@ const babybauch = () => (
                   <div style={style}>
                     <StaticImage
                       src="../../static/img/BABYBAUCH/babybauch-berlin-brandenburg-bernau-portraitfoto-claudia_nuernberger.jpg"
-                      alt=""
+                      alt="Schwangere Frau steht vor einem Hintergrund aus Birken in der Natur und schaut liebevoll auf ihren Babybauch
+                      Fotografin: Claudia Nürnberger"
                       placeholder="blurred"
                       layout="constrained"
                     />
@@ -212,7 +215,8 @@ const babybauch = () => (
                   <div style={style}>
                     <StaticImage
                       src="../../static/img/BABYBAUCH/babybauch-berlin-brandenburg-panketal-paarfotos-claudia_nuernberger.jpg"
-                      alt=""
+                      alt="Mann steht mit seiner schwangeren Frau, deren Haar von einem Blumenkranz gekrönt werden, im Arm vor einem lichten Wäldchen. Beide haben eine Hand auf ihrem Bauch liegen sie blicken sich an und lächeln verliebt.
+                      Fotografin: Claudia Nürnberger"
                       placeholder="blurred"
                       layout="constrained"
                     />
@@ -220,7 +224,8 @@ const babybauch = () => (
                   <div style={style}>
                     <StaticImage
                       src="../../static/img/BABYBAUCH/babybauch-berlin-brandenburg-schoenower_heide-paarfotos-claudia_nuernberger.jpg"
-                      alt=""
+                      alt="Mann steht hinter seiner schwangeren Frau auf einem Feldweg. Ihre Hände liegen aufeinander auf ihrem Babybauch während beide glücklich dem Betrachter zugewendet lächeln.
+                      Fotografin: Claudia Nürnberger"
                       placeholder="blurred"
                       layout="constrained"
                     />
@@ -228,7 +233,8 @@ const babybauch = () => (
                   <div style={style}>
                     <StaticImage
                       src="../../static/img/BABYBAUCH/babybauch-berlin-brandenburg-homeshooting-paarfotos-claudia_nuernberger.jpg"
-                      alt=""
+                      alt="Ein schwangeres Pärchen steht vor einem Fenster im Profil und hat die Gesichter einander zugewandt. Sie umarmen sich zärtlich und ihre Bäuche berührt sich, während sie sich anlächeln.
+                      Fotografin: Claudia Nürnberger"
                       placeholder="blurred"
                       layout="constrained"
                     />
@@ -236,7 +242,8 @@ const babybauch = () => (
                   <div style={style}>
                     <StaticImage
                       src="../../static/img/BABYBAUCH/babybauch-berlin-brandenburg-hennigsdorf-portraitfoto-claudia_nuernberger.jpg"
-                      alt=""
+                      alt="Eine schwangere Frau steht im Kinderzimmer vor Tiertapete. Im Hintergrund erkennt man das Kinderbett. Sie hält ein mit Stoff ummanteltes Drahtherz vor ihrem Bauch. Ihr seitliches Profil wird von einem seidenen Morgenmantel umweht, welcher offen ist und ihren kugelrunden Babybauch zeigt.
+                      Fotografin: Claudia Nürnberger"
                       placeholder="blurred"
                       layout="constrained"
                     />
@@ -248,7 +255,8 @@ const babybauch = () => (
                   <div style={style}>
                     <StaticImage
                       src="../../static/img/BABYBAUCH/babybauch-berlin-brandenburg-schoenower_heide-portraitfoto-claudia_nuernberger.jpg"
-                      alt=""
+                      alt="Schwangere Frau, steht in der Natur und schaut glücklich auf ihren Babybauch. Ihr ausladendes mit Rüschen bedecktes Kleid umschließt ihre Schultern und wallt über ihre Seiten bis zum knöchelhohen Gras.
+                      Fotografin: Claudia Nürnberger"
                       placeholder="blurred"
                       layout="constrained"
                     />
@@ -256,7 +264,8 @@ const babybauch = () => (
                   <div style={style}>
                     <StaticImage
                       src="../../static/img/BABYBAUCH/babybauch-berlin-brandenburg-bernau-paarfotos-claudia_nuernberger.jpg"
-                      alt=""
+                      alt="Mann steht hinter seiner schwangeren Frau. Ihre Hände liegen aufeinander auf ihrem Babybauch während sie ihm verliebt ihr Gesicht zuwendet. Beide halten die Augen geschlossen in diesem zärtlichen Moment.
+                      Fotografin: Claudia Nürnberger"
                       placeholder="blurred"
                       layout="constrained"
                     />
@@ -264,7 +273,8 @@ const babybauch = () => (
                   <div style={style}>
                     <StaticImage
                       src="../../static/img/BABYBAUCH/babybauch-berlin-brandenburg-bernau-portraitfoto-claudia_nuernberger.jpg"
-                      alt=""
+                      alt="Schwangere Frau steht vor einem Hintergrund aus Birken in der Natur und schaut liebevoll auf ihren Babybauch
+                      Fotografin: Claudia Nürnberger"
                       placeholder="blurred"
                       layout="constrained"
                     />
@@ -272,7 +282,8 @@ const babybauch = () => (
                   <div style={style}>
                     <StaticImage
                       src="../../static/img/BABYBAUCH/babybauch-berlin-brandenburg-panketal-paarfotos-claudia_nuernberger.jpg"
-                      alt=""
+                      alt="Mann steht mit seiner schwangeren Frau, deren Haar von einem Blumenkranz gekrönt werden, im Arm vor einem lichten Wäldchen. Beide haben eine Hand auf ihrem Bauch liegen sie blicken sich an und lächeln verliebt.
+                      Fotografin: Claudia Nürnberger"
                       placeholder="blurred"
                       layout="constrained"
                     />
@@ -280,7 +291,8 @@ const babybauch = () => (
                   <div style={style}>
                     <StaticImage
                       src="../../static/img/BABYBAUCH/babybauch-berlin-brandenburg-schoenower_heide-paarfotos-claudia_nuernberger.jpg"
-                      alt=""
+                      alt="Mann steht hinter seiner schwangeren Frau auf einem Feldweg. Ihre Hände liegen aufeinander auf ihrem Babybauch während beide glücklich dem Betrachter zugewendet lächeln.
+                      Fotografin: Claudia Nürnberger"
                       placeholder="blurred"
                       layout="constrained"
                     />
@@ -288,7 +300,8 @@ const babybauch = () => (
                   <div style={style}>
                     <StaticImage
                       src="../../static/img/BABYBAUCH/babybauch-berlin-brandenburg-homeshooting-paarfotos-claudia_nuernberger.jpg"
-                      alt=""
+                      alt="Ein schwangeres Pärchen steht vor einem Fenster im Profil und hat die Gesichter einander zugewandt. Sie umarmen sich zärtlich und ihre Bäuche berührt sich, während sie sich anlächeln.
+                      Fotografin: Claudia Nürnberger"
                       placeholder="blurred"
                       layout="constrained"
                     />
@@ -296,7 +309,8 @@ const babybauch = () => (
                   <div style={style}>
                     <StaticImage
                       src="../../static/img/BABYBAUCH/babybauch-berlin-brandenburg-hennigsdorf-portraitfoto-claudia_nuernberger.jpg"
-                      alt=""
+                      alt="Eine schwangere Frau steht im Kinderzimmer vor Tiertapete. Im Hintergrund erkennt man das Kinderbett. Sie hält ein mit Stoff ummanteltes Drahtherz vor ihrem Bauch. Ihr seitliches Profil wird von einem seidenen Morgenmantel umweht, welcher offen ist und ihren kugelrunden Babybauch zeigt.
+                      Fotografin: Claudia Nürnberger"
                       placeholder="blurred"
                       layout="constrained"
                     />
@@ -308,7 +322,8 @@ const babybauch = () => (
                   <div style={style}>
                     <StaticImage
                       src="../../static/img/BABYBAUCH/babybauch-berlin-brandenburg-schoenower_heide-portraitfoto-claudia_nuernberger.jpg"
-                      alt=""
+                      alt="Schwangere Frau, steht in der Natur und schaut glücklich auf ihren Babybauch. Ihr ausladendes mit Rüschen bedecktes Kleid umschließt ihre Schultern und wallt über ihre Seiten bis zum knöchelhohen Gras.
+                      Fotografin: Claudia Nürnberger"
                       placeholder="blurred"
                       layout="constrained"
                     />
@@ -316,7 +331,8 @@ const babybauch = () => (
                   <div style={style}>
                     <StaticImage
                       src="../../static/img/BABYBAUCH/babybauch-berlin-brandenburg-bernau-paarfotos-claudia_nuernberger.jpg"
-                      alt=""
+                      alt="Mann steht hinter seiner schwangeren Frau. Ihre Hände liegen aufeinander auf ihrem Babybauch während sie ihm verliebt ihr Gesicht zuwendet. Beide halten die Augen geschlossen in diesem zärtlichen Moment.
+                      Fotografin: Claudia Nürnberger"
                       placeholder="blurred"
                       layout="constrained"
                     />
@@ -324,7 +340,8 @@ const babybauch = () => (
                   <div style={style}>
                     <StaticImage
                       src="../../static/img/BABYBAUCH/babybauch-berlin-brandenburg-bernau-portraitfoto-claudia_nuernberger.jpg"
-                      alt=""
+                      alt="Schwangere Frau steht vor einem Hintergrund aus Birken in der Natur und schaut liebevoll auf ihren Babybauch
+                      Fotografin: Claudia Nürnberger"
                       placeholder="blurred"
                       layout="constrained"
                     />
@@ -332,7 +349,8 @@ const babybauch = () => (
                   <div style={style}>
                     <StaticImage
                       src="../../static/img/BABYBAUCH/babybauch-berlin-brandenburg-panketal-paarfotos-claudia_nuernberger.jpg"
-                      alt=""
+                      alt="Mann steht mit seiner schwangeren Frau, deren Haar von einem Blumenkranz gekrönt werden, im Arm vor einem lichten Wäldchen. Beide haben eine Hand auf ihrem Bauch liegen sie blicken sich an und lächeln verliebt.
+                      Fotografin: Claudia Nürnberger"
                       placeholder="blurred"
                       layout="constrained"
                     />
@@ -340,7 +358,8 @@ const babybauch = () => (
                   <div style={style}>
                     <StaticImage
                       src="../../static/img/BABYBAUCH/babybauch-berlin-brandenburg-schoenower_heide-paarfotos-claudia_nuernberger.jpg"
-                      alt=""
+                      alt="Mann steht hinter seiner schwangeren Frau auf einem Feldweg. Ihre Hände liegen aufeinander auf ihrem Babybauch während beide glücklich dem Betrachter zugewendet lächeln.
+                      Fotografin: Claudia Nürnberger"
                       placeholder="blurred"
                       layout="constrained"
                     />
@@ -348,7 +367,8 @@ const babybauch = () => (
                   <div style={style}>
                     <StaticImage
                       src="../../static/img/BABYBAUCH/babybauch-berlin-brandenburg-homeshooting-paarfotos-claudia_nuernberger.jpg"
-                      alt=""
+                      alt="Ein schwangeres Pärchen steht vor einem Fenster im Profil und hat die Gesichter einander zugewandt. Sie umarmen sich zärtlich und ihre Bäuche berührt sich, während sie sich anlächeln.
+                      Fotografin: Claudia Nürnberger"
                       placeholder="blurred"
                       layout="constrained"
                     />
@@ -356,7 +376,8 @@ const babybauch = () => (
                   <div style={style}>
                     <StaticImage
                       src="../../static/img/BABYBAUCH/babybauch-berlin-brandenburg-hennigsdorf-portraitfoto-claudia_nuernberger.jpg"
-                      alt=""
+                      alt="Eine schwangere Frau steht im Kinderzimmer vor Tiertapete. Im Hintergrund erkennt man das Kinderbett. Sie hält ein mit Stoff ummanteltes Drahtherz vor ihrem Bauch. Ihr seitliches Profil wird von einem seidenen Morgenmantel umweht, welcher offen ist und ihren kugelrunden Babybauch zeigt.
+                      Fotografin: Claudia Nürnberger"
                       placeholder="blurred"
                       layout="constrained"
                     />
@@ -493,27 +514,52 @@ const babybauch = () => (
                       className="hochkantCarousel"
                     >
                       <div>
-                        <img src={bb08} />
+                        <img
+                          src={bb08}
+                          alt="Schwangere Frau steht in Unterwäsche in ihrem Wohnzimmer, ihr langes Haar wellt sich über die rechte Schulter während sie ihren Babybauch mit den Händen umschließt.
+                          Fotografin: Claudia Nürnberger"
+                        />
                         <p className="legend">Legend 1</p>
                       </div>
                       <div>
-                        <img src={bb09} />
+                        <img
+                          src={bb09}
+                          alt="Schwangere Frau mit Blumenkranz, steht in der Natur und hält sich den runden Babybauch, während ihr luftiges Kleid mit Schleppe von einem Windstoß seitlich hochgewirbelt wird.
+                          Fotografin: Claudia Nürnberger"
+                        />
                         <p className="legend">Legend 2</p>
                       </div>
                       <div>
-                        <img src={bb10} />
+                        <img
+                          src={bb10}
+                          alt="Mann steht mit seiner schwangeren Frau im Arm vor dem Hamburger Wappen, im Harz. Beide haben eine Hand auf ihrem Bauch liegen. Sie lächeln sich verliebt an.
+                          Fotografin: Claudia Nürnberger
+                        "
+                        />
                         <p className="legend">Legend 3</p>
                       </div>
                       <div>
-                        <img src={bb11} />
+                        <img
+                          src={bb11}
+                          alt="Schwangeres Pärchen lustwandelt durch einen Wald. Sie halten einander an der Hand während sie sich anschauen. Mit ihrer anderen Hand umfasst die Schwangere ihren runden Babybauch.
+                          Fotografin: Claudia Nürnberger"
+                        />
                         <p className="legend">Legend 3</p>
                       </div>
                       <div>
-                        <img src={bb12} />
+                        <img
+                          src={bb12}
+                          alt="Schwangere Frau, steht in der Natur und schaut über ihre Schulter, weg vom Betrachter. Sie umschließt mit den Händen sanft ihren Bauch. Ihr seidenes Kleid fällt in leichten Wellen gen Boden.
+                          Fotografin: Claudia Nürnberger"
+                        />
                         <p className="legend">Legend 3</p>
                       </div>
                       <div>
-                        <img src={bb13} />
+                        <img
+                          src={bb13}
+                          alt="Schwangere Frau sitzt mit einem glücklichen Lächeln im Schneidersitz auf dem Boden. Die rechte Hand liegt auf ihrem Babybauch und in der linken Hand hält einen Stoffhasen, der auf ihrem Oberschenkel sitzt.
+                          Fotografin: Claudia Nürnberger"
+                        />
                         <p className="legend">Legend 3</p>
                       </div>
                     </Carousel>

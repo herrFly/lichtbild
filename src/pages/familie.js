@@ -178,7 +178,7 @@ const familie = () => (
                   <div style={style}>
                     <StaticImage
                       src="../../static/img/FAMILIE/paarfotos-berlin-brandenburg-bernau-claudia_nuernberger.jpg"
-                      alt=""
+                      alt="Junger Mann trägt seine Freundin Huckepack. Beide lachen und ihre Haare fliegen im Wind. Fotografin: Claudia Nürnberger"
                       placeholder="blurred"
                       layout="constrained"
                     />
@@ -186,7 +186,7 @@ const familie = () => (
                   <div style={style}>
                     <StaticImage
                       src="../../static/img/FAMILIE/kinderfotos-berlin-brandenburg-harz-claudia_nuernberger.jpg"
-                      alt=""
+                      alt="Ein Kleinkind liegt auf einem weißen Fell vor einer Blumenwiese. Sie trägt ein Haarband und schaut lächelnd nach links. Fotografin: Claudia Nürnberger"
                       placeholder="blurred"
                       layout="constrained"
                     />
@@ -194,7 +194,7 @@ const familie = () => (
                   <div style={style}>
                     <StaticImage
                       src="../../static/img/FAMILIE/paarfotos-berlin-brandenburg-harz-claudia_nuernberger.jpg"
-                      alt=""
+                      alt="Paar läuft Händchenhaltend einen Feldweg entlang. Fotografin: Claudia Nürnberger"
                       placeholder="blurred"
                       layout="constrained"
                     />
@@ -202,7 +202,7 @@ const familie = () => (
                   <div style={style}>
                     <StaticImage
                       src="../../static/img/FAMILIE/familienfotos-berlin-brandenburg-bernau-claudia_nuernberger.jpg"
-                      alt=""
+                      alt="Mutter umarmt ihre Tochter. Ihre Hand hält den Kopf des kleinen Mädchens. Die Augen der Frau sind geschlossen und sie lächelt glücklich. Fotografin: Claudia Nürnberger"
                       placeholder="blurred"
                       layout="constrained"
                     />
@@ -210,7 +210,7 @@ const familie = () => (
                   <div style={style}>
                     <StaticImage
                       src="../../static/img/FAMILIE/newborn-berlin-brandenburg-claudia_nuernberger.jpg"
-                      alt=""
+                      alt="Neugeborenes Baby schläft auf einer kuschligen Decke zugedeckt mit einem Leinentuch. Fotografin: Claudia Nürnberger"
                       placeholder="blurred"
                       layout="constrained"
                     />
@@ -218,7 +218,7 @@ const familie = () => (
                   <div style={style}>
                     <StaticImage
                       src="../../static/img/FAMILIE/familienfotos-berlin-brandenburg-harz-claudia_nuernberger.jpg"
-                      alt=""
+                      alt="Eine Familie mit zwei Kindern sitzen gemeinsam in einem Feld. Alle gucken direkt den Betrachter an und lächeln. Fotografin: Claudia Nürnberger"
                       placeholder="blurred"
                       layout="constrained"
                     />
@@ -226,7 +226,7 @@ const familie = () => (
                   <div style={style}>
                     <StaticImage
                       src="../../static/img/FAMILIE/newborn-berlin-brandenburg-bernau-claudia_nuernberger.jpg"
-                      alt=""
+                      alt="Fuß eines neugeborenen Babys liegt auf der Hand seiner großen Schwester. Fotografin: Claudia Nürnberger"
                       placeholder="blurred"
                       layout="constrained"
                     />
@@ -234,7 +234,7 @@ const familie = () => (
                   <div style={style}>
                     <StaticImage
                       src="../../static/img/FAMILIE/paarfotos-berlin-brandenburg-regierungsviertel-claudia_nuernberger.jpg"
-                      alt=""
+                      alt="Ein junges Paar küsst sich innig. Er hält ihr Gesicht liebevoll mit seinen Händen umfasst. Fotografin: Claudia Nürnberger"
                       placeholder="blurred"
                       layout="constrained"
                     />
@@ -242,7 +242,7 @@ const familie = () => (
                   <div style={style}>
                     <StaticImage
                       src="../../static/img/FAMILIE/kinderfotos-berlin-brandenburg-oranienburg-claudia_nuernberger.jpg"
-                      alt=""
+                      alt="Kleines Mädchen hält einen Teddy in ihrem Arm und schaut etwas schüchtern mit großen Augen direkt in die Kamera. Fotografin: Claudia Nürnberger"
                       placeholder="blurred"
                       layout="constrained"
                     />
@@ -250,7 +250,7 @@ const familie = () => (
                   <div style={style}>
                     <StaticImage
                       src="../../static/img/FAMILIE/familienfotos-berlin-brandenburg-panketal-claudia_nuernberger.jpg"
-                      alt=""
+                      alt="Eine Mutter hebt ihre Tochter im Kindergartenalter über ihren Kopf und spielt mit ihr Flieger. Beide lachen sich ausgelassen an. Fotografin: Claudia Nürnberger"
                       placeholder="blurred"
                       layout="constrained"
                     />
@@ -262,7 +262,7 @@ const familie = () => (
                   <div style={style}>
                     <StaticImage
                       src="../../static/img/FAMILIE/paarfotos-berlin-brandenburg-bernau-claudia_nuernberger.jpg"
-                      alt=""
+                      alt="Junger Mann trägt seine Freundin Huckepack. Beide lachen und ihre Haare fliegen im Wind. Fotografin: Claudia Nürnberger"
                       placeholder="blurred"
                       layout="constrained"
                     />
@@ -270,7 +270,7 @@ const familie = () => (
                   <div style={style}>
                     <StaticImage
                       src="../../static/img/FAMILIE/kinderfotos-berlin-brandenburg-harz-claudia_nuernberger.jpg"
-                      alt=""
+                      alt="Ein Kleinkind liegt auf einem weißen Fell vor einer Blumenwiese. Sie trägt ein Haarband und schaut lächelnd nach links. Fotografin: Claudia Nürnberger"
                       placeholder="blurred"
                       layout="constrained"
                     />
@@ -278,7 +278,7 @@ const familie = () => (
                   <div style={style}>
                     <StaticImage
                       src="../../static/img/FAMILIE/paarfotos-berlin-brandenburg-harz-claudia_nuernberger.jpg"
-                      alt=""
+                      alt="Paar läuft Händchenhaltend einen Feldweg entlang. Fotografin: Claudia Nürnberger"
                       placeholder="blurred"
                       layout="constrained"
                     />
@@ -286,7 +286,7 @@ const familie = () => (
                   <div style={style}>
                     <StaticImage
                       src="../../static/img/FAMILIE/familienfotos-berlin-brandenburg-bernau-claudia_nuernberger.jpg"
-                      alt=""
+                      alt="Mutter umarmt ihre Tochter. Ihre Hand hält den Kopf des kleinen Mädchens. Die Augen der Frau sind geschlossen und sie lächelt glücklich. Fotografin: Claudia Nürnberger"
                       placeholder="blurred"
                       layout="constrained"
                     />
@@ -294,7 +294,7 @@ const familie = () => (
                   <div style={style}>
                     <StaticImage
                       src="../../static/img/FAMILIE/newborn-berlin-brandenburg-claudia_nuernberger.jpg"
-                      alt=""
+                      alt="Neugeborenes Baby schläft auf einer kuschligen Decke zugedeckt mit einem Leinentuch. Fotografin: Claudia Nürnberger"
                       placeholder="blurred"
                       layout="constrained"
                     />
@@ -302,7 +302,7 @@ const familie = () => (
                   <div style={style}>
                     <StaticImage
                       src="../../static/img/FAMILIE/familienfotos-berlin-brandenburg-harz-claudia_nuernberger.jpg"
-                      alt=""
+                      alt="Eine Familie mit zwei Kindern sitzen gemeinsam in einem Feld. Alle gucken direkt den Betrachter an und lächeln. Fotografin: Claudia Nürnberger"
                       placeholder="blurred"
                       layout="constrained"
                     />
@@ -310,7 +310,7 @@ const familie = () => (
                   <div style={style}>
                     <StaticImage
                       src="../../static/img/FAMILIE/newborn-berlin-brandenburg-bernau-claudia_nuernberger.jpg"
-                      alt=""
+                      alt="Fuß eines neugeborenen Babys liegt auf der Hand seiner großen Schwester. Fotografin: Claudia Nürnberger"
                       placeholder="blurred"
                       layout="constrained"
                     />
@@ -318,7 +318,7 @@ const familie = () => (
                   <div style={style}>
                     <StaticImage
                       src="../../static/img/FAMILIE/paarfotos-berlin-brandenburg-regierungsviertel-claudia_nuernberger.jpg"
-                      alt=""
+                      alt="Ein junges Paar küsst sich innig. Er hält ihr Gesicht liebevoll mit seinen Händen umfasst. Fotografin: Claudia Nürnberger"
                       placeholder="blurred"
                       layout="constrained"
                     />
@@ -326,7 +326,7 @@ const familie = () => (
                   <div style={style}>
                     <StaticImage
                       src="../../static/img/FAMILIE/kinderfotos-berlin-brandenburg-oranienburg-claudia_nuernberger.jpg"
-                      alt=""
+                      alt="Kleines Mädchen hält einen Teddy in ihrem Arm und schaut etwas schüchtern mit großen Augen direkt in die Kamera. Fotografin: Claudia Nürnberger"
                       placeholder="blurred"
                       layout="constrained"
                     />
@@ -334,7 +334,7 @@ const familie = () => (
                   <div style={style}>
                     <StaticImage
                       src="../../static/img/FAMILIE/familienfotos-berlin-brandenburg-panketal-claudia_nuernberger.jpg"
-                      alt=""
+                      alt="Eine Mutter hebt ihre Tochter im Kindergartenalter über ihren Kopf und spielt mit ihr Flieger. Beide lachen sich ausgelassen an. Fotografin: Claudia Nürnberger"
                       placeholder="blurred"
                       layout="constrained"
                     />
@@ -346,7 +346,7 @@ const familie = () => (
                   <div style={style}>
                     <StaticImage
                       src="../../static/img/FAMILIE/paarfotos-berlin-brandenburg-bernau-claudia_nuernberger.jpg"
-                      alt=""
+                      alt="Junger Mann trägt seine Freundin Huckepack. Beide lachen und ihre Haare fliegen im Wind. Fotografin: Claudia Nürnberger"
                       placeholder="blurred"
                       layout="constrained"
                     />
@@ -354,7 +354,7 @@ const familie = () => (
                   <div style={style}>
                     <StaticImage
                       src="../../static/img/FAMILIE/kinderfotos-berlin-brandenburg-harz-claudia_nuernberger.jpg"
-                      alt=""
+                      alt="Ein Kleinkind liegt auf einem weißen Fell vor einer Blumenwiese. Sie trägt ein Haarband und schaut lächelnd nach links. Fotografin: Claudia Nürnberger"
                       placeholder="blurred"
                       layout="constrained"
                     />
@@ -362,7 +362,7 @@ const familie = () => (
                   <div style={style}>
                     <StaticImage
                       src="../../static/img/FAMILIE/paarfotos-berlin-brandenburg-harz-claudia_nuernberger.jpg"
-                      alt=""
+                      alt="Paar läuft Händchenhaltend einen Feldweg entlang. Fotografin: Claudia Nürnberger"
                       placeholder="blurred"
                       layout="constrained"
                     />
@@ -370,7 +370,7 @@ const familie = () => (
                   <div style={style}>
                     <StaticImage
                       src="../../static/img/FAMILIE/familienfotos-berlin-brandenburg-bernau-claudia_nuernberger.jpg"
-                      alt=""
+                      alt="Mutter umarmt ihre Tochter. Ihre Hand hält den Kopf des kleinen Mädchens. Die Augen der Frau sind geschlossen und sie lächelt glücklich. Fotografin: Claudia Nürnberger"
                       placeholder="blurred"
                       layout="constrained"
                     />
@@ -378,7 +378,7 @@ const familie = () => (
                   <div style={style}>
                     <StaticImage
                       src="../../static/img/FAMILIE/newborn-berlin-brandenburg-claudia_nuernberger.jpg"
-                      alt=""
+                      alt="Neugeborenes Baby schläft auf einer kuschligen Decke zugedeckt mit einem Leinentuch. Fotografin: Claudia Nürnberger"
                       placeholder="blurred"
                       layout="constrained"
                     />
@@ -386,7 +386,7 @@ const familie = () => (
                   <div style={style}>
                     <StaticImage
                       src="../../static/img/FAMILIE/familienfotos-berlin-brandenburg-harz-claudia_nuernberger.jpg"
-                      alt=""
+                      alt="Eine Familie mit zwei Kindern sitzen gemeinsam in einem Feld. Alle gucken direkt den Betrachter an und lächeln. Fotografin: Claudia Nürnberger"
                       placeholder="blurred"
                       layout="constrained"
                     />
@@ -394,7 +394,7 @@ const familie = () => (
                   <div style={style}>
                     <StaticImage
                       src="../../static/img/FAMILIE/newborn-berlin-brandenburg-bernau-claudia_nuernberger.jpg"
-                      alt=""
+                      alt="Fuß eines neugeborenen Babys liegt auf der Hand seiner großen Schwester. Fotografin: Claudia Nürnberger"
                       placeholder="blurred"
                       layout="constrained"
                     />
@@ -402,7 +402,7 @@ const familie = () => (
                   <div style={style}>
                     <StaticImage
                       src="../../static/img/FAMILIE/paarfotos-berlin-brandenburg-regierungsviertel-claudia_nuernberger.jpg"
-                      alt=""
+                      alt="Ein junges Paar küsst sich innig. Er hält ihr Gesicht liebevoll mit seinen Händen umfasst. Fotografin: Claudia Nürnberger"
                       placeholder="blurred"
                       layout="constrained"
                     />
@@ -410,7 +410,7 @@ const familie = () => (
                   <div style={style}>
                     <StaticImage
                       src="../../static/img/FAMILIE/kinderfotos-berlin-brandenburg-oranienburg-claudia_nuernberger.jpg"
-                      alt=""
+                      alt="Kleines Mädchen hält einen Teddy in ihrem Arm und schaut etwas schüchtern mit großen Augen direkt in die Kamera. Fotografin: Claudia Nürnberger"
                       placeholder="blurred"
                       layout="constrained"
                     />
@@ -418,7 +418,7 @@ const familie = () => (
                   <div style={style}>
                     <StaticImage
                       src="../../static/img/FAMILIE/familienfotos-berlin-brandenburg-panketal-claudia_nuernberger.jpg"
-                      alt=""
+                      alt="Eine Mutter hebt ihre Tochter im Kindergartenalter über ihren Kopf und spielt mit ihr Flieger. Beide lachen sich ausgelassen an. Fotografin: Claudia Nürnberger"
                       placeholder="blurred"
                       layout="constrained"
                     />
@@ -466,7 +466,7 @@ const familie = () => (
           </div>
 
           <div className="align-center">
-            <img className="preislisten" src={familiePreisliste}></img>
+            <img className="preislisten" src={familiePreisliste} alt="Preisliste Fotos"></img>
 
             <Media
               queries={{
@@ -509,35 +509,35 @@ const familie = () => (
                       }
                     >
                       <div>
-                        <img src={f09} />
+                        <img src={f09} alt="Kleines Mädchen schaukelt wild auf einer Schaukel. Sie lacht herzlich und guckt rechts am Betrachter vorbei. Ihre Haare fliege im Wind. Fotografin: Claudia Nürnberger"/>
                         <p className="legend">Legend 1</p>
                       </div>
                       <div>
-                        <img src={f10} />
+                        <img src={f10} alt="Ein Junge und ein kleineres Mädchen stehen auf einem Felsen Rücken an Rücken und schauen runter auf den Betrachter und lächeln. Fotografin: Claudia Nürnberger" />
                         <p className="legend">Legend 2</p>
                       </div>
                       <div>
-                        <img src={f11} />
+                        <img src={f11} alt="Kleines Mädchen rennt einen Weg entlang direkt zum Betrachter hin. Unter jedem Arm hat sie einen Teddybären. Ihr Blick geht lächelnd gen Boden. Fotografin: Claudia Nürnberger"/>
                         <p className="legend">Legend 3</p>
                       </div>
                       <div>
-                        <img src={f12} />
+                        <img src={f12} alt="Ein Geschwisterpaar steht in einer Höhle. Im Hintergrund sieht man den Ausgang der Höhle. Beide stehen sich gegenüber und halten sich gegenseitig ihre Hände. Sie lächeln und blicken sich direkt an. Fotografin: Claudia Nürnberger"/>
                         <p className="legend">Legend 3</p>
                       </div>
                       <div>
-                        <img src={f13} />
+                        <img src={f13} alt="Ein Mädchen im Grundschulalter steht in einer Blumenwiese und pflückt grade einen kleinen Blumenstrauß. Sie schaut zu den Blumen herunter und lächelt. Fotografin: Claudia Nürnberger"/>
                         <p className="legend">Legend 3</p>
                       </div>
                       <div>
-                        <img src={f14} />
+                        <img src={f14} alt="Paar sitzt zusammen auf einer Steintreppe. Sie sitzt eine Stufe über ihr und hält liebevoll seinen Arm um sie. Beide gucken lächelnd direkt den Betrachter an.  Fotografin: Claudia Nürnberger"/>
                         <p className="legend">Legend 3</p>
                       </div>
                       <div>
-                        <img src={f15} />
+                        <img src={f15} alt="Junges Pärchen laufen Hand in Hand. Beide strahlen sich an und ihre langen Haare fliegen im Wind. Fotografin: Claudia Nürnberger"/>
                         <p className="legend">Legend 3</p>
                       </div>
                       <div>
-                        <img src={f16} />
+                        <img src={f16} alt="Eine Mutter hebt ihr kleines Mädchen hoch. Beide lachen glücklich in die Kamera. Fotografin: Claudia Nürnberger"/>
                         <p className="legend">Legend 3</p>
                       </div>
                     </Carousel>
@@ -555,35 +555,35 @@ const familie = () => (
                       showArrows={false}
                     >
                       <div>
-                        <img src={f09} />
+                        <img src={f09} alt="Kleines Mädchen schaukelt wild auf einer Schaukel. Sie lacht herzlich und guckt rechts am Betrachter vorbei. Ihre Haare fliege im Wind. Fotografin: Claudia Nürnberger"/>
                         <p className="legend">Legend 1</p>
                       </div>
                       <div>
-                        <img src={f10} />
+                        <img src={f10} alt="Ein Junge und ein kleineres Mädchen stehen auf einem Felsen Rücken an Rücken und schauen runter auf den Betrachter und lächeln. Fotografin: Claudia Nürnberger"/>
                         <p className="legend">Legend 2</p>
                       </div>
                       <div>
-                        <img src={f11} />
+                        <img src={f11} alt="Kleines Mädchen rennt einen Weg entlang direkt zum Betrachter hin. Unter jedem Arm hat sie einen Teddybären. Ihr Blick geht lächelnd gen Boden. Fotografin: Claudia Nürnberger"/>
                         <p className="legend">Legend 3</p>
                       </div>
                       <div>
-                        <img src={f12} />
+                        <img src={f12} alt="Ein Geschwisterpaar steht in einer Höhle. Im Hintergrund sieht man den Ausgang der Höhle. Beide stehen sich gegenüber und halten sich gegenseitig ihre Hände. Sie lächeln und blicken sich direkt an. Fotografin: Claudia Nürnberger"/>
                         <p className="legend">Legend 3</p>
                       </div>
                       <div>
-                        <img src={f13} />
+                        <img src={f13} alt="Ein Mädchen im Grundschulalter steht in einer Blumenwiese und pflückt grade einen kleinen Blumenstrauß. Sie schaut zu den Blumen herunter und lächelt. Fotografin: Claudia Nürnberger"/>
                         <p className="legend">Legend 3</p>
                       </div>
                       <div>
-                        <img src={f14} />
+                        <img src={f14} alt="Paar sitzt zusammen auf einer Steintreppe. Sie sitzt eine Stufe über ihr und hält liebevoll seinen Arm um sie. Beide gucken lächelnd direkt den Betrachter an.  Fotografin: Claudia Nürnberger"/>
                         <p className="legend">Legend 3</p>
                       </div>
                       <div>
-                        <img src={f15} />
+                        <img src={f15} alt="Junges Pärchen laufen Hand in Hand. Beide strahlen sich an und ihre langen Haare fliegen im Wind. Fotografin: Claudia Nürnberger"/>
                         <p className="legend">Legend 3</p>
                       </div>
                       <div>
-                        <img src={f16} />
+                        <img src={f16} alt="Eine Mutter hebt ihr kleines Mädchen hoch. Beide lachen glücklich in die Kamera. Fotografin: Claudia Nürnberger"/>
                         <p className="legend">Legend 3</p>
                       </div>
                     </Carousel>

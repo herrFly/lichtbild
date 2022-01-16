@@ -185,7 +185,8 @@ const hunde = () => (
                   <div style={style}>
                     <StaticImage
                       src="../../static/img/HUNDE/hund-japan_spitz-berlin-brandenburg-hundefotograf-claudia_nuernberger.jpg"
-                      alt=""
+                      alt="Weißer Spitz sitzt im herbstlich gefärbten Wald.
+                      Fotografin: Claudia Nürnberger / Berlin, Brandenburg"
                       placeholder="blurred"
                       layout="constrained"
                     />
@@ -193,7 +194,8 @@ const hunde = () => (
                   <div style={style}>
                     <StaticImage
                       src="../../static/img/HUNDE/hund-border_collie-australian_shepherd-berlin-brandenburg-hundefotograf-claudia_nuernberger.jpg"
-                      alt=""
+                      alt="Rettungshund Mix zwischen Border-Collie und Australian-Shepherd liegt zwischen Ästen.
+                      Fotografin: Claudia Nürnberger / Berlin, Brandenburg"
                       placeholder="blurred"
                       layout="constrained"
                     />
@@ -201,7 +203,8 @@ const hunde = () => (
                   <div style={style}>
                     <StaticImage
                       src="../../static/img/HUNDE/hund-frenchie_pei-chinese_shar_pei-french_bulldog-berlin-brandenburg-hundefotograf-claudia_nuernberger.jpg"
-                      alt=""
+                      alt="Hunderasse Frenchie-Pei liegt in einem großen Haufen Herbstlaub und Blätter fliegen um ihn herrum
+                      Fotografin: Claudia Nürnberger / Berlin, Brandenburg"
                       placeholder="blurred"
                       layout="constrained"
                     />
@@ -209,7 +212,8 @@ const hunde = () => (
                   <div style={style}>
                     <StaticImage
                       src="../../static/img/HUNDE/hund-shiba_inu-berlin-brandenburg-hundefotografin-claudia_nuernberger.jpg"
-                      alt=""
+                      alt="Hunderasse Shiba Inu sitzt vor dem Wasser und spigelt sich in der Wasseroberfläche.
+                      Fotografin: Claudia Nürnberger / Berlin, Brandenburg"
                       placeholder="blurred"
                       layout="constrained"
                     />
@@ -217,7 +221,9 @@ const hunde = () => (
                   <div style={style}>
                     <StaticImage
                       src="../../static/img/HUNDE/hund-deutscher_schaeferhund-schutzhundausbildung-berlin-brandenburg-hundefotograf-claudia_nuernberger.jpg"
-                      alt=""
+                      alt="Deutscher Schäferhund springt mit einer Hantel über ein Hinderniss während dem Schutzhundetraining.
+
+                      Fotografin: Claudia Nürnberger / Berlin, Brandenburg"
                       placeholder="blurred"
                       layout="constrained"
                     />
@@ -225,7 +231,9 @@ const hunde = () => (
                   <div style={style}>
                     <StaticImage
                       src="../../static/img/HUNDE/hund-chihuahua-berlin-brandenburg-hundefotograf-claudia_nuernberger.jpg"
-                      alt=""
+                      alt="Chihuahua Hündin mit Fellfarbe rot-weiß sitzt in einem Meer aus weißen Blüten.
+
+                      Fotografin: Claudia Nürnberger / Berlin, Brandenburg"
                       placeholder="blurred"
                       layout="constrained"
                     />
@@ -233,7 +241,9 @@ const hunde = () => (
                   <div style={style}>
                     <StaticImage
                       src="../../static/img/HUNDE/hund-labrador-berlin-brandenburg-hundefotograf-claudia_nuernberger.jpg"
-                      alt=""
+                      alt="Weißer Labrador springt ins Wasser, Wassertropfen fliegen um ihn herrum.
+
+                      Fotografin: Claudia Nürnberger / Berlin, Brandenburg"
                       placeholder="blurred"
                       layout="constrained"
                     />
@@ -245,7 +255,8 @@ const hunde = () => (
                   <div style={style}>
                     <StaticImage
                       src="../../static/img/HUNDE/hund-japan_spitz-berlin-brandenburg-hundefotograf-claudia_nuernberger.jpg"
-                      alt=""
+                      alt="Weißer Spitz sitzt im herbstlich gefärbten Wald.
+                      Fotografin: Claudia Nürnberger / Berlin, Brandenburg"
                       placeholder="blurred"
                       layout="constrained"
                     />
@@ -253,7 +264,8 @@ const hunde = () => (
                   <div style={style}>
                     <StaticImage
                       src="../../static/img/HUNDE/hund-border_collie-australian_shepherd-berlin-brandenburg-hundefotograf-claudia_nuernberger.jpg"
-                      alt=""
+                      alt="Rettungshund Mix zwischen Border-Collie und Australian-Shepherd liegt zwischen Ästen.
+                      Fotografin: Claudia Nürnberger / Berlin, Brandenburg"
                       placeholder="blurred"
                       layout="constrained"
                     />
@@ -261,7 +273,8 @@ const hunde = () => (
                   <div style={style}>
                     <StaticImage
                       src="../../static/img/HUNDE/hund-frenchie_pei-chinese_shar_pei-french_bulldog-berlin-brandenburg-hundefotograf-claudia_nuernberger.jpg"
-                      alt=""
+                      alt="Hunderasse Frenchie-Pei liegt in einem großen Haufen Herbstlaub und Blätter fliegen um ihn herrum
+                      Fotografin: Claudia Nürnberger / Berlin, Brandenburg"
                       placeholder="blurred"
                       layout="constrained"
                     />
@@ -269,7 +282,8 @@ const hunde = () => (
                   <div style={style}>
                     <StaticImage
                       src="../../static/img/HUNDE/hund-shiba_inu-berlin-brandenburg-hundefotografin-claudia_nuernberger.jpg"
-                      alt=""
+                      alt="Hunderasse Shiba Inu sitzt vor dem Wasser und spigelt sich in der Wasseroberfläche.
+                      Fotografin: Claudia Nürnberger / Berlin, Brandenburg"
                       placeholder="blurred"
                       layout="constrained"
                     />
@@ -277,7 +291,9 @@ const hunde = () => (
                   <div style={style}>
                     <StaticImage
                       src="../../static/img/HUNDE/hund-deutscher_schaeferhund-schutzhundausbildung-berlin-brandenburg-hundefotograf-claudia_nuernberger.jpg"
-                      alt=""
+                      alt="Deutscher Schäferhund springt mit einer Hantel über ein Hinderniss während dem Schutzhundetraining.
+
+                      Fotografin: Claudia Nürnberger / Berlin, Brandenburg"
                       placeholder="blurred"
                       layout="constrained"
                     />
@@ -285,7 +301,9 @@ const hunde = () => (
                   <div style={style}>
                     <StaticImage
                       src="../../static/img/HUNDE/hund-chihuahua-berlin-brandenburg-hundefotograf-claudia_nuernberger.jpg"
-                      alt=""
+                      alt="Chihuahua Hündin mit Fellfarbe rot-weiß sitzt in einem Meer aus weißen Blüten.
+
+                      Fotografin: Claudia Nürnberger / Berlin, Brandenburg"
                       placeholder="blurred"
                       layout="constrained"
                     />
@@ -293,7 +311,9 @@ const hunde = () => (
                   <div style={style}>
                     <StaticImage
                       src="../../static/img/HUNDE/hund-labrador-berlin-brandenburg-hundefotograf-claudia_nuernberger.jpg"
-                      alt=""
+                      alt="Weißer Labrador springt ins Wasser, Wassertropfen fliegen um ihn herrum.
+
+                      Fotografin: Claudia Nürnberger / Berlin, Brandenburg"
                       placeholder="blurred"
                       layout="constrained"
                     />
@@ -305,7 +325,8 @@ const hunde = () => (
                   <div style={style}>
                     <StaticImage
                       src="../../static/img/HUNDE/hund-japan_spitz-berlin-brandenburg-hundefotograf-claudia_nuernberger.jpg"
-                      alt=""
+                      alt="Weißer Spitz sitzt im herbstlich gefärbten Wald.
+                      Fotografin: Claudia Nürnberger / Berlin, Brandenburg"
                       placeholder="blurred"
                       layout="constrained"
                     />
@@ -313,7 +334,8 @@ const hunde = () => (
                   <div style={style}>
                     <StaticImage
                       src="../../static/img/HUNDE/hund-border_collie-australian_shepherd-berlin-brandenburg-hundefotograf-claudia_nuernberger.jpg"
-                      alt=""
+                      alt="Rettungshund Mix zwischen Border-Collie und Australian-Shepherd liegt zwischen Ästen.
+                      Fotografin: Claudia Nürnberger / Berlin, Brandenburg"
                       placeholder="blurred"
                       layout="constrained"
                     />
@@ -321,7 +343,8 @@ const hunde = () => (
                   <div style={style}>
                     <StaticImage
                       src="../../static/img/HUNDE/hund-frenchie_pei-chinese_shar_pei-french_bulldog-berlin-brandenburg-hundefotograf-claudia_nuernberger.jpg"
-                      alt=""
+                      alt="Hunderasse Frenchie-Pei liegt in einem großen Haufen Herbstlaub und Blätter fliegen um ihn herrum
+                      Fotografin: Claudia Nürnberger / Berlin, Brandenburg"
                       placeholder="blurred"
                       layout="constrained"
                     />
@@ -329,7 +352,8 @@ const hunde = () => (
                   <div style={style}>
                     <StaticImage
                       src="../../static/img/HUNDE/hund-shiba_inu-berlin-brandenburg-hundefotografin-claudia_nuernberger.jpg"
-                      alt=""
+                      alt="Hunderasse Shiba Inu sitzt vor dem Wasser und spigelt sich in der Wasseroberfläche.
+                      Fotografin: Claudia Nürnberger / Berlin, Brandenburg"
                       placeholder="blurred"
                       layout="constrained"
                     />
@@ -337,7 +361,9 @@ const hunde = () => (
                   <div style={style}>
                     <StaticImage
                       src="../../static/img/HUNDE/hund-deutscher_schaeferhund-schutzhundausbildung-berlin-brandenburg-hundefotograf-claudia_nuernberger.jpg"
-                      alt=""
+                      alt="Deutscher Schäferhund springt mit einer Hantel über ein Hinderniss während dem Schutzhundetraining.
+
+                      Fotografin: Claudia Nürnberger / Berlin, Brandenburg"
                       placeholder="blurred"
                       layout="constrained"
                     />
@@ -345,7 +371,9 @@ const hunde = () => (
                   <div style={style}>
                     <StaticImage
                       src="../../static/img/HUNDE/hund-chihuahua-berlin-brandenburg-hundefotograf-claudia_nuernberger.jpg"
-                      alt=""
+                      alt="Chihuahua Hündin mit Fellfarbe rot-weiß sitzt in einem Meer aus weißen Blüten.
+
+                      Fotografin: Claudia Nürnberger / Berlin, Brandenburg"
                       placeholder="blurred"
                       layout="constrained"
                     />
@@ -353,7 +381,9 @@ const hunde = () => (
                   <div style={style}>
                     <StaticImage
                       src="../../static/img/HUNDE/hund-labrador-berlin-brandenburg-hundefotograf-claudia_nuernberger.jpg"
-                      alt=""
+                      alt="Weißer Labrador springt ins Wasser, Wassertropfen fliegen um ihn herrum.
+
+                      Fotografin: Claudia Nürnberger / Berlin, Brandenburg"
                       placeholder="blurred"
                       layout="constrained"
                     />
@@ -446,31 +476,44 @@ const hunde = () => (
                       }
                     >
                       <div>
-                        <img src={hund8} />
+                        <img src={hund8} alt="Chihuahua Hündin mit Fellfarbe rot-weiß schaut hinter einer Ecke hervor.
+
+Fotografin: Claudia Nürnberger / Berlin, Brandenburg"/>
                         <p className="legend">Legend 1</p>
                       </div>
                       <div>
-                        <img src={hund9} />
+                        <img src={hund9} alt="Hunderasse Harzer-Fuchs liegt auf einem umgefallenen Baumstamm und hat seinen Kopf abgelegt.
+
+Fotografin: Claudia Nürnberger / Berlin, Brandenburg"/>
                         <p className="legend">Legend 2</p>
                       </div>
                       <div>
-                        <img src={hund10} />
+                        <img src={hund10} alt="Schwarz, brauner Dobermann rennt mit fliegenden Ohren auf einem Feld.
+
+Fotografin: Claudia Nürnberger / Berlin, Brandenburg"/>
                         <p className="legend">Legend 3</p>
                       </div>
                       <div>
-                        <img src={hund11} />
+                        <img src={hund11} alt="Hunderasse Shiba-Inu sitzt vor dem Wasser und spigelt sich in der Wasseroberfläche.
+
+Fotografin: Claudia Nürnberger / Berlin, Brandenburg" />
                         <p className="legend">Legend 3</p>
                       </div>
                       <div>
-                        <img src={hund12} />
+                        <img src={hund12} alt="Hunderasse Australian Shepherd liegt in der Natur auf Pflastersteinen. Er trägt ein blaues Halstuch und hat die Fellfarbe red merle.
+
+Fotografin: Claudia Nürnberger / Berlin, Brandenburg"/>
                         <p className="legend">Legend 3</p>
                       </div>
                       <div>
-                        <img src={hund13} />
+                        <img src={hund13} alt="" />
                         <p className="legend">Legend 3</p>
                       </div>
                       <div>
-                        <img src={hund14} />
+                        <img src={hund14} alt="Hunderasse Australian-Shepherd sitzt in der Natur und hält einen Teddybären zwischen seinen Vorderbeinen.
+
+
+Fotografin: Claudia Nürnberger / Berlin, Brandenburg" />
                         <p className="legend">Legend 3</p>
                       </div>
                     </Carousel>
@@ -488,28 +531,40 @@ const hunde = () => (
                       showArrows={false}
                     >
                       <div>
-                        <img src={hund8} />
+                        <img src={hund8} alt="Chihuahua Hündin mit Fellfarbe rot-weiß schaut hinter einer Ecke hervor.
+Fotografin: Claudia Nürnberger / Berlin, Brandenburg"/>
                         <p className="legend">Legend 1</p>
                       </div>
                       <div>
-                        <img src={hund9} />
+                        <img src={hund9} alt="Hunderasse Harzer-Fuchs liegt auf einem umgefallenen Baumstamm und hat seinen Kopf abgelegt.
+
+Fotografin: Claudia Nürnberger / Berlin, Brandenburg"/>
                         <p className="legend">Legend 2</p>
                       </div>
                       <div>
-                        <img src={hund10} />
+                        <img src={hund10} alt="Schwarz, brauner Dobermann rennt mit fliegenden Ohren auf einem Feld.
+
+Fotografin: Claudia Nürnberger / Berlin, Brandenburg"/>
                         <p className="legend">Legend 3</p>
                       </div>
                       <div>
-                        <img src={hund11} />
+                        <img src={hund11} alt="Hunderasse Shiba-Inu sitzt vor dem Wasser und spigelt sich in der Wasseroberfläche.
+
+Fotografin: Claudia Nürnberger / Berlin, Brandenburg"/>
                         <p className="legend">Legend 3</p>
                       </div>
                       <div>
-                        <img src={hund12} />
+                        <img src={hund12} alt="Hunderasse Australian Shepherd liegt in der Natur auf Pflastersteinen. Er trägt ein blaues Halstuch und hat die Fellfarbe red merle.
+
+Fotografin: Claudia Nürnberger / Berlin, Brandenburg"/>
                         <p className="legend">Legend 3</p>
                       </div>
 
                       <div>
-                        <img src={hund14} />
+                        <img src={hund14} alt="Hunderasse Australian-Shepherd sitzt in der Natur und hält einen Teddybären zwischen seinen Vorderbeinen.
+
+
+Fotografin: Claudia Nürnberger / Berlin, Brandenburg"/>
                         <p className="legend">Legend 3</p>
                       </div>
                     </Carousel>

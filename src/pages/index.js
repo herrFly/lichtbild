@@ -5,6 +5,9 @@ import { StaticImage } from "gatsby-plugin-image";
 // import Media from "react-media";
 import Layout from "../components/Layout"
 
+import CookieConsent from 'react-cookie-consent';
+
+
 import "@fontsource/lato/300.css";
 
 import "../../static/assets/css/main.css";
@@ -69,7 +72,11 @@ const Home = () => {
       </header> */}
 
       <Layout>
-  
+      <CookieConsent
+          location="bottom"
+          buttonText="Annehmen">
+Diese Webseite benutzt Cookies, um Dir die bestmögliche Nutzerfreundlichkeit zu bieten. Wenn Du diese Webseite weiterhin nutzen, wird von Deinem Einverständnis ausgegangen.
+</CookieConsent>
       <main>
         <section
           id="starterSektion"

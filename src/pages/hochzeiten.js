@@ -180,7 +180,7 @@ const hochzeiten = () => (
                   <div style={style}>
                     <StaticImage
                       src="../../static/img/HZ/hochzeitsfotos-berlin-brandenburg-bernau-claudia_nuernberger.jpg"
-                      alt=""
+                      alt="Brautpaar hält sich beim Hochzeitstanz die Hände. Der Fokus des Bildes liegt auf den Händen. Die Gesichter des Brautpaares sind nicht zusehen. Fotografin: Claudia Nürnberger"
                       placeholder="blurred"
                       layout="constrained"
                     />
@@ -188,7 +188,7 @@ const hochzeiten = () => (
                   <div style={style}>
                     <StaticImage
                       src="../../static/img/HZ/hochzeitsfotos-berlin-brandenburg-standesamt_reinickendorf-claudia_nuernberger.jpg"
-                      alt=""
+                      alt="Brautpaar steht eng umschlungen in einem Gang voller Fenster. Sie küssen sich zärtlich im Vordergrund liegt der Brautstrauß auf einem Geländer. Fotografin: Claudia Nürnberger"
                       placeholder="blurred"
                       layout="constrained"
                     />
@@ -196,7 +196,7 @@ const hochzeiten = () => (
                   <div style={style}>
                     <StaticImage
                       src="../../static/img/HZ/hochzeitsfotografin-berlin-brandenburg-luxemburg-claudia_nuernberger.jpg"
-                      alt=""
+                      alt="Portrait eines Brautpaares. Beide haben ihre Augen geschlossen und haben ihre Köpfe nah beieinander. Sie lächeln glücklich. Fotografin: Claudia Nürnberger"
                       placeholder="blurred"
                       layout="constrained"
                     />
@@ -204,7 +204,7 @@ const hochzeiten = () => (
                   <div style={style}>
                     <StaticImage
                       src="../../static/img/HZ/hochzeitsfotos-berlin-brandenburg-harz-claudia_nuernberger.jpg"
-                      alt=""
+                      alt="Brautpaar steh vor einem Kornfeld in der Sonne. Sie stehen sich gegenüber und schauen sich glücklich an. Fotografin: Claudia Nürnberger"
                       placeholder="blurred"
                       layout="constrained"
                     />
@@ -212,7 +212,7 @@ const hochzeiten = () => (
                   <div style={style}>
                     <StaticImage
                       src="../../static/img/HZ/hochzeitsfotograf-berlin-brandenburg-bernau-claudia_nuernberger.jpg"
-                      alt=""
+                      alt="Makroaufnahme zweier goldener Eheringe. Sie liegen auf nassem Herbstlaub. Fotografin: Claudia Nürnberger"
                       placeholder="blurred"
                       layout="constrained"
                     />
@@ -220,7 +220,7 @@ const hochzeiten = () => (
                   <div style={style}>
                     <StaticImage
                       src="../../static/img/HZ/hochzeitsfotos-berlin-brandenburg-usbekistan_taschkent-claudia_nuernberger-02.jpg"
-                      alt=""
+                      alt="Braut steht unter einem geschmückten Pavillon in einer aufwendigen Traditionellen Hochzeitstracht aus Usbekistan. Ihr Kopf ist gesenkt und sie hält ihren Schleier mit beiden Händen fest. Fotografin: Claudia Nürnberger"
                       placeholder="blurred"
                       layout="constrained"
                     />
@@ -228,7 +228,7 @@ const hochzeiten = () => (
                   <div style={style}>
                     <StaticImage
                       src="../../static/img/HZ/hochzeitsfotografin-berlin-brandenburg-usbekistan_taschkent-claudia_nuernberger.jpg"
-                      alt=""
+                      alt="Brautpaar lacht sich ungezwungen und herzlich an. Er schaut sie verliebt an. Fotografin: Claudia Nürnberger"
                       placeholder="blurred"
                       layout="constrained"
                     />
@@ -236,7 +236,7 @@ const hochzeiten = () => (
                   <div style={style}>
                     <StaticImage
                       src="../../static/img/HZ/hochzeitsfotografin-berlin-brandenburg-standesamt_reinickendorf-claudia_nuernberger.jpg"
-                      alt=""
+                      alt="Schwangere Braut und ihr Mann laufen Hand in Hand auf den Betrachter zu. Beide schauen sich an und lächeln verliebt. Fotografin: Claudia Nürnberger"
                       placeholder="blurred"
                       layout="constrained"
                     />
@@ -244,7 +244,7 @@ const hochzeiten = () => (
                   <div style={style}>
                     <StaticImage
                       src="../../static/img/HZ/hochzeitsfotografin-berlin-brandenburg-potsdam-claudia_nuernberger.jpg"
-                      alt=""
+                      alt="Brautpaar steht auf einem Balkon. Sie schaut nach unten und hält ihren Brautstrauß. Er schaut sie verliebt an und hält ihre Hand.  Fotografin: Claudia Nürnberger"
                       placeholder="blurred"
                       layout="constrained"
                     />
@@ -252,7 +252,7 @@ const hochzeiten = () => (
                   <div style={style}>
                     <StaticImage
                       src="../../static/img/HZ/hochzeitsfotos-berlin-brandenburg-usbekistan_taschkent-claudia_nuernberger.jpg"
-                      alt=""
+                      alt="Brautpaar steht nah beieinander. Ihre Gesichter berühren sich fast. Sie halten ihre Hände aneinander. Sie trägt einen Schleier und ein Diadem. Ihr Blick geht nach unten. Fotografin: Claudia Nürnberger"
                       placeholder="blurred"
                       layout="constrained"
                     />
@@ -264,7 +264,7 @@ const hochzeiten = () => (
                   <div style={style}>
                     <StaticImage
                       src="../../static/img/HZ/hochzeitsfotos-berlin-brandenburg-bernau-claudia_nuernberger.jpg"
-                      alt=""
+                      alt="Brautpaar hält sich beim Hochzeitstanz die Hände. Der Fokus des Bildes liegt auf den Händen. Die Gesichter des Brautpaares sind nicht zusehen. Fotografin: Claudia Nürnberger"
                       placeholder="blurred"
                       layout="constrained"
                     />
@@ -272,7 +272,7 @@ const hochzeiten = () => (
                   <div style={style}>
                     <StaticImage
                       src="../../static/img/HZ/hochzeitsfotos-berlin-brandenburg-standesamt_reinickendorf-claudia_nuernberger.jpg"
-                      alt=""
+                      alt="Brautpaar steht eng umschlungen in einem Gang voller Fenster. Sie küssen sich zärtlich im Vordergrund liegt der Brautstrauß auf einem Geländer. Fotografin: Claudia Nürnberger"
                       placeholder="blurred"
                       layout="constrained"
                     />
@@ -280,7 +280,7 @@ const hochzeiten = () => (
                   <div style={style}>
                     <StaticImage
                       src="../../static/img/HZ/hochzeitsfotografin-berlin-brandenburg-luxemburg-claudia_nuernberger.jpg"
-                      alt=""
+                      alt="Portrait eines Brautpaares. Beide haben ihre Augen geschlossen und haben ihre Köpfe nah beieinander. Sie lächeln glücklich. Fotografin: Claudia Nürnberger"
                       placeholder="blurred"
                       layout="constrained"
                     />
@@ -288,7 +288,7 @@ const hochzeiten = () => (
                   <div style={style}>
                     <StaticImage
                       src="../../static/img/HZ/hochzeitsfotos-berlin-brandenburg-harz-claudia_nuernberger.jpg"
-                      alt=""
+                      alt="Brautpaar steh vor einem Kornfeld in der Sonne. Sie stehen sich gegenüber und schauen sich glücklich an. Fotografin: Claudia Nürnberger"
                       placeholder="blurred"
                       layout="constrained"
                     />
@@ -296,7 +296,7 @@ const hochzeiten = () => (
                   <div style={style}>
                     <StaticImage
                       src="../../static/img/HZ/hochzeitsfotograf-berlin-brandenburg-bernau-claudia_nuernberger.jpg"
-                      alt=""
+                      alt="Makroaufnahme zweier goldener Eheringe. Sie liegen auf nassem Herbstlaub. Fotografin: Claudia Nürnberger"
                       placeholder="blurred"
                       layout="constrained"
                     />
@@ -304,7 +304,7 @@ const hochzeiten = () => (
                   <div style={style}>
                     <StaticImage
                       src="../../static/img/HZ/hochzeitsfotos-berlin-brandenburg-usbekistan_taschkent-claudia_nuernberger-02.jpg"
-                      alt=""
+                      alt="Braut steht unter einem geschmückten Pavillon in einer aufwendigen Traditionellen Hochzeitstracht aus Usbekistan. Ihr Kopf ist gesenkt und sie hält ihren Schleier mit beiden Händen fest. Fotografin: Claudia Nürnberger"
                       placeholder="blurred"
                       layout="constrained"
                     />
@@ -312,7 +312,7 @@ const hochzeiten = () => (
                   <div style={style}>
                     <StaticImage
                       src="../../static/img/HZ/hochzeitsfotografin-berlin-brandenburg-usbekistan_taschkent-claudia_nuernberger.jpg"
-                      alt=""
+                      alt="Brautpaar lacht sich ungezwungen und herzlich an. Er schaut sie verliebt an. Fotografin: Claudia Nürnberger"
                       placeholder="blurred"
                       layout="constrained"
                     />
@@ -320,7 +320,7 @@ const hochzeiten = () => (
                   <div style={style}>
                     <StaticImage
                       src="../../static/img/HZ/hochzeitsfotografin-berlin-brandenburg-standesamt_reinickendorf-claudia_nuernberger.jpg"
-                      alt=""
+                      alt="Schwangere Braut und ihr Mann laufen Hand in Hand auf den Betrachter zu. Beide schauen sich an und lächeln verliebt. Fotografin: Claudia Nürnberger"
                       placeholder="blurred"
                       layout="constrained"
                     />
@@ -328,7 +328,7 @@ const hochzeiten = () => (
                   <div style={style}>
                     <StaticImage
                       src="../../static/img/HZ/hochzeitsfotografin-berlin-brandenburg-potsdam-claudia_nuernberger.jpg"
-                      alt=""
+                      alt="Brautpaar steht auf einem Balkon. Sie schaut nach unten und hält ihren Brautstrauß. Er schaut sie verliebt an und hält ihre Hand.  Fotografin: Claudia Nürnberger"
                       placeholder="blurred"
                       layout="constrained"
                     />
@@ -336,7 +336,7 @@ const hochzeiten = () => (
                   <div style={style}>
                     <StaticImage
                       src="../../static/img/HZ/hochzeitsfotos-berlin-brandenburg-usbekistan_taschkent-claudia_nuernberger.jpg"
-                      alt=""
+                      alt="Brautpaar steht nah beieinander. Ihre Gesichter berühren sich fast. Sie halten ihre Hände aneinander. Sie trägt einen Schleier und ein Diadem. Ihr Blick geht nach unten. Fotografin: Claudia Nürnberger"
                       placeholder="blurred"
                       layout="constrained"
                     />
@@ -348,7 +348,7 @@ const hochzeiten = () => (
                   <div style={style}>
                     <StaticImage
                       src="../../static/img/HZ/hochzeitsfotos-berlin-brandenburg-bernau-claudia_nuernberger.jpg"
-                      alt=""
+                      alt="Brautpaar hält sich beim Hochzeitstanz die Hände. Der Fokus des Bildes liegt auf den Händen. Die Gesichter des Brautpaares sind nicht zusehen. Fotografin: Claudia Nürnberger"
                       placeholder="blurred"
                       layout="constrained"
                     />
@@ -356,7 +356,7 @@ const hochzeiten = () => (
                   <div style={style}>
                     <StaticImage
                       src="../../static/img/HZ/hochzeitsfotos-berlin-brandenburg-standesamt_reinickendorf-claudia_nuernberger.jpg"
-                      alt=""
+                      alt="Brautpaar steht eng umschlungen in einem Gang voller Fenster. Sie küssen sich zärtlich im Vordergrund liegt der Brautstrauß auf einem Geländer. Fotografin: Claudia Nürnberger"
                       placeholder="blurred"
                       layout="constrained"
                     />
@@ -364,7 +364,7 @@ const hochzeiten = () => (
                   <div style={style}>
                     <StaticImage
                       src="../../static/img/HZ/hochzeitsfotografin-berlin-brandenburg-luxemburg-claudia_nuernberger.jpg"
-                      alt=""
+                      alt="Portrait eines Brautpaares. Beide haben ihre Augen geschlossen und haben ihre Köpfe nah beieinander. Sie lächeln glücklich. Fotografin: Claudia Nürnberger"
                       placeholder="blurred"
                       layout="constrained"
                     />
@@ -372,7 +372,7 @@ const hochzeiten = () => (
                   <div style={style}>
                     <StaticImage
                       src="../../static/img/HZ/hochzeitsfotos-berlin-brandenburg-harz-claudia_nuernberger.jpg"
-                      alt=""
+                      alt="Brautpaar steh vor einem Kornfeld in der Sonne. Sie stehen sich gegenüber und schauen sich glücklich an. Fotografin: Claudia Nürnberger"
                       placeholder="blurred"
                       layout="constrained"
                     />
@@ -380,7 +380,7 @@ const hochzeiten = () => (
                   <div style={style}>
                     <StaticImage
                       src="../../static/img/HZ/hochzeitsfotograf-berlin-brandenburg-bernau-claudia_nuernberger.jpg"
-                      alt=""
+                      alt="Makroaufnahme zweier goldener Eheringe. Sie liegen auf nassem Herbstlaub. Fotografin: Claudia Nürnberger"
                       placeholder="blurred"
                       layout="constrained"
                     />
@@ -388,7 +388,7 @@ const hochzeiten = () => (
                   <div style={style}>
                     <StaticImage
                       src="../../static/img/HZ/hochzeitsfotos-berlin-brandenburg-usbekistan_taschkent-claudia_nuernberger-02.jpg"
-                      alt=""
+                      alt="Braut steht unter einem geschmückten Pavillon in einer aufwendigen Traditionellen Hochzeitstracht aus Usbekistan. Ihr Kopf ist gesenkt und sie hält ihren Schleier mit beiden Händen fest. Fotografin: Claudia Nürnberger"
                       placeholder="blurred"
                       layout="constrained"
                     />
@@ -396,7 +396,7 @@ const hochzeiten = () => (
                   <div style={style}>
                     <StaticImage
                       src="../../static/img/HZ/hochzeitsfotografin-berlin-brandenburg-usbekistan_taschkent-claudia_nuernberger.jpg"
-                      alt=""
+                      alt="Brautpaar lacht sich ungezwungen und herzlich an. Er schaut sie verliebt an. Fotografin: Claudia Nürnberger"
                       placeholder="blurred"
                       layout="constrained"
                     />
@@ -404,7 +404,7 @@ const hochzeiten = () => (
                   <div style={style}>
                     <StaticImage
                       src="../../static/img/HZ/hochzeitsfotografin-berlin-brandenburg-standesamt_reinickendorf-claudia_nuernberger.jpg"
-                      alt=""
+                      alt="Schwangere Braut und ihr Mann laufen Hand in Hand auf den Betrachter zu. Beide schauen sich an und lächeln verliebt. Fotografin: Claudia Nürnberger"
                       placeholder="blurred"
                       layout="constrained"
                     />
@@ -412,7 +412,7 @@ const hochzeiten = () => (
                   <div style={style}>
                     <StaticImage
                       src="../../static/img/HZ/hochzeitsfotografin-berlin-brandenburg-potsdam-claudia_nuernberger.jpg"
-                      alt=""
+                      alt="Brautpaar steht auf einem Balkon. Sie schaut nach unten und hält ihren Brautstrauß. Er schaut sie verliebt an und hält ihre Hand.  Fotografin: Claudia Nürnberger"
                       placeholder="blurred"
                       layout="constrained"
                     />
@@ -420,7 +420,7 @@ const hochzeiten = () => (
                   <div style={style}>
                     <StaticImage
                       src="../../static/img/HZ/hochzeitsfotos-berlin-brandenburg-usbekistan_taschkent-claudia_nuernberger.jpg"
-                      alt=""
+                      alt="Brautpaar steht nah beieinander. Ihre Gesichter berühren sich fast. Sie halten ihre Hände aneinander. Sie trägt einen Schleier und ein Diadem. Ihr Blick geht nach unten. Fotografin: Claudia Nürnberger"
                       placeholder="blurred"
                       layout="constrained"
                     />
@@ -517,35 +517,35 @@ const hochzeiten = () => (
                       }
                     >
                       <div>
-                        <img src={hz01} />
+                        <img src={hz01} alt="Makroaufnahme zweier silberner Eheringe die auf einem kleinen Ast hängen. Fotografin: Claudia Nürnberger / Berlin, Brandenburg"/>
                         <p className="legend">Legend 1</p>
                       </div>
                       <div>
-                        <img src={hz02} />
+                        <img src={hz02} alt="Brautpaar steht Händchen haltend in einem Birkenwald. Beide schauen sich verliebt an. Fotografin: Claudia Nürnberger / Berlin, Brandenburg"/>
                         <p className="legend">Legend 2</p>
                       </div>
                       <div>
-                        <img src={hz03} />
+                        <img src={hz03} alt="Braut richtet die Blume am Reviere des Bräutigams. Er blickt hinaus auf dem Fenster vor den die beiden stehen.Fotografin: Claudia Nürnberger / Berlin"/>
                         <p className="legend">Legend 3</p>
                       </div>
                       <div>
-                        <img src={hz04} />
+                        <img src={hz04} alt="Brautpaar steht sich gegenüber und hält sich die Hände. Beide lächeln und ihr Nasen berühren sich zärtlich. Fotografin: Claudia Nürnberger"/>
                         <p className="legend">Legend 3</p>
                       </div>
                       <div>
-                        <img src={hz05} />
+                        <img src={hz05} alt="Brautpaar steht in einem Säulengang. Beide stehen sich gegenüber und sind sich sehr nah. Sie hat ihren Arm auf seiner Schulter. Beide gucken nicht zum Betrachter.  Fotografin: Claudia Nürnberger"/>
                         <p className="legend">Legend 3</p>
                       </div>
                       <div>
-                        <img src={hz06} />
+                        <img src={hz06} alt="Braut steht auf lächelnd auf einer Treppe und ihre kleine Tochter hält ihr Kleid. Fotografin: Claudia Nürnberger / Berlin"/>
                         <p className="legend">Legend 3</p>
                       </div>
                       <div>
-                        <img src={hz07} />
+                        <img src={hz07} alt="Braut steht in ihrem engen Spitzenkleid vor einer weißen Steinwand. Ihr Blick geht in die Ferne. In ihren Händen hält sie ihren Brautstrauß. Fotografin: Claudia Nürnberger"/>
                         <p className="legend">Legend 3</p>
                       </div>
                       <div>
-                        <img src={hz08} />
+                        <img src={hz08} alt="Bräutigam schaut beim Tanzen verliebt seine Frau an. Beide halten sich die Hände. Fotografin: Claudia Nürnberger "/>
                         <p className="legend">Legend 3</p>
                       </div>
                       {/* <div>
@@ -567,43 +567,43 @@ const hochzeiten = () => (
                       showArrows={false}
                     >
                       <div>
-                        <img src={hz01} />
+                        <img src={hz01} alt="Makroaufnahme zweier silberner Eheringe die auf einem kleinen Ast hängen. Fotografin: Claudia Nürnberger / Berlin, Brandenburg"/>
                         <p className="legend">Legend 1</p>
                       </div>
                       <div>
-                        <img src={hz02} />
+                        <img src={hz02} alt="Brautpaar steht Händchen haltend in einem Birkenwald. Beide schauen sich verliebt an. Fotografin: Claudia Nürnberger / Berlin, Brandenburg"/>
                         <p className="legend">Legend 2</p>
                       </div>
                       <div>
-                        <img src={hz03} />
+                        <img src={hz03} alt="Braut richtet die Blume am Reviere des Bräutigams. Er blickt hinaus auf dem Fenster vor den die beiden stehen.Fotografin: Claudia Nürnberger / Berlin"/>
                         <p className="legend">Legend 3</p>
                       </div>
                       <div>
-                        <img src={hz04} />
+                        <img src={hz04} alt="Brautpaar steht sich gegenüber und hält sich die Hände. Beide lächeln und ihr Nasen berühren sich zärtlich. Fotografin: Claudia Nürnberger"/>
                         <p className="legend">Legend 3</p>
                       </div>
                       <div>
-                        <img src={hz05} />
+                        <img src={hz05} alt="Brautpaar steht in einem Säulengang. Beide stehen sich gegenüber und sind sich sehr nah. Sie hat ihren Arm auf seiner Schulter. Beide gucken nicht zum Betrachter.  Fotografin: Claudia Nürnberger"/>
                         <p className="legend">Legend 3</p>
                       </div>
                       <div>
-                        <img src={hz06} />
+                        <img src={hz06} alt="Braut steht auf lächelnd auf einer Treppe und ihre kleine Tochter hält ihr Kleid. Fotografin: Claudia Nürnberger / Berlin"/>
                         <p className="legend">Legend 3</p>
                       </div>
                       <div>
-                        <img src={hz07} />
+                        <img src={hz07} alt="Braut steht in ihrem engen Spitzenkleid vor einer weißen Steinwand. Ihr Blick geht in die Ferne. In ihren Händen hält sie ihren Brautstrauß. Fotografin: Claudia Nürnberger"/>
                         <p className="legend">Legend 3</p>
                       </div>
                       <div>
-                        <img src={hz08} />
+                        <img src={hz08} alt="Brautpaar steht eng beieinander. Sie hat ihre Hand auf seinem Reviere. Er seine Hände an ihrer Hüfte er schaut sie verliebt an. Fotografin: Claudia Nürnberger"/>
                         <p className="legend">Legend 3</p>
                       </div>
                       <div>
-                        <img src={hz09} />
+                        <img src={hz09} alt="Brautpaar steht strahlend in der Mitte einer Allee. Sie schaut direkt zum Betrachter und lächelt er hat nur Augen für sie. Fotografin: Claudia Nürnberger"/>
                         <p className="legend">Legend 3</p>
                       </div>
                       <div>
-                        <img src={hz10} />
+                        <img src={hz10} alt="Bräutigam schaut beim Tanzen verliebt seine Frau an. Beide halten sich die Hände. Fotografin: Claudia Nürnberger " />
                         <p className="legend">Legend 3</p>
                       </div>
                     </Carousel>

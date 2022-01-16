@@ -68,15 +68,13 @@ export const Layout = ({ children }) => (
 
       
     </header>
-    <script id="Cookiebot" src="https://consent.cookiebot.com/uc.js" data-cbid="a908ea04-7fd8-4f63-9f62-8af48669c6c7" data-blockingmode="auto" type="text/javascript"></script>
-
-    <CookieConsent
+    {/* <CookieConsent
           location="bottom"
           buttonText="Annehmen"
           declineButtonText=""
           cookieName="">
-Diese Webseite benutzt Cookies, um Ihnen die bestmögliche Nutzerfreundlichkeit zu bieten. Wenn Sie diese Webseite weiterhin nutzen, wird von Ihrem Einverständnis ausgegangen.
-</CookieConsent>
+Diese Webseite benutzt Cookies, um Dir die bestmögliche Nutzerfreundlichkeit zu bieten. Wenn Du diese Webseite weiterhin nutzen, wird von Deinem Einverständnis ausgegangen.
+</CookieConsent> */}
 
 
         {children}
