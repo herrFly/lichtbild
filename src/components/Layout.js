@@ -65,7 +65,8 @@ export const Layout = ({ children }) => (
         src="https://kit.fontawesome.com/d829a07913.js"
         crossOrigin="anonymous"
       ></script>
-
+<script type="text/javascript" id="cookiebanner"
+  src="https://cdn.jsdelivr.net/gh/dobarkod/cookie-banner@1.2.2/dist/cookiebanner.min.js" data-message="Diese Webseite benutzt Cookies, um Dir die bestmögliche Nutzerfreundlichkeit zu bieten. Wenn Du diese Webseite weiterhin nutzen, wird von Deinem Einverständnis ausgegangen."></script>
       
     </header>
     {/* <CookieConsent

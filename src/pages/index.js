@@ -72,11 +72,11 @@ const Home = () => {
       </header> */}
 
       <Layout>
-      <CookieConsent
+      {/* <CookieConsent
           location="bottom"
           buttonText="Annehmen">
 Diese Webseite benutzt Cookies, um Dir die bestmögliche Nutzerfreundlichkeit zu bieten. Wenn Du diese Webseite weiterhin nutzen, wird von Deinem Einverständnis ausgegangen.
-</CookieConsent>
+</CookieConsent> */}
       <main>
         <section
           id="starterSektion"
