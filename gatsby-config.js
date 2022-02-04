@@ -3,6 +3,7 @@ module.exports = {
     siteUrl: "https://www.lichtbild-enthusiastin.de",
     title: "lichtbild-enthusiastin",
   },
+  pathPrefix: "/reponame",
   plugins: [
     {
       resolve: `gatsby-source-filesystem`,
